@@ -1,0 +1,33 @@
+{
+    "orgName": "Milan",
+    "edition": "Enterprise",
+    "hasSampleData": true,
+    "features": ["Communities", "ServiceCloud", "Chatbot", "MultiCurrency"],
+    "settings": {
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "securitySettings": {
+            "passwordPolicies": {
+                "enableSetPasswordInApi": true
+            }
+        },
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": false
+        },
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
+        },
+        "omniChannelSettings": {
+            "enableOmniChannel": true
+        }
+    },
+    "objectSettings": {
+        "opportunity": {
+            "sharingModel": "private"
+        },
+        "account": {
+            "sharingModel": "private"
+        }
+    }
+}

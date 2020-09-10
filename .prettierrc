@@ -1,0 +1,17 @@
+{
+    "trailingComma": "none",
+    "overrides": [
+        {
+            "files": "**/lwc/**/*.html",
+            "options": { "parser": "lwc" }
+        },
+        {
+            "files": "*.{cmp,page,component}",
+            "options": { "parser": "html" }
+        }
+    ],
+    "apexInsertFinalNewline": false,
+    "printWidth": 100,
+    "tabWidth": 4,
+    "useTabs": false
+}
