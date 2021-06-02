@@ -1,0 +1,1 @@
+#sfdx force:org:create --json --targetdevhubusername Enterprise --type scratch --definitionfile config/project-scratch-def.json --setdefaultusername --setalias Scratch01 --durationdays 30

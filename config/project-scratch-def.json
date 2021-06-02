@@ -2,15 +2,24 @@
     "orgName": "Milan",
     "edition": "Enterprise",
     "hasSampleData": true,
-    "features": ["Communities", "ServiceCloud", "Chatbot", "MultiCurrency"],
+    "features": [
+        "Communities",
+        "ServiceCloud",
+        "Chatbot",
+        "MultiCurrency",
+        "CPQ",
+        "DebugApex",
+        "EnableSetPasswordInApi",
+        "PersonAccounts",
+        "RecordTypes",
+        "SingleSignOn"
+    ],
     "settings": {
         "lightningExperienceSettings": {
             "enableS1DesktopEnabled": true
         },
         "securitySettings": {
-            "passwordPolicies": {
-                "enableSetPasswordInApi": true
-            }
+            "passwordPolicies": {}
         },
         "mobileSettings": {
             "enableS1EncryptedStoragePref2": false
