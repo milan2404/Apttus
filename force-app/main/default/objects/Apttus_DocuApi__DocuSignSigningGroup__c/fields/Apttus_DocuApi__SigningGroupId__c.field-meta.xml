@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__SigningGroupId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is the DocuSign signing group id</description>
+    <externalId>true</externalId>
+    <inlineHelpText>This is the DocuSign signing group id</inlineHelpText>
+    <label>Signing Group Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

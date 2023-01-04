@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__EnvelopeId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Envelop id saved here to Batch Apex use Upload attachments and Download completed signed documents</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Envelop id saved here to Batch Apex use Upload attachments and Download completed signed documents</inlineHelpText>
+    <label>Envelope Id</label>
+    <length>80</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

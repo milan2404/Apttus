@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__PeriodStartDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The period start date</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The period start date</inlineHelpText>
+    <label>Period Start Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

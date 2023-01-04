@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__UseLongQuestionsInWizard__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enabling this setting allows you to have more characters available for questions and answers in your wizards</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enabling this setting allows you to have more characters available for questions and answers in your wizards</inlineHelpText>
+    <label>Use text areas for wizards</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

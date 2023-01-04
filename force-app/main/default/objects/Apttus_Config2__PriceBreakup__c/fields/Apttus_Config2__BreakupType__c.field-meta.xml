@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__BreakupType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The price break type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The price break type</inlineHelpText>
+    <label>Breakup Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Related Price</fullName>
+                <default>false</default>
+                <label>Related Price</label>
+            </value>
+            <value>
+                <fullName>Tier Price</fullName>
+                <default>false</default>
+                <label>Tier Price</label>
+            </value>
+            <value>
+                <fullName>Service Price</fullName>
+                <default>false</default>
+                <label>Service Price</label>
+            </value>
+            <value>
+                <fullName>Total</fullName>
+                <default>false</default>
+                <label>Total</label>
+            </value>
+            <value>
+                <fullName>Price Waterfall</fullName>
+                <default>false</default>
+                <label>Price Waterfall</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__AlwaysApplyUsageMinimum__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This field will be used by Billing to determine if usage minimum has to be applied for a billing period that has no usage</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this flag if you need to apply usage minimum for a billing period that does not have any Usage Inputs</inlineHelpText>
+    <label>Always Apply Usage Minimum</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

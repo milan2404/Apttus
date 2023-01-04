@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__EnablePDFSecurity__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enabling pdf security lets users apply security settings to pdf documents and protect them with a password.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enabling pdf security lets users apply security settings to pdf documents and protect them with a password.</inlineHelpText>
+    <label>Enable PDF Security</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

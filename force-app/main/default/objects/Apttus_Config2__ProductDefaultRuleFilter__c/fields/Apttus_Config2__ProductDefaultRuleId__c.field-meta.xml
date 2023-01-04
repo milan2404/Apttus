@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ProductDefaultRuleId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the associated rule</description>
+    <externalId>false</externalId>
+    <label>Product Default Rule</label>
+    <referenceTo>Apttus_Config2__ProductDefaultRule__c</referenceTo>
+    <relationshipLabel>Filters</relationshipLabel>
+    <relationshipName>ProductDefaultRuleFilters</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AlertSelectedExclude__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defer constraint check on option selection. Constraint check is done on GoToPricing or other page button click events.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check to defer constraint check on option selection. Constraint check is done on GoToPricing or other page button click events.</inlineHelpText>
+    <label>Defer Constraint on Option Selection</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

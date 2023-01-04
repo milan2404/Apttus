@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__CustomNumberCreationOption__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Options to control when the custom number will be created. Create custom number when status is Draft or when the Status is Approved.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Options to control when the custom number will be created.</inlineHelpText>
+    <label>Custom Number Creation Option</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>true</default>
+                <label>Approved</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

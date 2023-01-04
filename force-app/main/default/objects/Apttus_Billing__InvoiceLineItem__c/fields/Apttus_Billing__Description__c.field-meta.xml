@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__Description__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The line description</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The line description</inlineHelpText>
+    <label>Description</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

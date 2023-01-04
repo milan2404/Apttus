@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__InvoiceLineItemId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the associated Invoice Line Item</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the associated Invoice Line Item</inlineHelpText>
+    <label>Invoice Line Item</label>
+    <referenceTo>Apttus_Billing__InvoiceLineItem__c</referenceTo>
+    <relationshipLabel>Invoice Line Item Tax Breakups</relationshipLabel>
+    <relationshipName>InvoiceLineItemTaxBreakups</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

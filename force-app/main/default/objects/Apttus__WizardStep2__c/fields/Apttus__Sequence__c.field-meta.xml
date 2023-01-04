@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Sequence__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The order in which the screen should be displayed to the user.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The order in which the screen should be displayed to the user.</inlineHelpText>
+    <label>Sequence</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

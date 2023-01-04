@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__ExpectedMinutesToComplete__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of expected minutes that this term exception approval needs to be completed in (approved or rejected).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of expected minutes that this term exception approval needs to be completed in (approved or rejected).</inlineHelpText>
+    <label>Expected Minutes To Complete</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

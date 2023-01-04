@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__StepKeyFieldNames__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The API names of the fields which comprise the key for the child object.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The API names of the fields which comprise the key for the child object.</inlineHelpText>
+    <label>Step Key Field Names</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

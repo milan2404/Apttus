@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ExcludeProductGroupId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the product group to exclude for selected products or options</description>
+    <externalId>false</externalId>
+    <label>Exclude Product Group</label>
+    <referenceTo>Apttus_Config2__ProductGroup__c</referenceTo>
+    <relationshipLabel>Product Constraint Entries (Exclude Product Group)</relationshipLabel>
+    <relationshipName>ExcludeProductConstraintEntries</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

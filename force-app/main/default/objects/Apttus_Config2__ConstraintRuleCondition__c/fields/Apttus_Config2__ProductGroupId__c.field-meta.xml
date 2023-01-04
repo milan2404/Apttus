@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ProductGroupId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Product Group should be specified when product scope is set as product group</description>
+    <externalId>false</externalId>
+    <label>Product Group</label>
+    <referenceTo>Apttus_Config2__ProductGroup__c</referenceTo>
+    <relationshipLabel>Constraint Rule Conditions</relationshipLabel>
+    <relationshipName>ConstraintRuleConditions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

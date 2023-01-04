@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FieldClass__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Wizard Input Field - A field which exists only within the wizard to make determinations 
+Object Field - A field which exists only as a salesforce object to make determinations</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Wizard Input Field - A field which exists only within the wizard to make determinations 
+Object Field - A field which exists only as a salesforce object to make determinations</inlineHelpText>
+    <label>Field Class</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Wizard Input Field</fullName>
+                <default>false</default>
+                <label>Wizard Input Field</label>
+            </value>
+            <value>
+                <fullName>Object Field</fullName>
+                <default>false</default>
+                <label>Object Field</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

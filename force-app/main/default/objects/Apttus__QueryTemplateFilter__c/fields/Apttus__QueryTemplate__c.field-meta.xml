@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__QueryTemplate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The associated query template</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The associated query template</inlineHelpText>
+    <label>Query Template</label>
+    <referenceTo>Apttus__QueryTemplate__c</referenceTo>
+    <relationshipLabel>Filters</relationshipLabel>
+    <relationshipName>QueryTemplateFilters</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

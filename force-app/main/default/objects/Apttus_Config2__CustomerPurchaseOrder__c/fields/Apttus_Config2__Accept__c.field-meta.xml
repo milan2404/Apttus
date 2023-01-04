@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Accept__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Accept the order</description>
+    <externalId>false</externalId>
+    <formula>IF (OR(ISPICKVAL(Apttus_Config2__Status__c, &quot;Draft&quot;), ISPICKVAL(Apttus_Config2__Status__c, &quot;In Amendment&quot;), ISPICKVAL(Apttus_Config2__Status__c, &quot;Pending Cancellation&quot;)), HYPERLINK(&quot;/apex/Apttus_Config2__CustomerPOAccept?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_Config2__Button_Accept&quot;, &quot;Accept&quot;),&quot;_self&quot;), NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Accept the order</inlineHelpText>
+    <label>Accept</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

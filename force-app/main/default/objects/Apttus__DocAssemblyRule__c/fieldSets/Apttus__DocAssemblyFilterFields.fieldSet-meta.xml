@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__DocAssemblyFilterFields</fullName>
+    <availableFields>
+        <field>Apttus__Agreement_Category__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <description>Doc Assembly Component Selection</description>
+    <label>Doc Assembly Filter Fields</label>
+</FieldSet>

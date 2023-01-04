@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Sequence__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the sequence of the input</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the sequence of the input</inlineHelpText>
+    <label>Sequence</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

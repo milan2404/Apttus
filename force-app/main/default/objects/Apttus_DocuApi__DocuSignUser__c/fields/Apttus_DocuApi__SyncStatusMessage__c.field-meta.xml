@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__SyncStatusMessage__c</fullName>
+    <deprecated>false</deprecated>
+    <description>DocuSign sync status message : Apttus system internal use only</description>
+    <externalId>false</externalId>
+    <inlineHelpText>DocuSign sync status message : Apttus system internal use only</inlineHelpText>
+    <label>Sync Status Message</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

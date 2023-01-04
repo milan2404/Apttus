@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IncludeProductGroupId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>D of the product group to include for the selected product or option</description>
+    <externalId>false</externalId>
+    <label>Include Product Group</label>
+    <referenceTo>Apttus_Config2__ProductGroup__c</referenceTo>
+    <relationshipLabel>Product Default Values (Include Product Group)</relationshipLabel>
+    <relationshipName>IncludeProductDefaultValues</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

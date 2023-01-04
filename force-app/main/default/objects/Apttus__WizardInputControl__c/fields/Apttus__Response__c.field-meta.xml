@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Response__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Comma separated list of values for making determinations on.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Comma separated list of values for making determinations on.</inlineHelpText>
+    <label>Response</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

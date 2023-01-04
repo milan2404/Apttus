@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Locale__c</fullName>
+    <deprecated>false</deprecated>
+    <description>APTTUS RESERVED.  CUSTOMERS SHOULD NOT CHANGE VALUES</description>
+    <externalId>false</externalId>
+    <label>Locale</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>English (United States)</fullName>
+                <default>true</default>
+                <label>English (United States)</label>
+            </value>
+            <value>
+                <fullName>English (United Kingdom)</fullName>
+                <default>false</default>
+                <label>English (United Kingdom)</label>
+            </value>
+            <value>
+                <fullName>English (Canada)</fullName>
+                <default>false</default>
+                <label>English (Canada)</label>
+            </value>
+            <value>
+                <fullName>English (Ireland)</fullName>
+                <default>false</default>
+                <label>English (Ireland)</label>
+            </value>
+            <value>
+                <fullName>Italian</fullName>
+                <default>false</default>
+                <label>Italian</label>
+            </value>
+            <value>
+                <fullName>German</fullName>
+                <default>false</default>
+                <label>German</label>
+            </value>
+            <value>
+                <fullName>Chinese</fullName>
+                <default>false</default>
+                <label>Chinese</label>
+            </value>
+            <value>
+                <fullName>Spanish</fullName>
+                <default>false</default>
+                <label>Spanish</label>
+            </value>
+            <value>
+                <fullName>Japanese</fullName>
+                <default>false</default>
+                <label>Japanese</label>
+            </value>
+            <value>
+                <fullName>Korean</fullName>
+                <default>false</default>
+                <label>Korean</label>
+            </value>
+            <value>
+                <fullName>Thai</fullName>
+                <default>false</default>
+                <label>Thai</label>
+            </value>
+            <value>
+                <fullName>Norwegian</fullName>
+                <default>false</default>
+                <label>Norwegian</label>
+            </value>
+            <value>
+                <fullName>Swedish</fullName>
+                <default>false</default>
+                <label>Swedish</label>
+            </value>
+            <value>
+                <fullName>Russian</fullName>
+                <default>false</default>
+                <label>Russian</label>
+            </value>
+            <value>
+                <fullName>Portuguese</fullName>
+                <default>false</default>
+                <label>Portuguese</label>
+            </value>
+            <value>
+                <fullName>Polish</fullName>
+                <default>false</default>
+                <label>Polish</label>
+            </value>
+            <value>
+                <fullName>Greek(Greece)</fullName>
+                <default>false</default>
+                <label>Greek(Greece)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

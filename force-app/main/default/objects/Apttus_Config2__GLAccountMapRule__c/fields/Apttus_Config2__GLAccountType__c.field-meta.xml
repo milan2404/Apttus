@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__GLAccountType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The G/L account type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The G/L account type</inlineHelpText>
+    <label>G/L Account Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accounts Receivable Account</fullName>
+                <default>false</default>
+                <label>Accounts Receivable Account</label>
+            </value>
+            <value>
+                <fullName>Deferred Revenue Account</fullName>
+                <default>false</default>
+                <label>Deferred Revenue Account</label>
+            </value>
+            <value>
+                <fullName>Recognized Revenue Account</fullName>
+                <default>false</default>
+                <label>Recognized Revenue Account</label>
+            </value>
+            <value>
+                <fullName>Unbilled A/R Account</fullName>
+                <default>false</default>
+                <label>Unbilled A/R Account</label>
+            </value>
+            <value>
+                <fullName>Unbilled Deferred Account</fullName>
+                <default>false</default>
+                <label>Unbilled Deferred Account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

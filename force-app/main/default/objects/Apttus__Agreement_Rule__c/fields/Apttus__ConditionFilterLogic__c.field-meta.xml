@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ConditionFilterLogic__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The condition filter logic expression</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter any combination of AND, OR, parenthesis, and numbers representing the expressions. These are the only values that can be used. Using other values may cause unexpected behavior.</inlineHelpText>
+    <label>Condition Filter Logic</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

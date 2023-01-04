@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__DocumentTemplateName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Name of the Document Template to use for PDF generation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the name of the Document Template to use for PDF generation for the specified Document Type.</inlineHelpText>
+    <label>Document Template Name</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

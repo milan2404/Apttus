@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IsCumulativeRange__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the range dimension values are cumulative. This field is deprecated. Use the Cumulative Range value type instead.</description>
+    <externalId>false</externalId>
+    <label>Is Cumulative Range (Deprecated)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

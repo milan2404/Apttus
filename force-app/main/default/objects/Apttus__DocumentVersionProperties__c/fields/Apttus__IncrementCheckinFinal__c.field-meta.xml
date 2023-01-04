@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__IncrementCheckinFinal__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This property will determine the increment factor when a document is checked in as Final.  Acceptable values for this field are &quot;Major&quot; or &quot;Minor&quot;.  The default value is Major</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This property will determine the increment factor when a document is checked in as Final.  Acceptable values for this field are &quot;Major&quot; or &quot;Minor&quot;.  The default value is Major</inlineHelpText>
+    <label>Increment Checkin Final</label>
+    <length>16</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

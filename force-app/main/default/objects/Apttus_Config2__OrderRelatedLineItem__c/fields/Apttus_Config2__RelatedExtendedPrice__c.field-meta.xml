@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RelatedExtendedPrice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The related extended price is Quantity X Term X Related Base Price</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The related extended price is Quantity X Term X Related Base Price</inlineHelpText>
+    <label>Related Extended Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

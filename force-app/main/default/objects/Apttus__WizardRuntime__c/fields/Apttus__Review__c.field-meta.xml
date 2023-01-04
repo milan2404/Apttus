@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Review__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Use this action to review a completed wizard</description>
+    <externalId>false</externalId>
+    <formula>IF(Apttus__Completed__c = true, HYPERLINK(&quot;/apex/Apttus__Wizard?wizardruntimeid=&quot; &amp;Id,&quot;Review&quot;), &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Use this action to review a completed wizard</inlineHelpText>
+    <label>Review</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

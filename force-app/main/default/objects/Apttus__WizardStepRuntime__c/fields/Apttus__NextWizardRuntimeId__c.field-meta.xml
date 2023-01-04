@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__NextWizardRuntimeId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Not supported yet. Identifies the next wizard runtime during navigation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Not supported yet. Identifies the next wizard runtime during navigation</inlineHelpText>
+    <label>Next Wizard Runtime</label>
+    <referenceTo>Apttus__WizardRuntime__c</referenceTo>
+    <relationshipName>WizardStepRuntime2</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

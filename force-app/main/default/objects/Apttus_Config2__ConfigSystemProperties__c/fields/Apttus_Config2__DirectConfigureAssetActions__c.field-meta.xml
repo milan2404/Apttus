@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DirectConfigureAssetActions__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Comma separated list of asset actions which will configure products directly.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Comma separated values of Increment, Amend, Renew, Cancel actions. Listed actions will configure products directly.</inlineHelpText>
+    <label>Direct Configure Asset Actions</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

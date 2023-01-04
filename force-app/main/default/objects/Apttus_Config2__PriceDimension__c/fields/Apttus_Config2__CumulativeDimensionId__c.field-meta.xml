@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CumulativeDimensionId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the cumulative dimension associated with the dimension. Only applicable to numeric dimensions</description>
+    <externalId>false</externalId>
+    <label>Cumulative Dimension</label>
+    <referenceTo>Apttus_Config2__PriceDimension__c</referenceTo>
+    <relationshipLabel>Related Dimensions</relationshipLabel>
+    <relationshipName>RelatedDimensions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

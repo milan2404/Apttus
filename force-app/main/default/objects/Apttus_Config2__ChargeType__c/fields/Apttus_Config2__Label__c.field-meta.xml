@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Label__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The charge type label</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The charge type label</inlineHelpText>
+    <label>Label</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Standard Price</fullName>
+                <default>false</default>
+                <label>Standard Price</label>
+            </value>
+            <value>
+                <fullName>License Fee</fullName>
+                <default>false</default>
+                <label>License Fee</label>
+            </value>
+            <value>
+                <fullName>Hardware Fee</fullName>
+                <default>false</default>
+                <label>Hardware Fee</label>
+            </value>
+            <value>
+                <fullName>Software Fee</fullName>
+                <default>false</default>
+                <label>Software Fee</label>
+            </value>
+            <value>
+                <fullName>Service Fee</fullName>
+                <default>false</default>
+                <label>Service Fee</label>
+            </value>
+            <value>
+                <fullName>Implementation Fee</fullName>
+                <default>false</default>
+                <label>Implementation Fee</label>
+            </value>
+            <value>
+                <fullName>Support Fee</fullName>
+                <default>false</default>
+                <label>Support Fee</label>
+            </value>
+            <value>
+                <fullName>Subscription Fee</fullName>
+                <default>false</default>
+                <label>Subscription Fee</label>
+            </value>
+            <value>
+                <fullName>Installation Fee</fullName>
+                <default>false</default>
+                <label>Installation Fee</label>
+            </value>
+            <value>
+                <fullName>Maintenance Fee</fullName>
+                <default>false</default>
+                <label>Maintenance Fee</label>
+            </value>
+            <value>
+                <fullName>NRC</fullName>
+                <default>false</default>
+                <label>NRC</label>
+            </value>
+            <value>
+                <fullName>MRC</fullName>
+                <default>false</default>
+                <label>MRC</label>
+            </value>
+            <value>
+                <fullName>YRC</fullName>
+                <default>false</default>
+                <label>YRC</label>
+            </value>
+            <value>
+                <fullName>Usage</fullName>
+                <default>false</default>
+                <label>Usage</label>
+            </value>
+            <value>
+                <fullName>Usage Fee</fullName>
+                <default>false</default>
+                <label>Usage Fee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

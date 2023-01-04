@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The purchase order line status. This is used to capture the life cycle state of the purchase order item.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The purchase order line status. This is used to capture the life cycle state of the purchase order item.</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>true</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+                <label>Accepted</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Partially Processed</fullName>
+                <default>false</default>
+                <label>Partially Processed</label>
+            </value>
+            <value>
+                <fullName>Processed</fullName>
+                <default>false</default>
+                <label>Processed</label>
+            </value>
+            <value>
+                <fullName>In Amendment</fullName>
+                <default>false</default>
+                <label>In Amendment</label>
+            </value>
+            <value>
+                <fullName>Being Amended</fullName>
+                <default>false</default>
+                <label>Being Amended</label>
+            </value>
+            <value>
+                <fullName>Pending Cancellation</fullName>
+                <default>false</default>
+                <label>Pending Cancellation</label>
+            </value>
+            <value>
+                <fullName>Being Cancelled</fullName>
+                <default>false</default>
+                <label>Being Cancelled</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Superseded</fullName>
+                <default>false</default>
+                <label>Superseded</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

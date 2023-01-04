@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ParentCostTypeId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to parent cost type</description>
+    <externalId>false</externalId>
+    <label>Parent Cost Type</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Apttus_Config2__CostType__c.Apttus_Config2__CostModelId__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Apttus_Config2__CostModelId__c</valueField>
+        </filterItems>
+        <infoMessage>Please choose the parent cost type</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Apttus_Config2__CostType__c</referenceTo>
+    <relationshipLabel>Child Cost Types</relationshipLabel>
+    <relationshipName>CostTypes</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

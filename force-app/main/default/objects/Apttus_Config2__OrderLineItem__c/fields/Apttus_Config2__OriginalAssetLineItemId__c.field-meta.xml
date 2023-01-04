@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__OriginalAssetLineItemId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the original asset line item associated with an upgrade or replacement order</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the original asset line item associated with an upgrade or replacement order</inlineHelpText>
+    <label>Original Asset Line Item</label>
+    <referenceTo>Apttus_Config2__AssetLineItem__c</referenceTo>
+    <relationshipLabel>Order Line Items (Original)</relationshipLabel>
+    <relationshipName>OrderLineItemsOriginal</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

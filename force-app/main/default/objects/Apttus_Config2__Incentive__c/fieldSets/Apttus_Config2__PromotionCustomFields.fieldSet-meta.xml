@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__PromotionCustomFields</fullName>
+    <description>Used in the promotion header section for storing additional information defined by users.</description>
+    <label>Promotion Custom Fields</label>
+</FieldSet>

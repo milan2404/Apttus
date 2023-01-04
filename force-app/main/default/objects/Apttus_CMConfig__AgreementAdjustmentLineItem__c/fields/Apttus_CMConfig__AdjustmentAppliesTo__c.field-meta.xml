@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__AdjustmentAppliesTo__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the price field the price adjustment should be applied to.</description>
+    <externalId>false</externalId>
+    <label>Adjustment Applies To</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Starting Price</fullName>
+                <default>false</default>
+                <label>Starting Price</label>
+            </value>
+            <value>
+                <fullName>Previous Price</fullName>
+                <default>false</default>
+                <label>Previous Price</label>
+            </value>
+            <value>
+                <fullName>Bucket 1</fullName>
+                <default>false</default>
+                <label>Bucket 1</label>
+            </value>
+            <value>
+                <fullName>Bucket 2</fullName>
+                <default>false</default>
+                <label>Bucket 2</label>
+            </value>
+            <value>
+                <fullName>Bucket 3</fullName>
+                <default>false</default>
+                <label>Bucket 3</label>
+            </value>
+            <value>
+                <fullName>Bucket 4</fullName>
+                <default>false</default>
+                <label>Bucket 4</label>
+            </value>
+            <value>
+                <fullName>Bucket 5</fullName>
+                <default>false</default>
+                <label>Bucket 5</label>
+            </value>
+            <value>
+                <fullName>Bucket 6</fullName>
+                <default>false</default>
+                <label>Bucket 6</label>
+            </value>
+            <value>
+                <fullName>Bucket 7</fullName>
+                <default>false</default>
+                <label>Bucket 7</label>
+            </value>
+            <value>
+                <fullName>Bucket 8</fullName>
+                <default>false</default>
+                <label>Bucket 8</label>
+            </value>
+            <value>
+                <fullName>Bucket 9</fullName>
+                <default>false</default>
+                <label>Bucket 9</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__BenefitType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The rule benefit type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The rule benefit type</inlineHelpText>
+    <label>Benefit Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Price Only</fullName>
+                <default>true</default>
+                <label>Price Only</label>
+            </value>
+            <value>
+                <fullName>Price and Quantity</fullName>
+                <default>false</default>
+                <label>Price and Quantity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

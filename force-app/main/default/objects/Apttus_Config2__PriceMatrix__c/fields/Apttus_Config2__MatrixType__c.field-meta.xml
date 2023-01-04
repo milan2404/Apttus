@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__MatrixType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The matrix type</description>
+    <externalId>false</externalId>
+    <label>Matrix Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dimension</fullName>
+                <default>false</default>
+                <label>Dimension</label>
+            </value>
+            <value>
+                <fullName>Condition</fullName>
+                <default>false</default>
+                <label>Condition</label>
+            </value>
+            <value>
+                <fullName>Usage</fullName>
+                <default>false</default>
+                <label>Usage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

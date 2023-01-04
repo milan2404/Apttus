@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SkipPricingOnSelectPages__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Keyed matrix pricing performs keyed lookup to locate matrix entries in a large matrix</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Keyed matrix pricing performs keyed lookup to locate matrix entries in a large matrix</inlineHelpText>
+    <label>Enable Keyed Matrix Pricing</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

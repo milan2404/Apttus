@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__Matrix_Owner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Approval matrix owner</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Approval matrix owner</inlineHelpText>
+    <label>Matrix Owner</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Approval_Matrices</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

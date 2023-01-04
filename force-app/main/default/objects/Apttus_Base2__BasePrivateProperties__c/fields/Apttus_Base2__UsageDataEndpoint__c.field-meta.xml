@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Base2__UsageDataEndpoint__c</fullName>
+    <defaultValue>&quot;https://data.analytics.apttus.com/api/v1/metadata/account/custom/value?create=true&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Usage data endpoint</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Usage data endpoint</inlineHelpText>
+    <label>Usage Data Endpoint</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

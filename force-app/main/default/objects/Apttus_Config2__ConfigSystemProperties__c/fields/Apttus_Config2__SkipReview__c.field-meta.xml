@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SkipReview__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the review step should be skipped for items in the cart</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether the review step should be skipped for items in the cart</inlineHelpText>
+    <label>Skip Review</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__PayoutFrequency__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The incentive payout frequency</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The incentive payout frequency</inlineHelpText>
+    <label>Payout Frequency</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+                <label>Monthly</label>
+            </value>
+            <value>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+                <label>Quarterly</label>
+            </value>
+            <value>
+                <fullName>Half Yearly</fullName>
+                <default>false</default>
+                <label>Half Yearly</label>
+            </value>
+            <value>
+                <fullName>Yearly</fullName>
+                <default>false</default>
+                <label>Yearly</label>
+            </value>
+            <value>
+                <fullName>One Time</fullName>
+                <default>true</default>
+                <label>One Time</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

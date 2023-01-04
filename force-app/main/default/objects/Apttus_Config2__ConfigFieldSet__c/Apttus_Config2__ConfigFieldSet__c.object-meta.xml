@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Config Field Set is used to store list of fields for special purpose</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Config Field Set</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__BusinessObject__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The API name of the business object associated with the template</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The API name of the business object associated with the template</inlineHelpText>
+    <label>Business Object</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Apttus__Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apttus__APTS_Agreement__c</fullName>
+                <default>false</default>
+                <label>Apttus__APTS_Agreement__c</label>
+            </value>
+            <value>
+                <fullName>Apttus_Proposal__Proposal__c</fullName>
+                <default>false</default>
+                <label>Apttus_Proposal__Proposal__c</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Agreement</controllingFieldValue>
+            <controllingFieldValue>Clause</controllingFieldValue>
+            <controllingFieldValue>Section</controllingFieldValue>
+            <controllingFieldValue>Supporting Document</controllingFieldValue>
+            <valueName>Apttus__APTS_Agreement__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clause</controllingFieldValue>
+            <controllingFieldValue>Proposal</controllingFieldValue>
+            <controllingFieldValue>Section</controllingFieldValue>
+            <controllingFieldValue>Supporting Document</controllingFieldValue>
+            <valueName>Apttus_Proposal__Proposal__c</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

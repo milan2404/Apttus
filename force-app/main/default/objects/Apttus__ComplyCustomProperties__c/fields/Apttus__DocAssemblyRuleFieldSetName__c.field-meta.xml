@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__DocAssemblyRuleFieldSetName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The API name of the doc assembly rule field set associated with the business object.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The API name of the doc assembly rule field set associated with the business object.</inlineHelpText>
+    <label>Doc Assembly Rule FieldSet Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

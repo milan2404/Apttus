@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AutoApply__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the incentive would be automatically applied during pricing</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether the incentive would be automatically applied during pricing</inlineHelpText>
+    <label>Auto Apply ?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

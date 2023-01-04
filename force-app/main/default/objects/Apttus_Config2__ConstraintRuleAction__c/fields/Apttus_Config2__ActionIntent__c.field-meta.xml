@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ActionIntent__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Describes the intent of the action</description>
+    <externalId>false</externalId>
+    <label>Action Intent</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Apttus_Config2__ActionType__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Auto Include</fullName>
+                <default>false</default>
+                <label>Auto Include</label>
+            </value>
+            <value>
+                <fullName>Prompt</fullName>
+                <default>false</default>
+                <label>Prompt</label>
+            </value>
+            <value>
+                <fullName>Show Message</fullName>
+                <default>false</default>
+                <label>Show Message</label>
+            </value>
+            <value>
+                <fullName>Check on Finalization</fullName>
+                <default>false</default>
+                <label>Check on Finalization</label>
+            </value>
+            <value>
+                <fullName>Disable Selection</fullName>
+                <default>false</default>
+                <label>Disable Selection</label>
+            </value>
+            <value>
+                <fullName>Hide</fullName>
+                <default>false</default>
+                <label>Hide</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Inclusion</controllingFieldValue>
+            <controllingFieldValue>Replacement</controllingFieldValue>
+            <valueName>Auto Include</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inclusion</controllingFieldValue>
+            <controllingFieldValue>Exclusion</controllingFieldValue>
+            <controllingFieldValue>Recommendation</controllingFieldValue>
+            <controllingFieldValue>Replacement</controllingFieldValue>
+            <valueName>Prompt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inclusion</controllingFieldValue>
+            <controllingFieldValue>Exclusion</controllingFieldValue>
+            <controllingFieldValue>Validation</controllingFieldValue>
+            <controllingFieldValue>Recommendation</controllingFieldValue>
+            <controllingFieldValue>Replacement</controllingFieldValue>
+            <valueName>Show Message</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inclusion</controllingFieldValue>
+            <controllingFieldValue>Exclusion</controllingFieldValue>
+            <controllingFieldValue>Validation</controllingFieldValue>
+            <controllingFieldValue>Recommendation</controllingFieldValue>
+            <controllingFieldValue>Replacement</controllingFieldValue>
+            <valueName>Check on Finalization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exclusion</controllingFieldValue>
+            <valueName>Disable Selection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exclusion</controllingFieldValue>
+            <valueName>Hide</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__InputRollupOrRebateIds__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A comma separated list of rollup or rebate ids provided as input for the rollup/rebate calculation job</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A comma separated list of rollup or rebate ids provided as input for the rollup/rebate calculation job</inlineHelpText>
+    <label>Input Rollups Or Rebates</label>
+    <length>500</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

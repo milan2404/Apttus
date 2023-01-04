@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SourceObjectType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The type of the source object to copy data from.
+
+Valid values are the following
+
+Proposal
+Agreement
+Order</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The type of the source object to copy data from.
+
+Valid values are the following
+
+Proposal
+Agreement
+Order</inlineHelpText>
+    <label>Source Object Type</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

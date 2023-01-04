@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__NumOfTimesUsed__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of times the coupon is used. Will be used to track the remaining limit</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of times the coupon is used. Will be used to track the remaining limit</inlineHelpText>
+    <label>Number Of Times Used</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

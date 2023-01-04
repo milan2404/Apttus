@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__FootnoteId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the associated footnote</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the associated footnote</inlineHelpText>
+    <label>Footnote</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Apttus_Config2__Footnote__c.Apttus_Config2__Type__c</field>
+            <operation>equals</operation>
+            <value>Product, Agreement</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Apttus_Config2__Footnote__c</referenceTo>
+    <relationshipLabel>Agreement Footnotes</relationshipLabel>
+    <relationshipName>AgreementFootnotes</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

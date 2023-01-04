@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IssueDetails__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The details of the issue</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The details of the issue</inlineHelpText>
+    <label>Issue Details (Deprecated)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

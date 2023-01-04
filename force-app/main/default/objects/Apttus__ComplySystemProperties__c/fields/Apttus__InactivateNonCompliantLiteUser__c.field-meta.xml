@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__InactivateNonCompliantLiteUser__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If the Lite user login count exceeded then user access will be controlled through this flag.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Determines whether to deactivate Lite user who exceeds allowed login limit</inlineHelpText>
+    <label>Inactivate Non-Compliant Lite User</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

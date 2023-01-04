@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__StepSubmissionCommentsEnabled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Select this to enable submission comments at step level. When enabled at step level, the user will be prompted to enter one or more comments for this step when the request is submitted for approval.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select this to enable submission comments at step level. When enabled at step level, the user will be prompted to enter one or more comments for this step when the request is submitted for approval.</inlineHelpText>
+    <label>Step Submission Comments Enabled</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

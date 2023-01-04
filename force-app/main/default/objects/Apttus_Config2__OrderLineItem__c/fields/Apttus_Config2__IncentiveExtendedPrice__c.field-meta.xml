@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IncentiveExtendedPrice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The incentive extended price is Quantity X Incentive Base Price X Term (if applicable) for individual products and options</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The incentive extended price is Quantity X Incentive Base Price X Term (if applicable) for individual products and options</inlineHelpText>
+    <label>Incentive Extended Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

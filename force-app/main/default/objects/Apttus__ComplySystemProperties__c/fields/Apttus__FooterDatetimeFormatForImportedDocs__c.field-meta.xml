@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FooterDatetimeFormatForImportedDocs__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The format of the date time to place in the footer of the imported document</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The format of the date time to place in the footer of the imported document</inlineHelpText>
+    <label>Footer Datetime Format For Imported Docs</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

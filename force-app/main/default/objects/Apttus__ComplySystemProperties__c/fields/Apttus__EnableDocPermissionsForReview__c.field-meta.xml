@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__EnableDocPermissionsForReview__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether a user can set field level or clause level permissions for each reviewer.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether a user can set field level or clause level permissions for each reviewer.</inlineHelpText>
+    <label>Enable document permissions for review</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

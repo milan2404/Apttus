@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__SubmitChanges__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicator to submit agreement changes</description>
+    <externalId>false</externalId>
+    <formula>OR(AND(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Authoring&quot;),ISPICKVAL(Apttus__AgreementId__r.Apttus__Source__c,&quot;Other Party Paper&quot;)),(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Signatures&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Indicator to submit agreement changes</inlineHelpText>
+    <label>Submit Changes</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AffectedPrimaryNumbers__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Primary line numbers of the line items added by the rule action</description>
+    <externalId>false</externalId>
+    <label>Affected Primary Numbers</label>
+    <length>2048</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

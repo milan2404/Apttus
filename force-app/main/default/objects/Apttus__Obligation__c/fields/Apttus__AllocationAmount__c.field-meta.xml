@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__AllocationAmount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The allocation amount</description>
+    <externalId>false</externalId>
+    <inlineHelpText>1.       Lone Allocation Amount for single Agreement Line Item
+2.       Aggregate Allocation Amount for multiple Agreement Line Items
+3.       Partial Allocation Amount for when a Split Policy is applied to a single Agreement Line Item</inlineHelpText>
+    <label>Allocation Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

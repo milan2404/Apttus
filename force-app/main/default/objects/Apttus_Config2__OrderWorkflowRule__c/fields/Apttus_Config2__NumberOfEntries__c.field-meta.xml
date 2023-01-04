@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__NumberOfEntries__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the number of entries associated with the order workflow rule</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the number of entries associated with the order workflow rule</inlineHelpText>
+    <label>Number Of Entries</label>
+    <summaryForeignKey>Apttus_Config2__OrderWorkflowRuleEntry__c.Apttus_Config2__RuleId__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

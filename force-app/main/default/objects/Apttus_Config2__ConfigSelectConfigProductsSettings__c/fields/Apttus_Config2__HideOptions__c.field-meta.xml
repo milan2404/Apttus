@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HideOptions__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether option products should be hidden in Quick Add mode</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether option products should be hidden in Quick Add mode</inlineHelpText>
+    <label>Hide Options in Quick Add Mode</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

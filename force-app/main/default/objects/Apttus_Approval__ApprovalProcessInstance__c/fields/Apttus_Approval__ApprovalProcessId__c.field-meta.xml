@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__ApprovalProcessId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the approval process associated with the instance</description>
+    <externalId>false</externalId>
+    <label>Approval Process</label>
+    <referenceTo>Apttus_Approval__Approval_Process__c</referenceTo>
+    <relationshipLabel>Process Instances</relationshipLabel>
+    <relationshipName>ApprovalProcessInstances</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

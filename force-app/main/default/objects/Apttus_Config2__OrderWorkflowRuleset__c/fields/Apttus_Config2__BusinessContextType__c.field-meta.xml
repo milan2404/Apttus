@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__BusinessContextType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The business context type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The business context type</inlineHelpText>
+    <label>Business Context Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Order</fullName>
+                <default>true</default>
+                <label>Order</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

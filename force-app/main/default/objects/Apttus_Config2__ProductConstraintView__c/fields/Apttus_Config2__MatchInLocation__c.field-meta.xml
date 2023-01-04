@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__MatchInLocation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Whether the constraint rule is applied within location. If any one of the condition is matched in location the entire rule should be considered as applied within location.</description>
+    <externalId>false</externalId>
+    <label>Match In Location</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

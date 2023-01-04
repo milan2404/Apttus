@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__MyApprovals</fullName>
+    <columns>NAME</columns>
+    <columns>Apttus_Approval__Action__c</columns>
+    <columns>Apttus_Approval__Approval_Status__c</columns>
+    <columns>Apttus_Approval__Date__c</columns>
+    <columns>Apttus_Approval__Assigned_To_Name__c</columns>
+    <columns>Apttus_Approval__Object_Type__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Approvals</label>
+</ListView>

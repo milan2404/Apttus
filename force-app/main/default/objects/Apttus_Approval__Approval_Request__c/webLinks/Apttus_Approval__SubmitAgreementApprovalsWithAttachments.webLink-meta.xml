@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__SubmitAgreementApprovalsWithAttachments</fullName>
+    <availability>online</availability>
+    <description>Submit Agreement Approvals with attachments</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Submit Agreement Approvals (With Attachments)</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/apex/Apttus_Approval__ApprovalContextSubmit?sObjectType=Apttus__APTS_Agreement__c&amp;sObjectId={!Apttus__APTS_Agreement__c.Id}&amp;enableAttachments=true</url>
+</WebLink>

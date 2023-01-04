@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_QPConfig__FootnoteBody__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The body of the footnote</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The body of the footnote</inlineHelpText>
+    <label>Footnote Body</label>
+    <length>4000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

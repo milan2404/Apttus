@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CategoryHierarchy__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The category hierarchy associated with the child product</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The category hierarchy associated with the child product</inlineHelpText>
+    <label>Category Hierarchy</label>
+    <length>4000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

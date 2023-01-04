@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__All_Active_Promotions</fullName>
+    <columns>Apttus_Config2__Active__c</columns>
+    <columns>NAME</columns>
+    <columns>Apttus_Config2__IncentiveCode__c</columns>
+    <columns>Apttus_Config2__ApplicationMethod__c</columns>
+    <columns>Apttus_Config2__UseType__c</columns>
+    <columns>Apttus_Config2__AutoApply__c</columns>
+    <columns>Apttus_Config2__RegionScope__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Apttus_Config2__Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>All Active Promotions</label>
+    <language>en_US</language>
+</ListView>

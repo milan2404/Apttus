@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__AllowPrivateSelectionOverride__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the private document selection is allowed to be overridden by the user. Only applicable when private indicator is auto enabled for documents</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether the private document selection is allowed to be overridden by the user. Only applicable when private indicator is auto enabled for documents</inlineHelpText>
+    <label>Allow Private Selection Override</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ChildProductId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the child product</description>
+    <externalId>false</externalId>
+    <label>Child Product</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Hierarchy View</relationshipLabel>
+    <relationshipName>ProductHierarchyView</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

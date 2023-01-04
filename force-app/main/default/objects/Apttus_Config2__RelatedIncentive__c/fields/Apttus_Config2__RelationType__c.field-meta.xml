@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RelationType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The relation type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The relation type</inlineHelpText>
+    <label>Relation Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Exclusion</fullName>
+                <default>true</default>
+                <label>Exclusion</label>
+            </value>
+            <value>
+                <fullName>Is Amended By</fullName>
+                <default>false</default>
+                <label>Is Amended By</label>
+            </value>
+            <value>
+                <fullName>Is Renewed By</fullName>
+                <default>false</default>
+                <label>Is Renewed By</label>
+            </value>
+            <value>
+                <fullName>Is Amendment For</fullName>
+                <default>false</default>
+                <label>Is Amendment For</label>
+            </value>
+            <value>
+                <fullName>Is Renewal For</fullName>
+                <default>false</default>
+                <label>Is Renewal For</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

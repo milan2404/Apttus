@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ViewFinalAgreement</fullName>
+    <availability>online</availability>
+    <description>Generate the agreement</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Generate</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/Apttus__SelectTemplate?id={!Apttus__APTS_Agreement__c.Id}&amp;action=Generate_Agreement&amp;templateType=Agreement</url>
+</WebLink>

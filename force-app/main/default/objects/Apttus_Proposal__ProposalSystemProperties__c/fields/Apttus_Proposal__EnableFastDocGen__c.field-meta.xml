@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__EnableFastDocGen__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicator to enable the fast document generation feature</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicator to enable the fast document generation feature</inlineHelpText>
+    <label>Enable Fast Doc Gen</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_QPConfig__RelatedLineItemId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the related proposal line item</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the related proposal line item</inlineHelpText>
+    <label>Related Line Item</label>
+    <referenceTo>Apttus_Proposal__Proposal_Line_Item__c</referenceTo>
+    <relationshipLabel>Related Line Items (From)</relationshipLabel>
+    <relationshipName>RelatedLineItemsFrom</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

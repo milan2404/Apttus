@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AmendChangeFields__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Comma separated line item field names whose values can turn an existing asset line into amended asset line.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Comma separated line item field names whose values can turn an existing asset line into amended asset line.</inlineHelpText>
+    <label>Amend Change Fields</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

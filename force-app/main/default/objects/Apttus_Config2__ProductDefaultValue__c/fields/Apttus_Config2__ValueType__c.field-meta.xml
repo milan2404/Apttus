@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ValueType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The value type. The Default value type is used to store defaults for the product/service. The Auto Include value type is used to indicate the product/service to be auto included.</description>
+    <externalId>false</externalId>
+    <label>Value Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Default</fullName>
+                <default>true</default>
+                <label>Default</label>
+            </value>
+            <value>
+                <fullName>Auto Include</fullName>
+                <default>false</default>
+                <label>Auto Include</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

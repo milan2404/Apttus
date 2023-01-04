@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__UseType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The incentive use type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The incentive use type</inlineHelpText>
+    <label>Application Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Promotion</fullName>
+                <default>true</default>
+                <label>Promotion</label>
+            </value>
+            <value>
+                <fullName>Rebate</fullName>
+                <default>false</default>
+                <label>Rebate</label>
+            </value>
+            <value>
+                <fullName>Milestone Incentive</fullName>
+                <default>false</default>
+                <label>Milestone Incentive</label>
+            </value>
+            <value>
+                <fullName>Price Program</fullName>
+                <default>false</default>
+                <label>Price Program</label>
+            </value>
+            <value>
+                <fullName>Loyalty</fullName>
+                <default>false</default>
+                <label>Loyalty</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__TaxType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The tax type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The tax type</inlineHelpText>
+    <label>Tax Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>State Tax</fullName>
+                <default>false</default>
+                <label>State Tax</label>
+            </value>
+            <value>
+                <fullName>County Tax</fullName>
+                <default>false</default>
+                <label>County Tax</label>
+            </value>
+            <value>
+                <fullName>City Tax</fullName>
+                <default>false</default>
+                <label>City Tax</label>
+            </value>
+            <value>
+                <fullName>District Tax</fullName>
+                <default>false</default>
+                <label>District Tax</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

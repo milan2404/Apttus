@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RelatedPricingCallbackClass__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The related pricing callback class name. The class should implement the CustomClass.IRelatedPricingCallback interface.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The related pricing callback class name. The class should implement the CustomClass.IRelatedPricingCallback interface.</inlineHelpText>
+    <label>Related Pricing Callback Class</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

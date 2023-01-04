@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SoldToAccountId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The ID of the sold to account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The ID of the sold to account</inlineHelpText>
+    <label>Sold To</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Temp Incentive Benefit Data</relationshipLabel>
+    <relationshipName>TempIncentiveBenefitData</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

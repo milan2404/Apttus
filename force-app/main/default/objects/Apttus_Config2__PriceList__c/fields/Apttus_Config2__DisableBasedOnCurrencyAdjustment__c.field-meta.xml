@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DisableBasedOnCurrencyAdjustment__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether currency adjustment is disabled when the currency of the price list and the based on price list are different in a multi-currency enabled org</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether currency adjustment is disabled when the currency of the price list and the based on price list are different in a multi-currency enabled org</inlineHelpText>
+    <label>Disable Based On Currency Adjustment</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

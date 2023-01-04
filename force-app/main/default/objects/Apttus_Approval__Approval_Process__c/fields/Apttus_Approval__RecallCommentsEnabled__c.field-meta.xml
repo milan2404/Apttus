@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__RecallCommentsEnabled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Set this flag to enable recall comments for this process. When enabled, the user will be prompted to enter comments when the request is cancelled or recalled.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set this flag to enable recall comments for this process. When enabled, the user will be prompted to enter comments when the request is cancelled or recalled.</inlineHelpText>
+    <label>Recall Comments Enabled</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

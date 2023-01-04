@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__OrderStartDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date at which the order becomes effective</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date at which the order becomes effective</inlineHelpText>
+    <label>Order Start Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

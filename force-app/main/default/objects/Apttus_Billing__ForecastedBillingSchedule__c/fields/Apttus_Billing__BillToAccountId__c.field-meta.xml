@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__BillToAccountId__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Id of the corresponding Bill to Account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Id of the corresponding Bill to Account.</inlineHelpText>
+    <label>Bill To</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Forecasted Billing Schedules</relationshipLabel>
+    <relationshipName>ForecastedBillingSchedules</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

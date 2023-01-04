@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FF_Submit_For_Changes__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Submit agreement for changes</description>
+    <externalId>false</externalId>
+    <formula>IF (OR(AND(ISPICKVAL(Apttus__Status_Category__c,&quot;In Authoring&quot;),ISPICKVAL(Apttus__Source__c,&quot;Other Party Paper&quot;)),(ISPICKVAL(Apttus__Status_Category__c,&quot;In Signatures&quot;))),HYPERLINK(&quot;/apex/Apttus__AgreementSubmitChanges?id=&quot; &amp;Id, IMAGE(&quot;/resource/Apttus__Button_SubmitForChanges&quot;, &quot;Submit For Changes&quot;), &quot;_self&quot;), NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Submit agreement for changes</inlineHelpText>
+    <label>Submit For Changes</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

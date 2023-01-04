@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CacheAllProducts__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Cache all products to avoid SOQL queries. Should be enabled when number of product records are small.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check to cache all products to avoid extra SOQL queries.</inlineHelpText>
+    <label>Cache All Products</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

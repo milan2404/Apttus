@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ExecutionMode__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The renewal execution mode</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The renewal execution mode</inlineHelpText>
+    <label>Execution Mode</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Auto</fullName>
+                <default>true</default>
+                <label>Auto</label>
+            </value>
+            <value>
+                <fullName>OnDemand</fullName>
+                <default>false</default>
+                <label>OnDemand</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__BillingPlanTemplateId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the associated billing plan template</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the associated billing plan template</inlineHelpText>
+    <label>Billing Plan Template</label>
+    <referenceTo>Apttus_Config2__BillingPlanTemplate__c</referenceTo>
+    <relationshipLabel>Billing Plan Template Items</relationshipLabel>
+    <relationshipName>Items</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

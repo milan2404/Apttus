@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__InvoiceDayMonthOption__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Helps in deriving an invoice date for a scheduled invoice run.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Helps in deriving an invoice date for a scheduled invoice run.</inlineHelpText>
+    <label>Invoice Day Month Option</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Previous</fullName>
+                <default>false</default>
+                <label>Previous</label>
+            </value>
+            <value>
+                <fullName>Current</fullName>
+                <default>true</default>
+                <label>Current</label>
+            </value>
+            <value>
+                <fullName>Next</fullName>
+                <default>false</default>
+                <label>Next</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

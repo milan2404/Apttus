@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__OriginalInstanceProcessId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Reference to original process definition that is associated with Approval Requests</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Reference to original process definition that is associated with Approval Requests</inlineHelpText>
+    <label>Original Instance Process</label>
+    <referenceTo>Apttus_Approval__Approval_Process__c</referenceTo>
+    <relationshipLabel>Approval Processes (Original Instance Process)</relationshipLabel>
+    <relationshipName>Original_Approval_Processes</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

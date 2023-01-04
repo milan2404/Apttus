@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CustomerPurchaseOrderId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the associated purchase order</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the associated purchase order</inlineHelpText>
+    <label>Purchase Order</label>
+    <referenceTo>Apttus_Config2__CustomerPurchaseOrder__c</referenceTo>
+    <relationshipLabel>Customer PO Issue Logs</relationshipLabel>
+    <relationshipName>CustomerPOIssueLogs</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

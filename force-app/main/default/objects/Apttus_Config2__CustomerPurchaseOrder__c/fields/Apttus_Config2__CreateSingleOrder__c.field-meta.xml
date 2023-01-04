@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CreateSingleOrder__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF (ISPICKVAL(Apttus_Config2__Status__c, &quot;Accepted&quot;), HYPERLINK(&quot;/apex/Apttus_Config2__CreateSingleOrder?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_Config2__Button_CreateSingleOrder&quot;, &quot;CreateSingleOrder&quot;),&quot;_self&quot;), NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Create Single Order</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

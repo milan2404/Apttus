@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__DestinationCreditMemoId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The destination credit memo where the A/R transaction is applied to.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The destination credit memo where the A/R transaction is applied to.</inlineHelpText>
+    <label>Destination Credit Memo Id</label>
+    <referenceTo>Apttus_Billing__CreditMemo__c</referenceTo>
+    <relationshipLabel>Destination Related A/R Transactions</relationshipLabel>
+    <relationshipName>DestinationRelatedARTransactions</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Frequency__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The frequency associated with the recurring or usage price</description>
+    <externalId>false</externalId>
+    <label>Frequency</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Apttus_Config2__PriceType__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hourly</fullName>
+                <default>false</default>
+                <label>Hourly</label>
+            </value>
+            <value>
+                <fullName>Daily</fullName>
+                <default>false</default>
+                <label>Daily</label>
+            </value>
+            <value>
+                <fullName>Weekly</fullName>
+                <default>false</default>
+                <label>Weekly</label>
+            </value>
+            <value>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+                <label>Monthly</label>
+            </value>
+            <value>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+                <label>Quarterly</label>
+            </value>
+            <value>
+                <fullName>Half Yearly</fullName>
+                <default>false</default>
+                <label>Half Yearly</label>
+            </value>
+            <value>
+                <fullName>Yearly</fullName>
+                <default>false</default>
+                <label>Yearly</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Recurring</controllingFieldValue>
+            <controllingFieldValue>Usage</controllingFieldValue>
+            <controllingFieldValue>Included Usage</controllingFieldValue>
+            <valueName>Hourly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recurring</controllingFieldValue>
+            <controllingFieldValue>Usage</controllingFieldValue>
+            <controllingFieldValue>Included Usage</controllingFieldValue>
+            <valueName>Daily</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recurring</controllingFieldValue>
+            <controllingFieldValue>Usage</controllingFieldValue>
+            <controllingFieldValue>Included Usage</controllingFieldValue>
+            <valueName>Weekly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recurring</controllingFieldValue>
+            <controllingFieldValue>Usage</controllingFieldValue>
+            <controllingFieldValue>Included Usage</controllingFieldValue>
+            <valueName>Monthly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recurring</controllingFieldValue>
+            <controllingFieldValue>Usage</controllingFieldValue>
+            <controllingFieldValue>Included Usage</controllingFieldValue>
+            <valueName>Quarterly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recurring</controllingFieldValue>
+            <controllingFieldValue>Usage</controllingFieldValue>
+            <controllingFieldValue>Included Usage</controllingFieldValue>
+            <valueName>Half Yearly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recurring</controllingFieldValue>
+            <controllingFieldValue>Usage</controllingFieldValue>
+            <controllingFieldValue>Included Usage</controllingFieldValue>
+            <valueName>Yearly</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

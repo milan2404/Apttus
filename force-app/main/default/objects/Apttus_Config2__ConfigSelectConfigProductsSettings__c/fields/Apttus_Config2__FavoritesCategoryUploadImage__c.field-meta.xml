@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__FavoritesCategoryUploadImage__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Upload an image for displaying across all Favorites categories</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Upload an image for displaying across all Favorites categories</inlineHelpText>
+    <label>Favorites Upload Image</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

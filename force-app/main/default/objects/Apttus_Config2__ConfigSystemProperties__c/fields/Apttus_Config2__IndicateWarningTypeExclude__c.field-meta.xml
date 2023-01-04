@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IndicateWarningTypeExclude__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicate products excluded by warning type exclude rule actions (DEPRECATED)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This custom setting is deprecated</inlineHelpText>
+    <label>Indicate Warning Type Exclude (D)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

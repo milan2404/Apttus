@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__AsynchronousCheckinRecipient__c</fullName>
+    <defaultValue>&quot;Both&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Asynchronous Checkin Recipient</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter a recipient role (Contract Owner, Logged in XAC user or Both) to receive Asynchronous Check-in email notification.</inlineHelpText>
+    <label>Asynchronous Checkin Recipient</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

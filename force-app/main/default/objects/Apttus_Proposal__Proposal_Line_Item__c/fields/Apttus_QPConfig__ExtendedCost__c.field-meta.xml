@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_QPConfig__ExtendedCost__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The extended cost is Quantity X Term X (Base Cost + Cost Adjustment + Option Cost)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The extended cost is Quantity X Term X (Base Cost + Cost Adjustment + Option Cost)</inlineHelpText>
+    <label>Extended Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

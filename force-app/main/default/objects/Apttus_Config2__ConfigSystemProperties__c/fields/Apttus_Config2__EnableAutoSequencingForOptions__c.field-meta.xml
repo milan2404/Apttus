@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EnableAutoSequencingForOptions__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether auto sequencing is enabled for options</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A global setting to enable auto sequencing for options</inlineHelpText>
+    <label>Enable Auto Sequencing For Options</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

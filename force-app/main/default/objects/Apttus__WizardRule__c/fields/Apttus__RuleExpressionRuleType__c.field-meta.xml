@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__RuleExpressionRuleType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Rule type for rule expressions</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Rule type for rule expressions</inlineHelpText>
+    <label>Rule Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Go To Input</fullName>
+                <default>false</default>
+                <label>Go To Input</label>
+            </value>
+            <value>
+                <fullName>Go To Step</fullName>
+                <default>false</default>
+                <label>Go To Step</label>
+            </value>
+            <value>
+                <fullName>Go To Wizard</fullName>
+                <default>false</default>
+                <label>Go To Wizard</label>
+            </value>
+            <value>
+                <fullName>Determine Focus Object</fullName>
+                <default>false</default>
+                <label>Determine Focus Object</label>
+            </value>
+            <value>
+                <fullName>Determine Record Type</fullName>
+                <default>false</default>
+                <label>Determine Record Type</label>
+            </value>
+            <value>
+                <fullName>Determine Doc Gen</fullName>
+                <default>false</default>
+                <label>Determine Doc Gen</label>
+            </value>
+            <value>
+                <fullName>Invoke Object Actions</fullName>
+                <default>false</default>
+                <label>Invoke Object Actions</label>
+            </value>
+            <value>
+                <fullName>Go To Page</fullName>
+                <default>false</default>
+                <label>Go To Page</label>
+            </value>
+            <value>
+                <fullName>Go To URL</fullName>
+                <default>false</default>
+                <label>Go To URL</label>
+            </value>
+            <value>
+                <fullName>Go To Submit</fullName>
+                <default>false</default>
+                <label>Go To Submit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

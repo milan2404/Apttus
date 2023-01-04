@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__WizardStep__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Wizard Step this Input belongs to</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Wizard Step this Input belongs to</inlineHelpText>
+    <label>Wizard Step</label>
+    <referenceTo>Apttus__WizardStep__c</referenceTo>
+    <relationshipName>Input_Controls</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

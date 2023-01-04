@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IsTaskPending__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether there are any tasks pending for the order</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether there are any tasks pending for the order</inlineHelpText>
+    <label>Is Task Pending</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

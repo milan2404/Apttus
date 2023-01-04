@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Question__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The question or instruction statement that is used to direct the end user when completing the wizard after setup. Defaults to Input Label</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The question or instruction statement that is used to direct the end user when completing the wizard after setup. Defaults to Input Label</inlineHelpText>
+    <label>Question/Instruction</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

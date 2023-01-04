@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CollaborationType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specifies what type of collaboration this request is created for.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specifies what type of collaboration this request is created for.</inlineHelpText>
+    <label>Collaboration Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Peer-To-Peer</fullName>
+                <default>true</default>
+                <label>Peer-To-Peer</label>
+            </value>
+            <value>
+                <fullName>Multi-Tier</fullName>
+                <default>false</default>
+                <label>Multi-Tier</label>
+            </value>
+            <value>
+                <fullName>Digital Commerce</fullName>
+                <default>false</default>
+                <label>Digital Commerce</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

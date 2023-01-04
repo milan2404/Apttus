@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HelpText__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The help text accompanying the custom setting</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The help text accompanying the custom setting</inlineHelpText>
+    <label>Help Text</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

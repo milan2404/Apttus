@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__RoleName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Role names are used to map the anchor tags within your documents to a recipient. Each role name must be entered on a separate line. Order of the role name determines which anchor tag set to map to. The first role in the list will map to the &apos;1&apos; tags within the document, second role to the &apos;2&apos; tags, etc. Example: If the first role is &apos;Signer 1&apos;, the recipient tied to the role will map to the \s1\, \i1\ etc. tags in the documents.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Role names are used to map the anchor tags within your documents to a recipient. Order of the role name determines which anchor tag set to map to.</inlineHelpText>
+    <label>Role Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Apttus_DocuApi__RecipientType__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Signer 1</fullName>
+                <default>false</default>
+                <label>Signer 1</label>
+            </value>
+            <value>
+                <fullName>Signer 2</fullName>
+                <default>false</default>
+                <label>Signer 2</label>
+            </value>
+            <value>
+                <fullName>Signer 3</fullName>
+                <default>false</default>
+                <label>Signer 3</label>
+            </value>
+            <value>
+                <fullName>Signer 4</fullName>
+                <default>false</default>
+                <label>Signer 4</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Signer</controllingFieldValue>
+            <controllingFieldValue>In Person Signer</controllingFieldValue>
+            <valueName>Signer 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Signer</controllingFieldValue>
+            <controllingFieldValue>In Person Signer</controllingFieldValue>
+            <valueName>Signer 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Signer</controllingFieldValue>
+            <controllingFieldValue>In Person Signer</controllingFieldValue>
+            <valueName>Signer 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Signer</controllingFieldValue>
+            <controllingFieldValue>In Person Signer</controllingFieldValue>
+            <valueName>Signer 4</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

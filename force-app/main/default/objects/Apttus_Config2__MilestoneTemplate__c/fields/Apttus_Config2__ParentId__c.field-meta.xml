@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ParentId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the associated parent template</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the associated parent template</inlineHelpText>
+    <label>Parent</label>
+    <referenceTo>Apttus_Config2__MilestoneTemplate__c</referenceTo>
+    <relationshipLabel>Child Templates</relationshipLabel>
+    <relationshipName>ChildTemplates</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

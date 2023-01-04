@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Holds the list of field API names from the line item object used in pricing callbacks</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Config LineItem Custom Fields</label>
+    <visibility>Public</visibility>
+</CustomObject>

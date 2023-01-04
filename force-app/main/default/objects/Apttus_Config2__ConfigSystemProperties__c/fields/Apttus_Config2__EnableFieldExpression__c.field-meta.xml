@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EnableFieldExpression__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether field expressions are enabled</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A global setting to turn on field expressions.</inlineHelpText>
+    <label>Enable Field Expressions</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

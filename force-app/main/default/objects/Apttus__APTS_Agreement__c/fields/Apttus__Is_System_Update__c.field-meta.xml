@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Is_System_Update__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates a system initiated updated. An update is triggered by the system during various lifecycle actions such as clone, amend, renew etc. The flag is set before the update and is reset when the update is initiated by a user.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates a system initiated update.</inlineHelpText>
+    <label>Is System Update</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

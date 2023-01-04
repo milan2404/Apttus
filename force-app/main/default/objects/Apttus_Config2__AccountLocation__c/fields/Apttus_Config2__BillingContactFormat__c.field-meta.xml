@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__BillingContactFormat__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specifies Billing Contact setup format for a given account location.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specifies Billing Contact setup format for a given account location.</inlineHelpText>
+    <label>Billing Contact Format</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Comma Separated Values</fullName>
+                <default>false</default>
+                <label>Comma Separated Values</label>
+            </value>
+            <value>
+                <fullName>Filter Criteria</fullName>
+                <default>false</default>
+                <label>Filter Criteria</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

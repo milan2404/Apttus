@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__AutoProvisionUserEnabled__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Automatic DocuSign User Provisioning can be disabled unchecking this checkbox for manual provision.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Automatic DocuSign User Provisioning can be disabled unchecking this checkbox for manual provision.</inlineHelpText>
+    <label>Auto Provision User Enabled</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

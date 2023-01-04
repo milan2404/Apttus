@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__AutoManagePaymentTerm__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Option to automatically set the payment term in invoices if billing schedule do not have any payment term.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Option to automatically set the payment term in invoices if billing schedule do not have any payment term.</inlineHelpText>
+    <label>Auto Manage Payment Term</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

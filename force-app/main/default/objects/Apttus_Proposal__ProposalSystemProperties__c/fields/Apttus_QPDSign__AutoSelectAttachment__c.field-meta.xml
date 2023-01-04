@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_QPDSign__AutoSelectAttachment__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the most recent attachment is auto selected</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether the most recent attachment is auto selected</inlineHelpText>
+    <label>Auto Select Attachment?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

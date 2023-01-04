@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ParentCostLineItemId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to parent cost line item based on hierarchical relationship</description>
+    <externalId>false</externalId>
+    <label>Parent Cost Line Item</label>
+    <referenceTo>Apttus_Config2__CostLineItem__c</referenceTo>
+    <relationshipLabel>Cost Line Items</relationshipLabel>
+    <relationshipName>CostLineItems</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

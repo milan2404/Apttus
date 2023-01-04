@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__All</fullName>
+    <columns>NAME</columns>
+    <columns>Apttus_Approval__ApprovalRequestId__c</columns>
+    <columns>Apttus_Approval__Label__c</columns>
+    <columns>Apttus_Approval__ScheduledFireTime__c</columns>
+    <columns>Apttus_Approval__Completed__c</columns>
+    <columns>Apttus_Approval__StepType__c</columns>
+    <columns>Apttus_Approval__ProcessStepId__c</columns>
+    <columns>Apttus_Approval__StepSequence__c</columns>
+    <columns>Apttus_Approval__SubprocessRuleEntryAssigneeId__c</columns>
+    <columns>Apttus_Approval__SubprocessRuleEntryAssigneeSeq__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__MatchOperator__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The operator used to match the value in the target object field against the value in the source object field</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The operator used to match the value in the target object field against the value in the source object field</inlineHelpText>
+    <label>Match Operator</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>equal to</fullName>
+                <default>false</default>
+                <label>equal to</label>
+            </value>
+            <value>
+                <fullName>not equal to</fullName>
+                <default>false</default>
+                <label>not equal to</label>
+            </value>
+            <value>
+                <fullName>less than</fullName>
+                <default>false</default>
+                <label>less than</label>
+            </value>
+            <value>
+                <fullName>less than or equal to</fullName>
+                <default>false</default>
+                <label>less than or equal to</label>
+            </value>
+            <value>
+                <fullName>greater than</fullName>
+                <default>false</default>
+                <label>greater than</label>
+            </value>
+            <value>
+                <fullName>greater than or equal to</fullName>
+                <default>false</default>
+                <label>greater than or equal to</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__FilterCriteria__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Holds JSON representation of the account selection criteria for an invoice run.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Holds JSON representation of the account selection criteria for an invoice run.</inlineHelpText>
+    <label>Filter Criteria</label>
+    <length>12500</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

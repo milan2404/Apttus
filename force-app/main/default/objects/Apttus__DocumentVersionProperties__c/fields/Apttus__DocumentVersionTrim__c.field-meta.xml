@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__DocumentVersionTrim__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Checking this box will trim the last decimal point and number from the document version in the naming convention. For example version 1.2.0 would become 1.2 in the name of the document.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checking this box will trim the last decimal point and number from the document version in the naming convention. For example version 1.2.0 would become 1.2 in the name of the document.</inlineHelpText>
+    <label>Trim Document Version Number</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

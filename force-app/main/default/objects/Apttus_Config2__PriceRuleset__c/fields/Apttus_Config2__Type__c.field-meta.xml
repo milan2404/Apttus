@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The rule set type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The rule set type</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Standard</fullName>
+                <default>true</default>
+                <label>Standard</label>
+            </value>
+            <value>
+                <fullName>Incentive</fullName>
+                <default>false</default>
+                <label>Incentive</label>
+            </value>
+            <value>
+                <fullName>Price Pipeline</fullName>
+                <default>false</default>
+                <label>Price Pipeline</label>
+            </value>
+            <value>
+                <fullName>Price Waterfall</fullName>
+                <default>false</default>
+                <label>Price Waterfall</label>
+            </value>
+            <value>
+                <fullName>Price Pipeline Ruleset</fullName>
+                <default>false</default>
+                <label>Price Pipeline Ruleset</label>
+            </value>
+            <value>
+                <fullName>Waterfall Adjustment Group</fullName>
+                <default>false</default>
+                <label>Waterfall Adjustment Group</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

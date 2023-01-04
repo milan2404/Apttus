@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__TxnType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The transaction type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The transaction type</inlineHelpText>
+    <label>Txn Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Invoice Creation</fullName>
+                <default>false</default>
+                <label>Invoice Creation</label>
+            </value>
+            <value>
+                <fullName>Credit Memo Creation</fullName>
+                <default>false</default>
+                <label>Credit Memo Creation</label>
+            </value>
+            <value>
+                <fullName>Payment Creation</fullName>
+                <default>false</default>
+                <label>Payment Creation</label>
+            </value>
+            <value>
+                <fullName>Credit Memo</fullName>
+                <default>false</default>
+                <label>Credit Memo</label>
+            </value>
+            <value>
+                <fullName>Payment</fullName>
+                <default>false</default>
+                <label>Payment</label>
+            </value>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <label>Refund</label>
+            </value>
+            <value>
+                <fullName>Prepayment</fullName>
+                <default>false</default>
+                <label>Prepayment</label>
+            </value>
+            <value>
+                <fullName>Apply Late Fee</fullName>
+                <default>false</default>
+                <label>Apply Late Fee</label>
+            </value>
+            <value>
+                <fullName>Cancel Late Fee</fullName>
+                <default>false</default>
+                <label>Cancel Late Fee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

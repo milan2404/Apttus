@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HideCloneButton__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Hides the clone button at the bottom of the page when checked.</description>
+    <externalId>false</externalId>
+    <label>Hide Clone Button</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

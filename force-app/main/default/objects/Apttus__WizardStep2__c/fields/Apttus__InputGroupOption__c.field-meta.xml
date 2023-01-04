@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__InputGroupOption__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates how the inputs within a step are grouped. Repeatable allows the user to enter multiple set of values of configured inputs and Table Layout displays it as a table.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates how the inputs within a step are grouped. Repeatable allows the user to enter multiple set of values of configured inputs and Table Layout displays it as a table.</inlineHelpText>
+    <label>Input Group Option</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Repeatable</fullName>
+                <default>false</default>
+                <label>Repeatable</label>
+            </value>
+            <value>
+                <fullName>Table Layout</fullName>
+                <default>false</default>
+                <label>Table Layout</label>
+            </value>
+            <value>
+                <fullName>Two Column Layout</fullName>
+                <default>false</default>
+                <label>Two Column Layout</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

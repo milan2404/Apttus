@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__SubmitForApproval</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <height>600</height>
+    <linkType>sControl</linkType>
+    <masterLabel>Submit For Approval</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <scontrol>Apttus_Proposal__aptsProposalSubmitForApproval</scontrol>
+</WebLink>

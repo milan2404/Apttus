@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ApplicationMethod__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The ruleset application method. Only applicable to aggregate price rules.</description>
+    <externalId>false</externalId>
+    <label>Application Method</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Apttus_Config2__UseType__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apply to Line Items</fullName>
+                <default>false</default>
+                <label>Apply to Line Items</label>
+            </value>
+            <value>
+                <fullName>Create Summary Lines</fullName>
+                <default>false</default>
+                <label>Create Summary Lines</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Aggregate</controllingFieldValue>
+            <valueName>Apply to Line Items</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aggregate</controllingFieldValue>
+            <valueName>Create Summary Lines</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SearchContext__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The search context</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The search context</inlineHelpText>
+    <label>Search Context</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product Search</fullName>
+                <default>false</default>
+                <label>Product Search</label>
+            </value>
+            <value>
+                <fullName>Asset Search</fullName>
+                <default>false</default>
+                <label>Asset Search</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

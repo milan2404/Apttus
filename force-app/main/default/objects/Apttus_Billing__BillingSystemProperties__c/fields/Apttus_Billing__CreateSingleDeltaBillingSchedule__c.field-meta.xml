@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__CreateSingleDeltaBillingSchedule__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Option to only create a single delta Billing Schedule when changing the rate of an &quot;invoiced&quot; Billing Schedule mid-cycle.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Option to only create single delta Billing Schedule when changing the rate of an &quot;invoiced&quot; Billing Schedule mid-cycle.</inlineHelpText>
+    <label>Create Single Delta Billing Schedule</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

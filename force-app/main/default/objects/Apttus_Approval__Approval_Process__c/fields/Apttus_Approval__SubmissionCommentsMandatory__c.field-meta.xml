@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__SubmissionCommentsMandatory__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Set this flag to make submission comments mandatory for this process at the process level. When set, the user will be forced to enter submission comments when the request is submitted for approval.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set this flag to make submission comments mandatory for this process at the process level. When set, the user will be forced to enter submission comments when the request is submitted for approval.</inlineHelpText>
+    <label>Submission Comments Mandatory</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

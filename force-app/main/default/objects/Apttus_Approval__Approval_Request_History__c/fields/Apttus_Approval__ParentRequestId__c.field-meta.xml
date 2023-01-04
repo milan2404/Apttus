@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__ParentRequestId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the parent approval request. Only applicable for child process steps.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the parent approval request. Only applicable for child process steps.</inlineHelpText>
+    <label>Parent Request</label>
+    <referenceTo>Apttus_Approval__Approval_Request__c</referenceTo>
+    <relationshipLabel>Child Approval Requests</relationshipLabel>
+    <relationshipName>ChildApprovalRequests2</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

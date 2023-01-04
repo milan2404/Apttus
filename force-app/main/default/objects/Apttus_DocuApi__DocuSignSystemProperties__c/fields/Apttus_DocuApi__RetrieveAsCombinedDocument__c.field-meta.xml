@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__RetrieveAsCombinedDocument__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This retrieves a PDF containing the combined content of all documents after signing. It is defaulted to download as separate documents.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This retrieves a PDF containing the combined content of all documents after signing. It is defaulted to download as separate documents.</inlineHelpText>
+    <label>RetrieveAsCombinedDocument</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

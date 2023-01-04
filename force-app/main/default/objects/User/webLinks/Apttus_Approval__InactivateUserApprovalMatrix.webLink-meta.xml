@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__InactivateUserApprovalMatrix</fullName>
+    <availability>online</availability>
+    <description>Inactivates the current user&apos;s approval matrix and transfers all inflight requests to the next level approver or backup admin user.  This action will happen automatically if a user is inactivated by unchecking the Active flag in the user record.</description>
+    <displayType>link</displayType>
+    <height>600</height>
+    <linkType>sControl</linkType>
+    <masterLabel>Inactivate User Approval Matrix</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <scontrol>Apttus_Approval__aptsApprovalInactivateUser</scontrol>
+</WebLink>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ProductAttributeDetailPage__c</fullName>
+    <defaultValue>&quot;ProductAttributeDetail3&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The product attribute detail page. Specify the following page or a custom page. 
+
+ProductAttributeDetail3</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The product attribute detail page. Specify the following page or a custom page. 
+
+ProductAttributeDetail3</inlineHelpText>
+    <label>Product Attribute Detail Page</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

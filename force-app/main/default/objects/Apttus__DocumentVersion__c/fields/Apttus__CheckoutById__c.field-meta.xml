@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__CheckoutById__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the user who checked out this document version</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the user who checked out this document version</inlineHelpText>
+    <label>Checkout By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Document_Version</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

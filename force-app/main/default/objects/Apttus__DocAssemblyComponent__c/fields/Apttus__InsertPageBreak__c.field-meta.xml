@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__InsertPageBreak__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Inserts a page break after the component is inlined</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Inserts a page break after the component is inlined</inlineHelpText>
+    <label>Insert Page Break</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

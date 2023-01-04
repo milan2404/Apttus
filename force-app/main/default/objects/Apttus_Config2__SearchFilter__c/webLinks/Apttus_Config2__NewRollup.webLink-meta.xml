@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__NewRollup</fullName>
+    <availability>online</availability>
+    <description>Create a new rollup definition</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>New Rollup</masterLabel>
+    <openType>sidebar</openType>
+    <page>Apttus_Config2__IncentiveRollup</page>
+    <protected>false</protected>
+</WebLink>

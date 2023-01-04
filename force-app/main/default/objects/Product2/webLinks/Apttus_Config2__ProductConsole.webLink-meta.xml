@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ProductConsole</fullName>
+    <availability>online</availability>
+    <description>Navigates to the product console</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Product Console</masterLabel>
+    <openType>sidebar</openType>
+    <page>Apttus_Config2__ProductConsole</page>
+    <protected>false</protected>
+</WebLink>

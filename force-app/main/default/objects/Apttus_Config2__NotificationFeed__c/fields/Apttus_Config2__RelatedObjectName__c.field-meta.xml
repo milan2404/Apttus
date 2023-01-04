@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RelatedObjectName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Name of the related Object from/for which this notification message is generated</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Name of the related Object from/for which this notification message is generated</inlineHelpText>
+    <label>Related Object Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

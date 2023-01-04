@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Schedule status.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Schedule status.</inlineHelpText>
+    <label>Status</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Apttus_Billing__BillingScheduleStatus</valueSetName>
+    </valueSet>
+</CustomField>

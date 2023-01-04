@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Context__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The context of the given query.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The context of the given query.</inlineHelpText>
+    <label>Context</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agreement</fullName>
+                <default>true</default>
+                <label>Agreement</label>
+            </value>
+            <value>
+                <fullName>Agreement By Account(s)</fullName>
+                <default>false</default>
+                <label>Agreement By Account(s)</label>
+            </value>
+            <value>
+                <fullName>Agreement Search</fullName>
+                <default>false</default>
+                <label>Agreement Search</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

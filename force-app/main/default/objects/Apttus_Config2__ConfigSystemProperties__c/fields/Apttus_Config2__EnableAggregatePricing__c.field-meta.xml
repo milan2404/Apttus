@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EnableAggregatePricing__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether aggregate pricing is enabled</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A global setting to enable aggregate price rules.</inlineHelpText>
+    <label>Enable Aggregate Pricing</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

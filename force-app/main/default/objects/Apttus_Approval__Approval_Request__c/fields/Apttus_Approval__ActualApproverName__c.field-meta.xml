@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__ActualApproverName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Actual Approver Name</description>
+    <externalId>false</externalId>
+    <formula>Apttus_Approval__Actual_Approver__r.FirstName &amp; &apos; &apos; &amp; Apttus_Approval__Actual_Approver__r.LastName</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Actual Approver Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

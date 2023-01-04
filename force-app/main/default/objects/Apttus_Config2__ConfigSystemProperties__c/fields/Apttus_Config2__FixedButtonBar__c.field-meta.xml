@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__FixedButtonBar__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates that the button bar will be fixed on catalog, configuration and cart pages.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates that the button bar will be fixed on catalog, configuration and cart pages.</inlineHelpText>
+    <label>Fixed Button Bar</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

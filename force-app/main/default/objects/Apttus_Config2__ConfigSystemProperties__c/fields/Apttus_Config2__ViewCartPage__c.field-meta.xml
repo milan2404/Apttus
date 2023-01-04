@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ViewCartPage__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The custom page to view cart information</description>
+    <externalId>false</externalId>
+    <label>View Cart Page</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__CurrentSyncJobState__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Docusign envelope status sync job state.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Docusign envelope status sync job state.</inlineHelpText>
+    <label>CurrentSyncJobState</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>WAITING</fullName>
+                <default>false</default>
+                <label>WAITING</label>
+            </value>
+            <value>
+                <fullName>COMPLETE</fullName>
+                <default>false</default>
+                <label>COMPLETE</label>
+            </value>
+            <value>
+                <fullName>EXECUTING</fullName>
+                <default>false</default>
+                <label>EXECUTING</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

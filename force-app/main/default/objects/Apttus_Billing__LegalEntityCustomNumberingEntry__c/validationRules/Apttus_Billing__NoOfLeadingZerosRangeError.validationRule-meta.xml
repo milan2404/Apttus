@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__NoOfLeadingZerosRangeError</fullName>
+    <active>true</active>
+    <errorConditionFormula>Apttus_Billing__NumberOfLeadingZeros__c &lt; 0 || Apttus_Billing__NumberOfLeadingZeros__c &gt; 10</errorConditionFormula>
+    <errorDisplayField>Apttus_Billing__NumberOfLeadingZeros__c</errorDisplayField>
+    <errorMessage>The number of leading zeros must be greater than 0 and less than 11.</errorMessage>
+</ValidationRule>

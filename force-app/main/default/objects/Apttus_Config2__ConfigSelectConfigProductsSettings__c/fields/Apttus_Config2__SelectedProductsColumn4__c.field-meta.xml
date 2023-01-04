@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SelectedProductsColumn4__c</fullName>
+    <deprecated>false</deprecated>
+    <description>API name of the line item field in the selected products section. A valid value could be like ProductId__r.ProductCode</description>
+    <externalId>false</externalId>
+    <inlineHelpText>API name of the line item field in the selected products section. A valid value could be like ProductId__r.ProductCode</inlineHelpText>
+    <label>Selected Products Column4</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

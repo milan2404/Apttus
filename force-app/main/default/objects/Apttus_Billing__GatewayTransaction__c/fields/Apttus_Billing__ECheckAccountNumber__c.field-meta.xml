@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__ECheckAccountNumber__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Masked eCheck account number.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Masked eCheck account number.</inlineHelpText>
+    <label>ECheck Account Number</label>
+    <length>100</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__Status_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(Id,
+CASE(Apttus_Approval__Approval_Status__c,
+&quot;Not Submitted&quot;,&quot;Not Submitted&quot;,
+&quot;Notified&quot;,&quot;Notified&quot;,
+&quot;Submitted&quot;,&quot;Submitted&quot;,
+&quot;Assigned&quot;,&quot;Assigned&quot;,
+&quot;Reassigned&quot;,&quot;Reassigned&quot;,
+&quot;Approved&quot;,&quot;Approved&quot;,
+&quot;Rejected&quot;,&quot;Rejected&quot;,
+&quot;Cancelled&quot;,&quot;Cancelled&quot;,
+&quot;On Hold&quot;,&quot;On Hold&quot;,
+&quot;None&quot;),
+&quot;_top&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

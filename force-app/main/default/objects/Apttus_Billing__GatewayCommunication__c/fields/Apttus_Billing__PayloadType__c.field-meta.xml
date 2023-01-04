@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__PayloadType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The type of payload sent/received to/from the Gateway.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The type of payload sent/received to/from the Gateway.</inlineHelpText>
+    <label>Payload Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Request</fullName>
+                <default>false</default>
+                <label>Request</label>
+            </value>
+            <value>
+                <fullName>Response</fullName>
+                <default>false</default>
+                <label>Response</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

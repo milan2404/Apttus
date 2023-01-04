@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ConstraintRuleActionId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>References the constraint rule action</description>
+    <externalId>false</externalId>
+    <label>Constraint Rule Action</label>
+    <referenceTo>Apttus_Config2__ConstraintRuleAction__c</referenceTo>
+    <relationshipLabel>Applied Rule Action Infos</relationshipLabel>
+    <relationshipName>AppliedRuleActionInfos</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

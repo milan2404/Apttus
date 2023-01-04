@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DisableAddToCartForOptionProducts__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether &apos;Add to Cart&apos; and &apos;Configure&apos; button should be hidden for option products on catalog page.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A global setting to hide &apos;Add to Cart&apos; and &apos;Configure&apos; button for option products on catalog page.</inlineHelpText>
+    <label>Disable Add To Cart for Option Products</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

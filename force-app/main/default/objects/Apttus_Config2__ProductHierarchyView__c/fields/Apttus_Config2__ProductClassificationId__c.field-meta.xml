@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ProductClassificationId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The associated product classification ID.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The associated product classification ID.</inlineHelpText>
+    <label>Product Classification</label>
+    <referenceTo>Apttus_Config2__ProductClassification__c</referenceTo>
+    <relationshipLabel>Product Hierarchy View</relationshipLabel>
+    <relationshipName>ProductHierarchyView</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

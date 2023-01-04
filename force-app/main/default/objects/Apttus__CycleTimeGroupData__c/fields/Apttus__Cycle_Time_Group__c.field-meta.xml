@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Cycle_Time_Group__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The group associated with the cycle time data</description>
+    <externalId>false</externalId>
+    <label>Cycle Time Group</label>
+    <referenceTo>Apttus__CycleTimeGroup__c</referenceTo>
+    <relationshipLabel>Cycle Time Group Data</relationshipLabel>
+    <relationshipName>Cycle_Time_Group_Data</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

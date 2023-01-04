@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__LocaleName__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Locale Name</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>English (United States)</fullName>
+                <default>false</default>
+                <label>English (United States)</label>
+            </value>
+            <value>
+                <fullName>English (United Kingdom)</fullName>
+                <default>false</default>
+                <label>English (United Kingdom)</label>
+            </value>
+            <value>
+                <fullName>English (Canada)</fullName>
+                <default>false</default>
+                <label>English (Canada)</label>
+            </value>
+            <value>
+                <fullName>English (Ireland)</fullName>
+                <default>false</default>
+                <label>English (Ireland)</label>
+            </value>
+            <value>
+                <fullName>Italian</fullName>
+                <default>false</default>
+                <label>Italian</label>
+            </value>
+            <value>
+                <fullName>German</fullName>
+                <default>false</default>
+                <label>German</label>
+            </value>
+            <value>
+                <fullName>Chinese</fullName>
+                <default>false</default>
+                <label>Chinese</label>
+            </value>
+            <value>
+                <fullName>Spanish</fullName>
+                <default>false</default>
+                <label>Spanish</label>
+            </value>
+            <value>
+                <fullName>Japanese</fullName>
+                <default>false</default>
+                <label>Japanese</label>
+            </value>
+            <value>
+                <fullName>Korean</fullName>
+                <default>false</default>
+                <label>Korean</label>
+            </value>
+            <value>
+                <fullName>Thai</fullName>
+                <default>false</default>
+                <label>Thai</label>
+            </value>
+            <value>
+                <fullName>Norwegian</fullName>
+                <default>false</default>
+                <label>Norwegian</label>
+            </value>
+            <value>
+                <fullName>Swedish</fullName>
+                <default>false</default>
+                <label>Swedish</label>
+            </value>
+            <value>
+                <fullName>Russian</fullName>
+                <default>false</default>
+                <label>Russian</label>
+            </value>
+            <value>
+                <fullName>Portuguese</fullName>
+                <default>false</default>
+                <label>Portuguese</label>
+            </value>
+            <value>
+                <fullName>Polish</fullName>
+                <default>false</default>
+                <label>Polish</label>
+            </value>
+            <value>
+                <fullName>Greek (Greece)</fullName>
+                <default>false</default>
+                <label>Greek (Greece)</label>
+            </value>
+            <value>
+                <fullName>German (Switzerland)</fullName>
+                <default>false</default>
+                <label>German (Switzerland)</label>
+            </value>
+            <value>
+                <fullName>English (Switzerland)</fullName>
+                <default>false</default>
+                <label>English (Switzerland)</label>
+            </value>
+            <value>
+                <fullName>French (Switzerland)</fullName>
+                <default>false</default>
+                <label>French (Switzerland)</label>
+            </value>
+            <value>
+                <fullName>Alsatian (Switzerland)</fullName>
+                <default>false</default>
+                <label>Alsatian (Switzerland)</label>
+            </value>
+            <value>
+                <fullName>Italian (Switzerland)</fullName>
+                <default>false</default>
+                <label>Italian (Switzerland)</label>
+            </value>
+            <value>
+                <fullName>Portuguese (Switzerland)</fullName>
+                <default>false</default>
+                <label>Portuguese (Switzerland)</label>
+            </value>
+            <value>
+                <fullName>Romansh (Switzerland)</fullName>
+                <default>false</default>
+                <label>Romansh (Switzerland)</label>
+            </value>
+            <value>
+                <fullName>Walser (Switzerland)</fullName>
+                <default>false</default>
+                <label>Walser (Switzerland)</label>
+            </value>
+            <value>
+                <fullName>English (Republic of the Philippines)</fullName>
+                <default>false</default>
+                <label>English (Republic of the Philippines)</label>
+            </value>
+            <value>
+                <fullName>Spanish (Philippines)</fullName>
+                <default>false</default>
+                <label>Spanish (Philippines)</label>
+            </value>
+            <value>
+                <fullName>Filipino (Philippines)</fullName>
+                <default>false</default>
+                <label>Filipino (Philippines)</label>
+            </value>
+            <value>
+                <fullName>Bulgarian (Bulgaria)</fullName>
+                <default>false</default>
+                <label>Bulgarian (Bulgaria)</label>
+            </value>
+            <value>
+                <fullName>Croatian (Croatia)</fullName>
+                <default>false</default>
+                <label>Croatian (Croatia)</label>
+            </value>
+            <value>
+                <fullName>Hungarian (Hungary)</fullName>
+                <default>false</default>
+                <label>Hungarian (Hungary)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

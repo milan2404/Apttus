@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Exception__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores error coming from MS Teams, if any</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Error messages from MS Teams</inlineHelpText>
+    <label>Exception</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

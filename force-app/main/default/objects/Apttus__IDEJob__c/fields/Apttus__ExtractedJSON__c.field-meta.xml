@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ExtractedJSON__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The extracted JSON string containing the mapped clause/field information</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The extracted JSON string containing the mapped clause/field information</inlineHelpText>
+    <label>Extracted JSON</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

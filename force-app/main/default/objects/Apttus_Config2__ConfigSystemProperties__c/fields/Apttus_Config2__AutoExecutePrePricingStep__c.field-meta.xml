@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AutoExecutePrePricingStep__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether pre-pricing step should be executed automatically before pricing. Only applicable when before pricing is enabled by the pricing extension callback.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether pre-pricing step should be executed automatically before pricing. Only applicable when before pricing is enabled by the pricing extension callback.</inlineHelpText>
+    <label>Auto Execute Pre-Pricing Step</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

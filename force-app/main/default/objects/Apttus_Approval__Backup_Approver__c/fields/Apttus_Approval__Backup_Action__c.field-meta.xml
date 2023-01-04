@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__Backup_Action__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Backup action</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(Apttus_Approval__InEffect__c), HYPERLINK(&quot;/apex/Apttus_Approval__BackupApproverAction?backupApproverObjId=&quot; &amp; Id &amp; &quot;&amp;approverId=&quot; &amp; Apttus_Approval__Current_User__c &amp; &quot;&amp;backupApproverAction=activate&quot;, IMAGE(&quot;/resource/Apttus_Approval__Button_Activate&quot;, &quot;Activate Backup&quot;), &quot;_self&quot;), IF(AND(Apttus_Approval__InEffect__c,Apttus_Approval__IsActive__c), HYPERLINK(&quot;/apex/Apttus_Approval__BackupApproverAction?backupApproverObjId=&quot; &amp; Id &amp; &quot;&amp;approverId=&quot; &amp; Apttus_Approval__Current_User__c &amp; &quot;&amp;backupApproverAction=deactivate&quot;, IMAGE(&quot;/resource/Apttus_Approval__Button_Deactivate&quot;, &quot;Deactivate Backup&quot;), &quot;_self&quot;), &quot;&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Action to activate or deactivate the backup</inlineHelpText>
+    <label>Backup/Delegate Action</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

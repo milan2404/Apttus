@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Continue__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Use this action to continue an In-Progress wizard</description>
+    <externalId>false</externalId>
+    <formula>IF(Apttus__Completed__c = false, HYPERLINK(&quot;/apex/Apttus__Wizard?wizardruntimeid=&quot; &amp;Id,&quot;Continue&quot;), &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Use this action to continue an In-Progress wizard</inlineHelpText>
+    <label>Continue</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

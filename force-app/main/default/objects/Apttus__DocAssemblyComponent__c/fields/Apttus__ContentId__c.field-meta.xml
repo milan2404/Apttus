@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ContentId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the content for the component</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the content for the component</inlineHelpText>
+    <label>Content</label>
+    <referenceTo>Apttus__APTS_Template__c</referenceTo>
+    <relationshipLabel>Doc Assembly Components</relationshipLabel>
+    <relationshipName>DocAssemblyComponents</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

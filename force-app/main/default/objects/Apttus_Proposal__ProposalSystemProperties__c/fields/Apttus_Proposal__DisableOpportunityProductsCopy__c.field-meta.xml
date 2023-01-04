@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__DisableOpportunityProductsCopy__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether opportunity products copy to the quote/proposal is disabled</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether opportunity products copy to the quote/proposal is disabled</inlineHelpText>
+    <label>Disable Opportunity Products Copy</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__PageAreaForActionDisplay__c</fullName>
+    <defaultValue>&quot;Benefit Matrix&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The area in the page to display the custom actions</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The area in the page to display the custom actions</inlineHelpText>
+    <label>Page Area For Action Display</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

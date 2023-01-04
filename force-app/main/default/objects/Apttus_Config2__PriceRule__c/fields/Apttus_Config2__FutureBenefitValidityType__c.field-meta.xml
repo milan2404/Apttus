@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__FutureBenefitValidityType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Establishes the validity period of a future benefit. Only applicable to incentive rules.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Establishes the validity period of a future benefit. Only applicable to incentive rules.</inlineHelpText>
+    <label>Future Benefit Validity Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Incentive End Date</fullName>
+                <default>false</default>
+                <label>Incentive End Date</label>
+            </value>
+            <value>
+                <fullName>Within X Days</fullName>
+                <default>false</default>
+                <label>Within X Days</label>
+            </value>
+            <value>
+                <fullName>Within X Months</fullName>
+                <default>false</default>
+                <label>Within X Months</label>
+            </value>
+            <value>
+                <fullName>Within Calendar Month</fullName>
+                <default>false</default>
+                <label>Within Calendar Month</label>
+            </value>
+            <value>
+                <fullName>Within Calendar Quarter</fullName>
+                <default>false</default>
+                <label>Within Calendar Quarter</label>
+            </value>
+            <value>
+                <fullName>Within Calendar Year</fullName>
+                <default>false</default>
+                <label>Within Calendar Year</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DisableAddAnother__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This custom setting removes the user&apos;s ability to add multiple instances of the same product.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This custom setting removes the user&apos;s ability to add multiple instances of the same product.</inlineHelpText>
+    <label>Disable Add Another</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CartLineItemsRetrieveChunkSize__c</fullName>
+    <defaultValue>100</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The cart line items retrieve chunk size. The default value is 100. The SFDC governor limit affects the chunk size.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The cart line items retrieve chunk size. The default value is 100. The SFDC governor limit affects the chunk size.</inlineHelpText>
+    <label>Cart Line Items Retrieve Chunk Size</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

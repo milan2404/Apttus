@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FF_Send_To_Third_Party__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF (OR(ISPICKVAL(Apttus__Status_Category__c,&quot;In Signatures&quot;), AND(ISPICKVAL(Apttus__Status_Category__c,&quot;In Authoring&quot;),ISPICKVAL(Apttus__Source__c,&quot;Other Party Paper&quot;))), HYPERLINK(&quot;/servlet/servlet.Integration?lid=00b50000000l7uN&quot;&amp;&quot;&amp;eid=&quot;&amp;Id, &quot;Send To Other Party&quot;, &quot;_self&quot;), NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Send To Other Party (OBSOLETE)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

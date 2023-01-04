@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Dimension5Id__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the fifth dimension. Only applicable to Dimension rules.</description>
+    <externalId>false</externalId>
+    <label>Dimension 5</label>
+    <referenceTo>Apttus_Config2__PriceDimension__c</referenceTo>
+    <relationshipLabel>Price Rules (Dimension 5)</relationshipLabel>
+    <relationshipName>PriceRules5</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__IsDelegate__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If unchecked, requests assigned to the current user get assigned to the backup instead.  When checked, requests assigned to the current user remain assigned to them but their delegates are notified and can take action on the requests as well.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If unchecked, requests assigned to the current user get assigned to the backup instead.  When checked, requests assigned to the current user remain assigned to them but their delegates are notified and can take action on the requests as well.</inlineHelpText>
+    <label>Is Delegate</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

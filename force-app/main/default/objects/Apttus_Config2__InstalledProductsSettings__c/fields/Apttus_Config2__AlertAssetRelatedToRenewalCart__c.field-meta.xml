@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AlertAssetRelatedToRenewalCart__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Display an alert when user tries to manually renew an asset associated with a system generated renewal cart</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Display an alert when user tries to manually renew an asset associated with a system generated renewal cart</inlineHelpText>
+    <label>Alert Asset Related To Renewal Cart</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

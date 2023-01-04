@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__IncentivePeriodEndDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The period end date of the current window for incentive processing. The window is determined by the payout calculation frequency of the associated incentives.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The period end date of the current window for incentive processing. The window is determined by the payout calculation frequency of the associated incentives.</inlineHelpText>
+    <label>Incentive Period End Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__OffsetOccurrence__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates how many times a specific offset will occur when calculating the payment term</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates how many times a specific offset will occur when calculating the payment term</inlineHelpText>
+    <label>Offset Occurrence</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

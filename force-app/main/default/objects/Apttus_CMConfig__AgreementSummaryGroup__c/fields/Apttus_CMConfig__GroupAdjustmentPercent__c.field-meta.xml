@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__GroupAdjustmentPercent__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The group adjustment percent</description>
+    <externalId>false</externalId>
+    <label>Group Adjustment (%)</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

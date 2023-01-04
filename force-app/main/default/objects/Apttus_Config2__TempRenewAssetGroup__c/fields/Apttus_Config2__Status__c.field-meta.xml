@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The renewal status</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The renewal status</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Renew Assets</fullName>
+                <default>false</default>
+                <label>Renew Assets</label>
+            </value>
+            <value>
+                <fullName>Apply Rule</fullName>
+                <default>false</default>
+                <label>Apply Rule</label>
+            </value>
+            <value>
+                <fullName>Update Price</fullName>
+                <default>false</default>
+                <label>Update Price</label>
+            </value>
+            <value>
+                <fullName>Sync Cart</fullName>
+                <default>false</default>
+                <label>Sync Cart</label>
+            </value>
+            <value>
+                <fullName>Create Opportunity</fullName>
+                <default>false</default>
+                <label>Create Opportunity</label>
+            </value>
+            <value>
+                <fullName>Complete</fullName>
+                <default>false</default>
+                <label>Complete</label>
+            </value>
+            <value>
+                <fullName>Error</fullName>
+                <default>false</default>
+                <label>Error</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

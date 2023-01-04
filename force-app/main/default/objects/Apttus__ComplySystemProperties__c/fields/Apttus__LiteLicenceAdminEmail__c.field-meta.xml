@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__LiteLicenceAdminEmail__c</fullName>
+    <deprecated>false</deprecated>
+    <description>To hold the email address of customer admin to report license violation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>System admin email address to send CLM Lite License Usage Monitoring Report</inlineHelpText>
+    <label>CLM Lite License Admin Email</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

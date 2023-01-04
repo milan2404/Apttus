@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ContextType__c</fullName>
+    <defaultValue>&quot;Line Item&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The context type associated with the criteria fields. 
+Valid Values are:
+============
+Line Item
+Attribute Extension</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The context type associated with the criteria fields. 
+Valid Values are:
+============
+Line Item
+Attribute Extension</inlineHelpText>
+    <label>Context Type</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

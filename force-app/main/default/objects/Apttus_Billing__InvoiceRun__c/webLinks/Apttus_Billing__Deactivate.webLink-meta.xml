@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__Deactivate</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Deactivate</masterLabel>
+    <openType>sidebar</openType>
+    <page>Apttus_Billing__DeactivateInvoiceRun</page>
+    <protected>false</protected>
+</WebLink>

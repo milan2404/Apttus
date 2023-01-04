@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EnableCategoryFilter__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable Narrow Your Search category filtering during product search.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable Narrow Your Search category filtering during product search.</inlineHelpText>
+    <label>Enable Category Filter</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

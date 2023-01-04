@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EnableAdjustmentBuckets__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether adjustments may be grouped into buckets for use as targets for applying further adjustments. Only applicable when multiple adjustments are enabled via Max Adjustment Lines setting.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether adjustments may be grouped into buckets for use as targets for applying further adjustments. Only applicable when multiple adjustments are enabled via Max Adjustment Lines setting.</inlineHelpText>
+    <label>Enable Adjustment Buckets</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

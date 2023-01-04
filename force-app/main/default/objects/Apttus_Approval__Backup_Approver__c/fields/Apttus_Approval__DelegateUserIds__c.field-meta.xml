@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__DelegateUserIds__c</fullName>
+    <deprecated>false</deprecated>
+    <description>IDs of approvers who are designated as delegates of the current user.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>IDs of approvers who are designated as delegates of the current user.</inlineHelpText>
+    <label>Delegate Users</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

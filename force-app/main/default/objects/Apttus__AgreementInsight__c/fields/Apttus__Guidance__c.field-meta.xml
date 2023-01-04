@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Guidance__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Guidance of the Insight</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Guidance of the Insight</inlineHelpText>
+    <label>Guidance</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

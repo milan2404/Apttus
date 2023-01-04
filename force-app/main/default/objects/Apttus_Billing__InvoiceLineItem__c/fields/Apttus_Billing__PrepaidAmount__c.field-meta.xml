@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__PrepaidAmount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The field is use to track the portion of the Invoice Line Item that was credited by one or more Wallets during the Invoice Run.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To Track the portion of the Invoice Line Item that was credited by Wallets.</inlineHelpText>
+    <label>Prepaid Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

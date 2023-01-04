@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__UseType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The formula use type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The formula use type</inlineHelpText>
+    <label>Use Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Reference</fullName>
+                <default>true</default>
+                <label>Reference</label>
+            </value>
+            <value>
+                <fullName>Expression</fullName>
+                <default>false</default>
+                <label>Expression</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

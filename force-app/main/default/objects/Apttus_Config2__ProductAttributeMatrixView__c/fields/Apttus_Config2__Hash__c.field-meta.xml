@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Hash__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The encoded matrix information.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The encoded matrix information.</inlineHelpText>
+    <label>Hash</label>
+    <length>51200</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

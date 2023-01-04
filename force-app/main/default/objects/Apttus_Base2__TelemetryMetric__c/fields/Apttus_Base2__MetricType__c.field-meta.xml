@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Base2__MetricType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of metric captured.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of metric captured.</inlineHelpText>
+    <label>Metric Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CPU Time</fullName>
+                <default>false</default>
+                <label>CPU Time</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

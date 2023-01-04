@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CostModelId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Reference to master cost model</description>
+    <externalId>false</externalId>
+    <label>Cost Model</label>
+    <referenceTo>Apttus_Config2__CostModel__c</referenceTo>
+    <relationshipLabel>Cost Types</relationshipLabel>
+    <relationshipName>CostTypes</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

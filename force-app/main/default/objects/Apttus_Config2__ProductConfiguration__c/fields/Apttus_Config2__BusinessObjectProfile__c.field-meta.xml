@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__BusinessObjectProfile__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The processing profile of the business object associated with the configuration</description>
+    <externalId>false</externalId>
+    <inlineHelpText>“Regular” will process the quote as a single entity.  Select “Split” before clicking on Configure Products to allow the subdivision of the quote into multiple smaller quotes for business reasons, volume related reasons or multiple sold to accounts.</inlineHelpText>
+    <label>Business Object Profile</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Regular</fullName>
+                <default>true</default>
+                <label>Regular</label>
+            </value>
+            <value>
+                <fullName>Split</fullName>
+                <default>false</default>
+                <label>Split</label>
+            </value>
+            <value>
+                <fullName>Enterprise</fullName>
+                <default>false</default>
+                <label>Enterprise</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

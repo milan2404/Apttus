@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EmbedCode__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Represents code for embedded audio or video.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter embed code for video. For example 
+&lt;iframe id=&quot;youtube&quot; style=&quot;display: none;&quot; title=&quot;YouTube video player&quot; width=&quot;640&quot; height=&quot;390&quot; src=&quot;http://www.youtube.com/embed/UZnP6prUWsU&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</inlineHelpText>
+    <label>Embed Code</label>
+    <length>4000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

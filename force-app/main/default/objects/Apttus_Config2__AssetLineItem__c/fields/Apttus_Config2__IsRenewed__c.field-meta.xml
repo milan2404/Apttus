@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IsRenewed__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the asset line item is renewed</description>
+    <externalId>false</externalId>
+    <formula>Apttus_Config2__EndDate__c  =  Apttus_Config2__LastRenewEndDate__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Indicates whether the asset line item is renewed</inlineHelpText>
+    <label>Is Renewed</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__DeltaPrice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The rolled up delta price of products that belong to the group</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The rolled up delta price of products that belong to the group</inlineHelpText>
+    <label>Delta Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_QPConfig__PricingDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The pricing date, The product list price is determined based on this date.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The pricing date, The product list price is determined based on this date.</inlineHelpText>
+    <label>Pricing Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

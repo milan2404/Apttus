@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__LineItemId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the associated agreement line item</description>
+    <externalId>false</externalId>
+    <label>Line Item</label>
+    <referenceTo>Apttus__AgreementLineItem__c</referenceTo>
+    <relationshipLabel>Product Attribute Values</relationshipLabel>
+    <relationshipName>ProductAttributeValues</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

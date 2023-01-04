@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ConfigureProducts__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( ($User.Id == OwnerId &amp;&amp; ! (ISPICKVAL(Apttus_Config2__Status__c, &quot;Cancelled&quot;) || ISPICKVAL(Apttus_Config2__Status__c, &quot;Deleted&quot;) || ISPICKVAL(Apttus_Config2__Status__c, &quot;Abandoned&quot;))),
+        HYPERLINK(&quot;/apex/Apttus_Config2__CollabRequestInline?id=&quot;&amp;Id&amp;&quot;&amp;flow=ngcpq&quot; , IMAGE(&quot;/resource/Apttus_Config2__Button_Configure&quot;, &quot;Configure Products&quot;),&quot;_self&quot;),
+        NULL
+        )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Configure Products</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

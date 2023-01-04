@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__StepGroupAction</fullName>
+    <columns>NAME</columns>
+    <columns>Apttus_Approval__Step_Group_Action__c</columns>
+    <columns>Apttus_Approval__Step_Group_Action_Field_Name__c</columns>
+    <columns>Apttus_Approval__Step_Group_Action_Field_Update_Type__c</columns>
+    <columns>Apttus_Approval__Step_Group_Action_Field_Value__c</columns>
+    <columns>Apttus_Approval__Step_Group_Action_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Apttus_Approval__Approval_Process__c.Apttus_Approval__StepGroupAction</value>
+    </filters>
+    <label>Step Group Action</label>
+</ListView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__RequestType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The approval request type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The approval request type</inlineHelpText>
+    <label>Request Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Standard</fullName>
+                <default>false</default>
+                <label>Standard</label>
+            </value>
+            <value>
+                <fullName>Subprocess</fullName>
+                <default>false</default>
+                <label>Subprocess</label>
+            </value>
+            <value>
+                <fullName>Child Process</fullName>
+                <default>false</default>
+                <label>Child Process</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

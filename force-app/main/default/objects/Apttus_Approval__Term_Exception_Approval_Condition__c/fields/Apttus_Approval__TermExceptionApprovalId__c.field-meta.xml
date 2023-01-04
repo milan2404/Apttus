@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__TermExceptionApprovalId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The term exception approval associated with the condition</description>
+    <externalId>false</externalId>
+    <label>Term Exception Approval</label>
+    <referenceTo>Apttus_Approval__Term_Exception_Approval__c</referenceTo>
+    <relationshipLabel>Term Exception Approval Conditions</relationshipLabel>
+    <relationshipName>TermExceptionApprovalConditions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

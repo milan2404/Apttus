@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AssetStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The asset status</description>
+    <externalId>false</externalId>
+    <label>Asset Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Pending Activation</fullName>
+                <default>false</default>
+                <label>Pending Activation</label>
+            </value>
+            <value>
+                <fullName>Pending Re-activation</fullName>
+                <default>false</default>
+                <label>Pending Re-activation</label>
+            </value>
+            <value>
+                <fullName>Activated</fullName>
+                <default>false</default>
+                <label>Activated</label>
+            </value>
+            <value>
+                <fullName>Pending Renewal</fullName>
+                <default>false</default>
+                <label>Pending Renewal</label>
+            </value>
+            <value>
+                <fullName>Renewed</fullName>
+                <default>false</default>
+                <label>Renewed</label>
+            </value>
+            <value>
+                <fullName>Pending Cancellation</fullName>
+                <default>false</default>
+                <label>Pending Cancellation</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Pending Change</fullName>
+                <default>false</default>
+                <label>Pending Change</label>
+            </value>
+            <value>
+                <fullName>Pending Suspension</fullName>
+                <default>false</default>
+                <label>Pending Suspension</label>
+            </value>
+            <value>
+                <fullName>Suspended</fullName>
+                <default>false</default>
+                <label>Suspended</label>
+            </value>
+            <value>
+                <fullName>Pending Resume</fullName>
+                <default>false</default>
+                <label>Pending Resume</label>
+            </value>
+            <value>
+                <fullName>Incremented</fullName>
+                <default>false</default>
+                <label>Incremented</label>
+            </value>
+            <value>
+                <fullName>Amended</fullName>
+                <default>false</default>
+                <label>Amended</label>
+            </value>
+            <value>
+                <fullName>Changed Configuration</fullName>
+                <default>false</default>
+                <label>Changed Configuration</label>
+            </value>
+            <value>
+                <fullName>Superseded</fullName>
+                <default>false</default>
+                <label>Superseded</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

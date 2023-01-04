@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__RemoveRecipientOrdering__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This setting controls the visibility of the move up/down arrows on the add recipient user interface. If checked, the move up/down arrows will be hidden.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This setting controls the visibility of the move up/down arrows on the add recipient user interface. If checked, the move up/down arrows will be hidden.</inlineHelpText>
+    <label>Remove Recipient Ordering</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

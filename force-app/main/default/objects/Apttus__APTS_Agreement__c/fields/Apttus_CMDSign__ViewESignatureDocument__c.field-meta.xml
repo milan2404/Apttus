@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMDSign__ViewESignatureDocument__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Correct E-Signature document</description>
+    <externalId>false</externalId>
+    <formula>IF(
+	AND(
+           ISPICKVAL(Apttus__Status_Category__c,&quot;In Signatures&quot;), 
+           ISPICKVAL(Apttus__Status__c,&quot;Other Party Signatures&quot;) 
+	),
+HYPERLINK(&quot;/apex/Apttus_DocuApi__DocuSignViewExistingEnvelope?envelopeparentid=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_DocuApi__ViewEnvelope&quot;,&quot;Correct E-Signature Document&quot;), &quot;_blank&quot;),
+NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Correct E-Signature document</inlineHelpText>
+    <label>Correct E-Signature Document</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

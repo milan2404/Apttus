@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMDSign__OneClickSend__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Use this to send for eSignature directly from the Agreement page. The eSignature request will automatically include the recipients from the default recipient list/OR from the field defined under the custom setting field &quot;Auto Select Recipient Field&quot;, and will automatically select the first attachment from the agreement&apos;s notes &amp; attachment list.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this to send for eSignature directly from the Agreement page, by auto including the recipients from the default recipient list/OR from the field defined under the custom setting field &quot;Auto Select Recipient Field&quot;, and auto selecting the first doc.</inlineHelpText>
+    <label>One Click Send</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

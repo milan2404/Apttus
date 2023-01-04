@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FF_Generate_Supporting_Document__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF (NOT(ISPICKVAL(Apttus__Status_Category__c,&quot;Import&quot;)), IF(OR($User.UIThemeDisplayed == &apos;Theme4d&apos;, $User.UIThemeDisplayed == &apos;Theme4t&apos;, $User.UIThemeDisplayed == &apos;Theme4u&apos;),   HYPERLINK(&quot;/apex/Apttus__LightningSelectTemplate?id=&quot; &amp;Id &amp; &quot;&amp;action=Generate_Supporting_Document&amp;templateType=Supporting_Document&quot;, IMAGE(&quot;/resource/Apttus__Button_GenerateSupportingDocument&quot;, &quot;Generate Supporting Document&quot;),&quot;_self&quot;),   HYPERLINK(&quot;/apex/Apttus__SelectTemplate?id=&quot; &amp;Id &amp; &quot;&amp;action=Generate_Supporting_Document&amp;templateType=Supporting_Document&quot;, IMAGE(&quot;/resource/Apttus__Button_GenerateSupportingDocument&quot;, &quot;Generate Supporting Document&quot;),&quot;_self&quot;)), NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Generate Supporting Document</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ConstraintRuleId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Reference to the master record which is a constraint rule.</description>
+    <externalId>false</externalId>
+    <label>Constraint Rule</label>
+    <referenceTo>Apttus_Config2__ConstraintRule__c</referenceTo>
+    <relationshipLabel>Constraint Rule Conditions</relationshipLabel>
+    <relationshipName>ConstraintRuleConditions</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

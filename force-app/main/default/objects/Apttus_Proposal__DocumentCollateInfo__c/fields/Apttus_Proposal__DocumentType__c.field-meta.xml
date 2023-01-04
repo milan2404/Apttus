@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__DocumentType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>What sort of document this record is a representation of</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What sort of document this record is a representation of</inlineHelpText>
+    <label>Document Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Generated Document</fullName>
+                <default>false</default>
+                <label>Generated Document</label>
+            </value>
+            <value>
+                <fullName>Collated Document</fullName>
+                <default>false</default>
+                <label>Collated Document</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

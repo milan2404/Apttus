@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__EmailSubject__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The subject of the email that will be sent to all recipients. This can be a maximum of 100 characters.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The subject of the email that will be sent to all recipients. This can be a maximum of 100 characters.</inlineHelpText>
+    <label>Email Subject</label>
+    <length>100</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

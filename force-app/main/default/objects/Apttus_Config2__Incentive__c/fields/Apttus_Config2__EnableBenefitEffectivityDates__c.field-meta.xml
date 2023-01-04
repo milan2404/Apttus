@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EnableBenefitEffectivityDates__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether effective dates are enabled for benefits associated with the incentive</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether effective dates are enabled for benefits associated with the incentive</inlineHelpText>
+    <label>Enable Benefit Effectivity Dates</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

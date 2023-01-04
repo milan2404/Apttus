@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Operation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Rollup operation applied to the value expression of the line items returned by the match expression.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Rollup operation applied to the value expression of the line items returned by the match expression.</inlineHelpText>
+    <label>Operation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SUM</fullName>
+                <default>false</default>
+                <label>SUM</label>
+            </value>
+            <value>
+                <fullName>MIN</fullName>
+                <default>false</default>
+                <label>MIN</label>
+            </value>
+            <value>
+                <fullName>MAX</fullName>
+                <default>false</default>
+                <label>MAX</label>
+            </value>
+            <value>
+                <fullName>AVG</fullName>
+                <default>false</default>
+                <label>AVG</label>
+            </value>
+            <value>
+                <fullName>AND</fullName>
+                <default>false</default>
+                <label>AND</label>
+            </value>
+            <value>
+                <fullName>OR</fullName>
+                <default>false</default>
+                <label>OR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

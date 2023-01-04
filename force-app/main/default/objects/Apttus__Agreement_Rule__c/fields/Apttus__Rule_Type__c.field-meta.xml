@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Rule_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Rule Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agreement Template</fullName>
+                <default>false</default>
+                <label>Agreement Template</label>
+            </value>
+            <value>
+                <fullName>Agreement Type</fullName>
+                <default>false</default>
+                <label>Agreement Type</label>
+            </value>
+            <value>
+                <fullName>Email Template</fullName>
+                <default>false</default>
+                <label>Email Template</label>
+            </value>
+            <value>
+                <fullName>Queue Assignment</fullName>
+                <default>false</default>
+                <label>Queue Assignment</label>
+            </value>
+            <value>
+                <fullName>Submit Request Mode</fullName>
+                <default>false</default>
+                <label>Submit Request Mode</label>
+            </value>
+            <value>
+                <fullName>Document Folder</fullName>
+                <default>false</default>
+                <label>Document Folder</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__AccountRootId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The account Id of the root. A root account is the primordial account which has all of the children, grandchildren, etc. in the hierarchy. There can be only one root account for a hierarchy.
+Root &gt; Parent &gt; Leaf</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The account Id of the root. A root account is the primordial account which has all of the children, grandchildren, etc. in the hierarchy. There can be only one root account for a hierarchy.
+Root &gt; Parent &gt; Leaf</inlineHelpText>
+    <label>Account Root</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Account Hierarchies (Account)</relationshipLabel>
+    <relationshipName>AccountHierarchiesRoot</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

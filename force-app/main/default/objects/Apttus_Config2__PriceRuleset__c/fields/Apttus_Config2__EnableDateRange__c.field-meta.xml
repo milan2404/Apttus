@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EnableDateRange__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether date range is enabled for the rule or benefit entries</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether date range is enabled for the rule or benefit entries</inlineHelpText>
+    <label>Enable Date Range</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

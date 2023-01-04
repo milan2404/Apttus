@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__CancelCreditMemo</fullName>
+    <availability>online</availability>
+    <description>Allow user to change the state of the Credit Memo to Cancelled (can only do this from Draft)</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Cancel Credit Memo</masterLabel>
+    <openType>sidebar</openType>
+    <page>Apttus_Billing__CreditMemoCancel</page>
+    <protected>false</protected>
+</WebLink>

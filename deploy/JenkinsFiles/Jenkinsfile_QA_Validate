@@ -1,0 +1,65 @@
+pipeline {
+    agent any
+
+    environment {
+        NODEJS_HOME = tool('nodeJS')
+        PATH="${env.PATH}:/usr/local/bin/sfdx:${env.NODEJS_HOME}/bin"
+    }
+
+    stages{
+
+        stage('Checkout Source'){
+            steps{
+                checkout scm
+            }
+        }
+
+        stage('Deploy'){
+            steps{
+                withCredentials([
+                    file(credentialsId: 'JWTKEYFILE', variable: 'JWTKEYFILE'),
+                    string(credentialsId: 'INSTANCEURL', variable: 'INSTANCEURL'),
+                    string(credentialsId: 'API_VERSION_SF', variable: 'APIVERSION'),
+                    string(credentialsId: 'CLIENTID', variable: 'CONNECTED_APP_CONSUMER_KEY'),
+                    usernamePassword(credentialsId: 'SF', passwordVariable: 'PASSWORD_SF', usernameVariable: 'USERNAME_SF'),
+                    usernamePassword(credentialsId: 'GIT', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')
+                ]) {
+                    
+                    script {
+
+                        dir("deploy/scripts"){
+                            sh 'bash install_Plugins.sh'
+                            sh 'git remote set-url origin https://${GIT_USERNAME}:${GIT_PASSWORD}@https://github.com/TargetEverest.git'
+                            sh 'bash createPackage.sh -b origin/main'
+                            sh 'bash buildProfiles.sh'
+                            sh 'bash createManifest.sh'
+                            sh 'bash fetchTestClasses.sh'
+                        }
+
+                        echo "Start Authentication"
+
+                        authenticateResult = sh(returnStatus: true, script: "sfdx force:auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${USERNAME_SF} --jwtkeyfile ${JWTKEYFILE} --setdefaultdevhubusername --instanceurl ${INSTANCEURL}")
+
+                        echo "authenticateResult : $authenticateResult"
+
+                        if (authenticateResult != 0) { error 'Authentication failed, Please check your Salesforce credentials' }
+
+                        testsToRun = readFile('deploy/temp/testsToRun.txt')
+                        
+                        //deployWithoutTestResult = sh(returnStdout: true, script: "sfdx force:source:deploy --wait 9999 --manifest deploy/temp/package.xml --predestructivechanges force-app/main/default/destructiveChangesPre.xml --postdestructivechanges force-app/main/default/destructiveChangesPost.xml -u ${USERNAME_SF} --apiversion ${APIVERSION}")
+                        //echo "deployWithoutTestResult : $deployWithoutTestResult"
+                        
+                        //vaidateWithoutTestResult = sh(returnStdout: true, script: "sfdx force:source:deploy --wait 9999 --manifest deploy/temp/package.xml --predestructivechanges force-app/main/default/destructiveChangesPre.xml --postdestructivechanges force-app/main/default/destructiveChangesPost.xml -u ${USERNAME_SF} --apiversion ${APIVERSION} --checkonly")
+                        //echo "vaidateWithoutTestResult : $vaidateWithoutTestResult"
+                        
+                        //vaidateWithAllTestResult = sh(returnStdout: true, script: "sfdx force:source:deploy --wait 9999 --manifest deploy/temp/package.xml --predestructivechanges force-app/main/default/destructiveChangesPre.xml --postdestructivechanges force-app/main/default/destructiveChangesPost.xml -u ${USERNAME_SF} --apiversion ${APIVERSION} --checkonly --testlevel RunLocalTests")
+                        //echo "vaidateWithAllTestResult : $vaidateWithAllTestResult"
+                        
+                        vaidateWithSpecifiedTestResult = sh(returnStdout: true, script: "sfdx force:source:deploy --wait 9999 --manifest deploy/temp/package.xml --predestructivechanges force-app/main/default/destructiveChangesPre.xml --postdestructivechanges force-app/main/default/destructiveChangesPost.xml -u ${USERNAME_SF} --apiversion ${APIVERSION} --checkonly --testlevel RunSpecifiedTests --runtests '${testsToRun}'")
+                        echo "vaidateWithSpecifiedTestResult : $vaidateWithSpecifiedTestResult"
+                    }
+                }
+            }
+        }
+    }
+}

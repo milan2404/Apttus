@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ReviewEndTime__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The review end time</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The review end time</inlineHelpText>
+    <label>Review End Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

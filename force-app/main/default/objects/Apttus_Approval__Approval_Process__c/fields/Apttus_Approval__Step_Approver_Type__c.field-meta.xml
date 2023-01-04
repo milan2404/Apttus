@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__Step_Approver_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Step Approver Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Approver 1</fullName>
+                <default>false</default>
+                <label>Approver 1</label>
+            </value>
+            <value>
+                <fullName>Approver 2</fullName>
+                <default>false</default>
+                <label>Approver 2</label>
+            </value>
+            <value>
+                <fullName>Approver 3</fullName>
+                <default>false</default>
+                <label>Approver 3</label>
+            </value>
+            <value>
+                <fullName>Approver 4</fullName>
+                <default>false</default>
+                <label>Approver 4</label>
+            </value>
+            <value>
+                <fullName>Approver 5</fullName>
+                <default>false</default>
+                <label>Approver 5</label>
+            </value>
+            <value>
+                <fullName>Approver 6</fullName>
+                <default>false</default>
+                <label>Approver 6</label>
+            </value>
+            <value>
+                <fullName>Unspecified</fullName>
+                <default>true</default>
+                <label>Unspecified</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

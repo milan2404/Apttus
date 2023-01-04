@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AdjustmentSource__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the source for the adjustment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the source for the adjustment</inlineHelpText>
+    <label>Adjustment Source</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>First Ramp</fullName>
+                <default>false</default>
+                <label>First Ramp</label>
+            </value>
+            <value>
+                <fullName>Previous Ramp</fullName>
+                <default>false</default>
+                <label>Previous Ramp</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ContentType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Based on the choice Options, Attributes or Detail Page Url contents are displayed. Detail page is displayed inside iframe. Default value is Options.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Based on the choice Options, Attributes or Detail Page Url contents are displayed.</inlineHelpText>
+    <label>Content Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Options</fullName>
+                <default>true</default>
+                <label>Options</label>
+            </value>
+            <value>
+                <fullName>Attributes</fullName>
+                <default>false</default>
+                <label>Attributes</label>
+            </value>
+            <value>
+                <fullName>Detail Page</fullName>
+                <default>false</default>
+                <label>Detail Page</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

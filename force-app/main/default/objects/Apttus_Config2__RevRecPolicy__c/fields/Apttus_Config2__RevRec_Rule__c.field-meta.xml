@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RevRec_Rule__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The revenue recognition rule associated with the policy</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The revenue recognition rule associated with the policy</inlineHelpText>
+    <label>Revenue Recognition Rule</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Immediate</fullName>
+                <default>true</default>
+                <label>Immediate</label>
+            </value>
+            <value>
+                <fullName>Ratable</fullName>
+                <default>false</default>
+                <label>Ratable</label>
+            </value>
+            <value>
+                <fullName>Subscription</fullName>
+                <default>false</default>
+                <label>Subscription</label>
+            </value>
+            <value>
+                <fullName>Manual</fullName>
+                <default>false</default>
+                <label>Manual</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

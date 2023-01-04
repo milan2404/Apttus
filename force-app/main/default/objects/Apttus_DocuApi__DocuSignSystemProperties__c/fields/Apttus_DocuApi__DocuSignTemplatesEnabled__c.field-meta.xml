@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__DocuSignTemplatesEnabled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, it will provide a DocuSign template selection list on the user interface, under the additional details section. When it is checked, recipient role selection will not be available on the user interface.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, it will provide a DocuSign template selection list on the user interface, under the additional details section. When it is checked, recipient role selection will not be available on the user interface.</inlineHelpText>
+    <label>DocuSign Templates Enabled</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

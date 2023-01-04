@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__All</fullName>
+    <columns>NAME</columns>
+    <columns>Apttus_Approval__BusinessObjectType__c</columns>
+    <columns>Apttus_Approval__BusinessObjectId__c</columns>
+    <columns>Apttus_Approval__DisplayFields__c</columns>
+    <columns>Apttus_Approval__DisplayHeaderFields__c</columns>
+    <columns>Apttus_Approval__AttachmentIds__c</columns>
+    <columns>Apttus_Approval__ProcessComments__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

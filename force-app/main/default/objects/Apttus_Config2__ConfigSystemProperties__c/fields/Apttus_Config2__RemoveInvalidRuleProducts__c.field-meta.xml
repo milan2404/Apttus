@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RemoveInvalidRuleProducts__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether line items auto included by invalid rules should be auto removed on cart launch. If not auto removed, the user will be prompted to take appropriate action.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether line items auto included by invalid rules should be auto removed on cart launch. If not auto removed, the user will be prompted to take appropriate action.</inlineHelpText>
+    <label>Remove Invalid Rule Products</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

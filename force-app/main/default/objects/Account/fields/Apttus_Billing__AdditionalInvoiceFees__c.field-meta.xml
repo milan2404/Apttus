@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__AdditionalInvoiceFees__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Additional fees that shall be added to the invoice(s) generated for this account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Additional fees that shall be added to the invoice(s) generated for this account.</inlineHelpText>
+    <label>Additional Invoice Fees</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

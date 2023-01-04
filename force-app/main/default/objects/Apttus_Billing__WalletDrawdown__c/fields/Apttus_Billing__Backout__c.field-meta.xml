@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__Backout__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Flag to indicate if the drawdown is backed out due to ABO actions</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Flag to indicate if the drawdown is backed out due to ABO actions</inlineHelpText>
+    <label>Backout</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

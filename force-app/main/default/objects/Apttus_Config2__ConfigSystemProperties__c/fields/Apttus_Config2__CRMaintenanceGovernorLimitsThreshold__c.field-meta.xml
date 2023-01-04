@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CRMaintenanceGovernorLimitsThreshold__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The percentage of governor limit to be used as a threshold for constraint rule maintenance job. By default, the threshold will be 100% of the governor limit.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The percentage of governor limit to be used as a threshold for constraint rule maintenance job. By default, the threshold will be 100% of the governor limit.</inlineHelpText>
+    <label>CR Maintenance Governor Limits Threshold</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

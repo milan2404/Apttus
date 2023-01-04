@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__CreditMemoAttachmentTemplate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The optional Name of the Template to use when creating an attachment file for the Credit Memo.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The optional Name of the Template to use when creating an attachment file for the Credit Memo.</inlineHelpText>
+    <label>Credit Memo Attachment Template</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

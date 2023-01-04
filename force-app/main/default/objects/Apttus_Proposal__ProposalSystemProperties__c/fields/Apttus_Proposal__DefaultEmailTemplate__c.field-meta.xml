@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__DefaultEmailTemplate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The default email used when sending the email</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The default email used when sending the email</inlineHelpText>
+    <label>Default Template Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

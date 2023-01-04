@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_QPConfig__CreateCartVersion</fullName>
+    <availability>online</availability>
+    <description>Creates a new version of a finalized cart and makes it available for edit</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Create Cart Version</masterLabel>
+    <openType>sidebar</openType>
+    <page>Apttus_QPConfig__ProposalCreateCartVersion</page>
+    <protected>false</protected>
+</WebLink>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ValueObject__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The object to map the value to</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The object to map the value to</inlineHelpText>
+    <label>Value Object</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>User</fullName>
+                <default>false</default>
+                <label>User</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__ProductConfiguration__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__ProductConfiguration__c</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__ProductAttributeValue__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__ProductAttributeValue__c</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__Incentive__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__Incentive__c</label>
+            </value>
+            <value>
+                <fullName>Product2</fullName>
+                <default>false</default>
+                <label>Product2</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__SearchAttributeValue__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__SearchAttributeValue__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

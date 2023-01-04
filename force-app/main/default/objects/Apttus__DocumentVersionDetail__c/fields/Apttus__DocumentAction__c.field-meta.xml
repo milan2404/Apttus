@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__DocumentAction__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(Apttus__IsTransient__c == FALSE &amp;&amp; LOWER(RIGHT( Apttus__Title__c , 5)) = &apos;.docx&apos;, HYPERLINK(&quot;/apex/Apttus__OCCIntermediateView?agreementId=&quot; &amp; Apttus__DocumentVersionId__r.Apttus__AgreementId__c &amp; &quot;&amp;attachmentId=&quot; &amp; Apttus__ContentId__c &amp; &quot;&amp;isVersioned=&quot; &amp; IF( Apttus__DocumentVersionId__r.Apttus__AgreementId__r.Apttus__VersionAware__c, &quot;true&quot;, &quot;false&quot;) &amp; &quot;&amp;retId=&quot;&amp; Apttus__DocumentVersionId__c &amp; &quot;&amp;UserUITheme=&quot; &amp; IF( ($User.UITheme == &apos;Theme4d&apos; || $User.UITheme == &apos;Theme4u&apos;),&apos;lightning&apos;,&apos;classic&apos;) , IF(NOT(ISBLANK(Apttus__DocumentVersionId__r.Apttus__CheckoutById__c)) &amp;&amp; Apttus__DocumentVersionId__r.Apttus__CheckoutById__c &lt;&gt; $User.Id, $Label.apttus__Open,$Label.apttus__OpenAndEdit),&quot;_self&quot;), &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Document Action</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

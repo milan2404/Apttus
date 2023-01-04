@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__AutoCreateOrder__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether an order and assets would be created automatically when the agreement is activated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether an order and assets would be created automatically when the agreement is activated.</inlineHelpText>
+    <label>Auto Create Order</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

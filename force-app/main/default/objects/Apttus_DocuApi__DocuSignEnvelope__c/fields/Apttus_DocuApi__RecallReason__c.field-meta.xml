@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__RecallReason__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Reason for voiding/recalling the envelope.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Reason for voiding/recalling the envelope.</inlineHelpText>
+    <label>Recall Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

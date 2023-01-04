@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__IsSuperseded__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Will initially be false and gets set to true when the Billing Schedule is superseded when a Cancellation or
+Amendment is applied to corresponding Asset Line Item.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Will initially be false and gets set to true when the Billing Schedule is superseded when a Cancellation or
+Amendment is applied to corresponding Asset Line Item.</inlineHelpText>
+    <label>Is Superseded</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

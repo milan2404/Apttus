@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ReviewOfflineDocument__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF (ISPICKVAL(Apttus__Status_Category__c, &quot;Import&quot;), HYPERLINK(&quot;/apex/Apttus__ReviewOfflineAgreement?id=&quot; &amp;Id &amp;&quot;&amp;name=&quot; &amp;Name, IMAGE(&quot;/resource/Apttus__Button_ReviewOffline&quot;, &quot;Review Offline Document&quot;),&quot;_self&quot;), NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Review Offline Document</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

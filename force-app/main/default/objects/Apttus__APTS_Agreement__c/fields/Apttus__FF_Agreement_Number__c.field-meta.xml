@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FF_Agreement_Number__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Identifies the agreement number, including the version number.  Use this field to display on screens, reports, dashboards, search filters and columns, etc.  The other agreement number fields are for internal use only.</description>
+    <externalId>false</externalId>
+    <formula>Apttus__Agreement_Number__c  &amp; &quot;.&quot; &amp;  TEXT(CEILING(Apttus__Version_Number__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Agreement Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

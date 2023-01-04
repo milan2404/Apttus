@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ConditionCriteria__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Represents criteria for the rule condition</description>
+    <externalId>false</externalId>
+    <label>Condition Criteria</label>
+    <length>8192</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__EmailAgreementDocuments</fullName>
+    <availability>online</availability>
+    <description>Email Agreement(s) Document(s)</description>
+    <displayType>massActionButton</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Email Agreement(s) Document(s)</masterLabel>
+    <openType>sidebar</openType>
+    <page>Apttus__AgreementDocumentEmail</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

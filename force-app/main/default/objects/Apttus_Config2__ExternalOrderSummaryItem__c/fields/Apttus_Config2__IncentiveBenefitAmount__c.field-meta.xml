@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IncentiveBenefitAmount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The total incentive benefit amount</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The total incentive benefit amount</inlineHelpText>
+    <label>Incentive Benefit Amount</label>
+    <summarizedField>Apttus_Config2__ExternalOrderAdjustmentItem__c.Apttus_Config2__IncentiveAdjustmentAmount__c</summarizedField>
+    <summaryForeignKey>Apttus_Config2__ExternalOrderAdjustmentItem__c.Apttus_Config2__LineItemId__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

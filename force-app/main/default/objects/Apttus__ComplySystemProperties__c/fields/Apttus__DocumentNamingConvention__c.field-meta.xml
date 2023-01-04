@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__DocumentNamingConvention__c</fullName>
+    <deprecated>false</deprecated>
+    <description>You may apply your own naming convention to documents at generation, check-in and signature events, by defining a string of delimited variables, in the format %VariableName1%_%VariableName 2% … The default value is &apos;%:Name%_%action%_%templatename%_%timestamp%&apos;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>You may apply your own naming convention to documents at generation, check-in and signature events, by defining a string of delimited variables, in the format %VarName1%_%VarName 2% … The default value is &apos;%:Name%_%action%_%templatename%_%timestamp%&apos;.</inlineHelpText>
+    <label>Document Naming Convention</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

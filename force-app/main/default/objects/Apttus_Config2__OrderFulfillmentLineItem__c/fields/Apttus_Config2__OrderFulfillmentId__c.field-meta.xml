@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__OrderFulfillmentId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the associated order fulfillment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the associated order fulfillment</inlineHelpText>
+    <label>Order Fulfillment</label>
+    <referenceTo>Apttus_Config2__OrderFulfillment__c</referenceTo>
+    <relationshipLabel>Order Fulfillment Line Items</relationshipLabel>
+    <relationshipName>OrderFulfillmentLineItems</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

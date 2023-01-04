@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_QPConfig__UsedBenefitAmount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The benefit used on amount</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The benefit used on amount</inlineHelpText>
+    <label>Used Benefit Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

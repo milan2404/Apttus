@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__StartValue__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the value for the start type which will be used to calculate the payment term.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the value for the start type which will be used to calculate the payment term.</inlineHelpText>
+    <label>Start Value</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

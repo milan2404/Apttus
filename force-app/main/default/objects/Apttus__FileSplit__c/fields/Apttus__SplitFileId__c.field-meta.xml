@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__SplitFileId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the split file in File object</description>
+    <externalId>true</externalId>
+    <inlineHelpText>ID of the split file in File object</inlineHelpText>
+    <label>Split File</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

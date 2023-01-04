@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__ConfigurationId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the associated configuration</description>
+    <externalId>false</externalId>
+    <label>Configuration</label>
+    <referenceTo>Apttus_Config2__ProductConfiguration__c</referenceTo>
+    <relationshipLabel>Agreement Summary Groups</relationshipLabel>
+    <relationshipName>AgreementSummaryGroups</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

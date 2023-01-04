@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ContentFieldType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of the content field when the ComponentType is Content (Object/Field)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of the content field when the ComponentType is Content (Object/Field)</inlineHelpText>
+    <label>Content Field Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>HTML</fullName>
+                <default>false</default>
+                <label>HTML</label>
+            </value>
+            <value>
+                <fullName>IMAGE</fullName>
+                <default>false</default>
+                <label>IMAGE</label>
+            </value>
+            <value>
+                <fullName>URL</fullName>
+                <default>false</default>
+                <label>URL</label>
+            </value>
+            <value>
+                <fullName>TEXT</fullName>
+                <default>false</default>
+                <label>TEXT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

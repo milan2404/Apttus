@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__DunningPolicyId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to the dunning policy object</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this field to override the default dunning policy with account location specific dunning policy</inlineHelpText>
+    <label>Dunning Policy</label>
+    <referenceTo>Apttus_Billing__DunningPolicy__c</referenceTo>
+    <relationshipLabel>Account Locations</relationshipLabel>
+    <relationshipName>Account_Locations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

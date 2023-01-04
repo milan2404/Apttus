@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__UserEmail__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The reviewer&apos;s email address</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The reviewer&apos;s email address</inlineHelpText>
+    <label>Reviewer Email</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__BatchApexStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field to track Batch Apex currently running or not, it is only during first step of Envelope creation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field to track Batch Apex currently running or not, it is only during first step of Envelope creation.</inlineHelpText>
+    <label>Batch Apex Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DONE</fullName>
+                <default>false</default>
+                <label>DONE</label>
+            </value>
+            <value>
+                <fullName>RUNNING</fullName>
+                <default>false</default>
+                <label>RUNNING</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

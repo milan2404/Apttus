@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ParentDocumentVersionDetailId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to the parent document version id from where this version is derived</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to the parent document version id from where this version is derived</inlineHelpText>
+    <label>Ancestor</label>
+    <referenceTo>Apttus__DocumentVersionDetail__c</referenceTo>
+    <relationshipLabel>Document Version Details</relationshipLabel>
+    <relationshipName>Document_Version_Details</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

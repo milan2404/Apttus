@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SourceField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field on the junction object which you would like to filter the lookup field by.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field on the junction object which you would like to filter the lookup field by.</inlineHelpText>
+    <label>Junction Field Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

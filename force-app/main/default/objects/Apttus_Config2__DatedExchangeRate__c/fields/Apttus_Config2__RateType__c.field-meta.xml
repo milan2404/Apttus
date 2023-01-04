@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RateType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The exchange rate type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The exchange rate type</inlineHelpText>
+    <label>Rate Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Period End Rate</fullName>
+                <default>true</default>
+                <label>Period End Rate</label>
+            </value>
+            <value>
+                <fullName>Period Average Rate</fullName>
+                <default>false</default>
+                <label>Period Average Rate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

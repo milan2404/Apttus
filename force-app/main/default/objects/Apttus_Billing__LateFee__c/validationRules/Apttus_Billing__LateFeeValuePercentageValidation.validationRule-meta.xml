@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__LateFeeValuePercentageValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL( Apttus_Billing__LateFeeType__c , &apos;Percentage&apos;) ,  OR( Apttus_Billing__LateFeeValue__c &lt; 0, Apttus_Billing__LateFeeValue__c &gt; 100) )</errorConditionFormula>
+    <errorDisplayField>Apttus_Billing__LateFeeValue__c</errorDisplayField>
+    <errorMessage>The specified Late Fee percentage must be greater than zero and less than or equal to 100.</errorMessage>
+</ValidationRule>

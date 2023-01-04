@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CustomDisplaySetting__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The the name of the custom display setting associated with the incentive. This will be used when an existing incentive record is “Edited”. 
+For a new record, the name will be passed as a URL parameter.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The the name of the custom display setting associated with the incentive. This will be used when an existing incentive record is “Edited”. 
+For a new record, the name will be passed as a URL parameter.</inlineHelpText>
+    <label>Custom Display Setting</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

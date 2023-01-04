@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__EmailTemplateUniqueName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The &quot;Template Unique Name&quot; for the Salesforce text email template that needs to be used for the email subject and email body for the recipient. Only &quot;Text&quot; template type is supported.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The &quot;Template Unique Name&quot; for the Salesforce text email template that needs to be used for the email subject and email body for the recipient. Only &quot;Text&quot; template type is supported.</inlineHelpText>
+    <label>Email Template Unique Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

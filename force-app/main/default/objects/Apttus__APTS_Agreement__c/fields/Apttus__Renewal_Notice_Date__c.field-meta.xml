@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Renewal_Notice_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Issue Renewal Notice Date = End Date - Renewal Notice Days</description>
+    <externalId>false</externalId>
+    <formula>IF( NOT( ISNULL( Apttus__Contract_End_Date__c ) ) , Apttus__Contract_End_Date__c  -  Apttus__Renewal_Notice_Days__c  , NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Renewal Notice Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

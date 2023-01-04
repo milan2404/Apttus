@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ConfigurationId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Reference to the configuration record to which the rule is applied.</description>
+    <externalId>false</externalId>
+    <label>Configuration</label>
+    <referenceTo>Apttus_Config2__ProductConfiguration__c</referenceTo>
+    <relationshipLabel>Applied Rule Infos</relationshipLabel>
+    <relationshipName>Applied_Rule_Infos</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

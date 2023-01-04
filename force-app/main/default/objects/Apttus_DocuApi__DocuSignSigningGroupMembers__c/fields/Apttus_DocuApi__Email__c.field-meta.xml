@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__Email__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field stores the email address of the group members</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field stores the email address of the group members</inlineHelpText>
+    <label>Email</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

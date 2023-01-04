@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__Approval_Action__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(Apttus_Proposal__s_Servlet_Directory__c&amp;&quot;01N700000009u2a&amp;eid=&quot;&amp;Id, IMAGE(Apttus_Proposal__s_Document_Directory__c&amp;&quot;01570000000e6nT&quot;, &quot;Approve&quot;) ) &amp; HYPERLINK(Apttus_Proposal__s_Servlet_Directory__c&amp;&quot;01N700000009u2o&amp;eid=&quot;&amp;Id, IMAGE(Apttus_Proposal__s_Document_Directory__c&amp;&quot;01570000000e6nR&quot;, &quot;Reject&quot;) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Approval Action</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

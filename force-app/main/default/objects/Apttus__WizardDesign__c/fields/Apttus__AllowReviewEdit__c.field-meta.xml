@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__AllowReviewEdit__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the runtime user is allowed to edit inputs during review</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether the runtime user is allowed to edit inputs during review</inlineHelpText>
+    <label>Allow Review Edit</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

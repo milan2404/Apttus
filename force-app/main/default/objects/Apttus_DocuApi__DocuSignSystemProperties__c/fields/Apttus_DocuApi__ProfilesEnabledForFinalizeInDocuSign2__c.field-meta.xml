@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__ProfilesEnabledForFinalizeInDocuSign2__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Comma separated names for the user profiles that need to see the Finalize In DocuSign button on the user interface. This custom setting is used in combination with the ViewInDocuSignEnabled custom setting. If this setting is blank, and the ViewInDocuSignEnabled custom setting is checked, all the profiles will see the Finalize in DocuSign button. Use this to enable the finalize button only for specific profiles.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Comma separated names for the user profiles that need to see the Finalize In DocuSign button on the user interface. This custom setting is used in combination with the ViewInDocuSignEnabled custom setting.</inlineHelpText>
+    <label>Profiles Enabled For Finalize 2</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

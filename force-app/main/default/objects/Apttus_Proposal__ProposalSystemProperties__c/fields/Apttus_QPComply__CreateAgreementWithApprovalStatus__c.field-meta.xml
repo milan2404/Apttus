@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_QPComply__CreateAgreementWithApprovalStatus__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether approval status should be retained on the cart and line items associated with the agreement created from the quote/proposal</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether approval status should be retained on the cart and line items associated with the agreement created from the quote/proposal</inlineHelpText>
+    <label>Create Agreement With Approval Status</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

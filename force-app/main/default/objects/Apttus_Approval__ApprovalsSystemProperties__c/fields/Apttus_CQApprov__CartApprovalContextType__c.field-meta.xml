@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CQApprov__CartApprovalContextType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter the default cart approval context type. 
+
+Valid values are : 
+============= 
+header 
+cart</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the default cart approval context type. 
+
+Valid values are : 
+============= 
+header 
+cart</inlineHelpText>
+    <label>Cart Approval Context Type</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

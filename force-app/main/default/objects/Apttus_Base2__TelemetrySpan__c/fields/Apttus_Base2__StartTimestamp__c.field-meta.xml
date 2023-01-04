@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Base2__StartTimestamp__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Start timestamp of the operation being logged.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Start timestamp of the operation being logged.</inlineHelpText>
+    <label>Start Timestamp</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__SourceInvoiceId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The source invoice from where the A/R transaction is originated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The source invoice from where the A/R transaction is originated.</inlineHelpText>
+    <label>Source Invoice Id</label>
+    <referenceTo>Apttus_Billing__Invoice__c</referenceTo>
+    <relationshipLabel>Source Related A/R Transactions</relationshipLabel>
+    <relationshipName>SourceRelatedARTransactions</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ServicePriceDistributionMethod__c</fullName>
+    <defaultValue>&quot;Allocate&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The service price distribution method.  Methods are Allocate and Rollup. 
+Allocate method distributes the net price of the service to the related lines.  Rollup method rolls up the price for individual related lines and arrives at the service base price. The default value is Allocate.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The service price distribution method. Methods are Allocate and Rollup. 
+Allocate method distributes the net price of the service to the related lines.  Rollup method rolls up the price for individual related lines and arrives at the service base price.</inlineHelpText>
+    <label>Service Price Distribution Method</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

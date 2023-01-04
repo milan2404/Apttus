@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__AllowableOutputFormats__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The list of output formats allowed for the agreement.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The list of output formats allowed for the agreement.</inlineHelpText>
+    <label>Allowable Output Formats</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DOC</fullName>
+                <default>false</default>
+                <label>DOC</label>
+            </value>
+            <value>
+                <fullName>DOCX</fullName>
+                <default>false</default>
+                <label>DOCX</label>
+            </value>
+            <value>
+                <fullName>PDF</fullName>
+                <default>false</default>
+                <label>PDF</label>
+            </value>
+            <value>
+                <fullName>RTF</fullName>
+                <default>false</default>
+                <label>RTF</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EnableAdjustmentSpread__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether adjustments provided for summary groups and bundles may be spread to child line items that roll into them. Only applicable when multiple adjustments are disabled.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether adjustments provided for summary groups and bundles may be spread to child line items that roll into them. Only applicable when multiple adjustments are disabled.</inlineHelpText>
+    <label>Enable Adjustment Spread</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

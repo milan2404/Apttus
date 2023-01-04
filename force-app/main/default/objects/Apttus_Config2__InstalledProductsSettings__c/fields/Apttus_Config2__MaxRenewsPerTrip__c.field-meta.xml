@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__MaxRenewsPerTrip__c</fullName>
+    <defaultValue>20</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates the number of renewals that are processed before a server roundtrip is required.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To prevent CPU timeout use a smaller number. Default is 20</inlineHelpText>
+    <label>Max Renews Per Trip</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

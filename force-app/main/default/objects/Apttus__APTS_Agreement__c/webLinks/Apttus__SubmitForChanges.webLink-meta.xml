@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__SubmitForChanges</fullName>
+    <availability>online</availability>
+    <description>Submit agreement for changes</description>
+    <displayType>link</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Submit For Changes</masterLabel>
+    <openType>sidebar</openType>
+    <page>Apttus__AgreementSubmitChanges</page>
+    <protected>false</protected>
+</WebLink>

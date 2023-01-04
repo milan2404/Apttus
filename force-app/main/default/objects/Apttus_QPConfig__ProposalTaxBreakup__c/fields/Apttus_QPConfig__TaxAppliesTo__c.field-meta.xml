@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_QPConfig__TaxAppliesTo__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the price field the tax rate was applied to.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the price field the tax rate was applied to.</inlineHelpText>
+    <label>Tax Applies To</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Net Price</fullName>
+                <default>false</default>
+                <label>Net Price</label>
+            </value>
+            <value>
+                <fullName>Base Price</fullName>
+                <default>false</default>
+                <label>Base Price</label>
+            </value>
+            <value>
+                <fullName>List Price</fullName>
+                <default>false</default>
+                <label>List Price</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

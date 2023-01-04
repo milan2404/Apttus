@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ShowSelectedProductAllCharges__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>specifies if all charge types should be displayed for the selected products in the tree view options page.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>specifies if all charge types should be displayed for the selected products in the tree view options page.</inlineHelpText>
+    <label>Show Selected Product All Charges</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

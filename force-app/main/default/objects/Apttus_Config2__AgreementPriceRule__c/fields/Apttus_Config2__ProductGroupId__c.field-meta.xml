@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ProductGroupId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the product group associated with the price rule</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the product group associated with the price rule</inlineHelpText>
+    <label>Product Group</label>
+    <referenceTo>Apttus_Config2__ProductGroup__c</referenceTo>
+    <relationshipLabel>Agreement Price Rules</relationshipLabel>
+    <relationshipName>AgreementPriceRules</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

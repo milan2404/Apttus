@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__WalletId__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to corresponding wallet Asset Line Item. This links the drawdown to the wallet from where it is being consumed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to corresponding wallet Asset Line Item.</inlineHelpText>
+    <label>Wallet</label>
+    <referenceTo>Apttus_Config2__AssetLineItem__c</referenceTo>
+    <relationshipLabel>Wallet Drawdown (Wallet)</relationshipLabel>
+    <relationshipName>WalletDrawdownWallet</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

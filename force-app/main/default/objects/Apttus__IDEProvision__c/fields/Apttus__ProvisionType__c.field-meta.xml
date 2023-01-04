@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ProvisionType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of provision</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select provision type</inlineHelpText>
+    <label>Provision Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Clause</fullName>
+                <default>false</default>
+                <label>Clause</label>
+            </value>
+            <value>
+                <fullName>Field</fullName>
+                <default>false</default>
+                <label>Field</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

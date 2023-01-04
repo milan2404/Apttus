@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AdjustmentAmountSourceId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The source holding the adjustment amount. If the adjustment source does not hold a value, the value would default to the adjustment amount.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The source holding the adjustment amount. If the adjustment source does not hold a value, the value would default to the adjustment amount.</inlineHelpText>
+    <label>Adjustment Amount Source</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Apttus_Config2__FormulaField__c.Apttus_Config2__BusinessObject__c</field>
+            <operation>equals</operation>
+            <value>Apttus_Config2__LineItem__c</value>
+        </filterItems>
+        <infoMessage>Please select a field that holds the adjustment amount</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Apttus_Config2__FormulaField__c</referenceTo>
+    <relationshipLabel>Price Matrix Entries</relationshipLabel>
+    <relationshipName>PriceMatrixEntries</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

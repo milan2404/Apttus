@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__AttachmentId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the Attachment or File</description>
+    <externalId>true</externalId>
+    <inlineHelpText>ID of the Attachment or File</inlineHelpText>
+    <label>Attachment/File</label>
+    <length>50</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

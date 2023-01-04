@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__UsageRatingPriceFieldOverride__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field will be used for usage rating instead of the List Price. If a Price Tier is defined, then this setting will be ignored.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the API name of the price field based on which usage will be rated.</inlineHelpText>
+    <label>Usage Rating Price Field Override</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

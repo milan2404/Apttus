@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IncludeMatchRule__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Applicable only to include type rule action. For include min/max include min product should be specified.</description>
+    <externalId>false</externalId>
+    <label>Min/Max Match Rule</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Apttus_Config2__ActionType__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Include Any</fullName>
+                <default>false</default>
+                <label>Include Any</label>
+            </value>
+            <value>
+                <fullName>Include All</fullName>
+                <default>false</default>
+                <label>Include All</label>
+            </value>
+            <value>
+                <fullName>Include Min/Max</fullName>
+                <default>false</default>
+                <label>Include Min/Max</label>
+            </value>
+            <value>
+                <fullName>Exclude All</fullName>
+                <default>false</default>
+                <label>Exclude All</label>
+            </value>
+            <value>
+                <fullName>Exclude After One</fullName>
+                <default>false</default>
+                <label>Exclude After One</label>
+            </value>
+            <value>
+                <fullName>Exclude After Max</fullName>
+                <default>false</default>
+                <label>Exclude After Max</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Inclusion</controllingFieldValue>
+            <valueName>Include Any</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inclusion</controllingFieldValue>
+            <valueName>Include All</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inclusion</controllingFieldValue>
+            <valueName>Include Min/Max</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exclusion</controllingFieldValue>
+            <valueName>Exclude All</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exclusion</controllingFieldValue>
+            <valueName>Exclude After One</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exclusion</controllingFieldValue>
+            <valueName>Exclude After Max</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

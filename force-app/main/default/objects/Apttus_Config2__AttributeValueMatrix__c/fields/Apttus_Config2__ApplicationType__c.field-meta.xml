@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ApplicationType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>How to apply the matrix values to the attributes</description>
+    <externalId>false</externalId>
+    <inlineHelpText>How to apply the matrix values to the attributes</inlineHelpText>
+    <label>Application Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Default</fullName>
+                <default>true</default>
+                <label>Default</label>
+            </value>
+            <value>
+                <fullName>Constrain</fullName>
+                <default>false</default>
+                <label>Constrain</label>
+            </value>
+            <value>
+                <fullName>Force Set</fullName>
+                <default>false</default>
+                <label>Force Set</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

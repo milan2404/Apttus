@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__OptionNames__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The list of option names associated with the product</description>
+    <externalId>false</externalId>
+    <label>Option Names</label>
+    <length>1024</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

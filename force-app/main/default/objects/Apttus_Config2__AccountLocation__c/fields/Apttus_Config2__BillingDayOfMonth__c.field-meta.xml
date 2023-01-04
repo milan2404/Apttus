@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__BillingDayOfMonth__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The billing day of month for the account location. Specific Day of Month, End of Month, etc</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The billing day of month for the account location. Specific Day of Month, End of Month, etc</inlineHelpText>
+    <label>Billing Day Of Month</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1st of the Month</fullName>
+                <default>true</default>
+                <label>1st of the Month</label>
+            </value>
+            <value>
+                <fullName>2nd of the Month</fullName>
+                <default>false</default>
+                <label>2nd of the Month</label>
+            </value>
+            <value>
+                <fullName>3rd of the Month</fullName>
+                <default>false</default>
+                <label>3rd of the Month</label>
+            </value>
+            <value>
+                <fullName>4th of the Month</fullName>
+                <default>false</default>
+                <label>4th of the Month</label>
+            </value>
+            <value>
+                <fullName>5th of the Month</fullName>
+                <default>false</default>
+                <label>5th of the Month</label>
+            </value>
+            <value>
+                <fullName>6th of the Month</fullName>
+                <default>false</default>
+                <label>6th of the Month</label>
+            </value>
+            <value>
+                <fullName>7th of the Month</fullName>
+                <default>false</default>
+                <label>7th of the Month</label>
+            </value>
+            <value>
+                <fullName>8th of the Month</fullName>
+                <default>false</default>
+                <label>8th of the Month</label>
+            </value>
+            <value>
+                <fullName>9th of the Month</fullName>
+                <default>false</default>
+                <label>9th of the Month</label>
+            </value>
+            <value>
+                <fullName>10th of the Month</fullName>
+                <default>false</default>
+                <label>10th of the Month</label>
+            </value>
+            <value>
+                <fullName>11th of the Month</fullName>
+                <default>false</default>
+                <label>11th of the Month</label>
+            </value>
+            <value>
+                <fullName>12th of the Month</fullName>
+                <default>false</default>
+                <label>12th of the Month</label>
+            </value>
+            <value>
+                <fullName>13th of the Month</fullName>
+                <default>false</default>
+                <label>13th of the Month</label>
+            </value>
+            <value>
+                <fullName>14th of the Month</fullName>
+                <default>false</default>
+                <label>14th of the Month</label>
+            </value>
+            <value>
+                <fullName>15th of the Month</fullName>
+                <default>false</default>
+                <label>15th of the Month</label>
+            </value>
+            <value>
+                <fullName>16th of the Month</fullName>
+                <default>false</default>
+                <label>16th of the Month</label>
+            </value>
+            <value>
+                <fullName>17th of the Month</fullName>
+                <default>false</default>
+                <label>17th of the Month</label>
+            </value>
+            <value>
+                <fullName>18th of the Month</fullName>
+                <default>false</default>
+                <label>18th of the Month</label>
+            </value>
+            <value>
+                <fullName>19th of the Month</fullName>
+                <default>false</default>
+                <label>19th of the Month</label>
+            </value>
+            <value>
+                <fullName>20th of the Month</fullName>
+                <default>false</default>
+                <label>20th of the Month</label>
+            </value>
+            <value>
+                <fullName>21st of the Month</fullName>
+                <default>false</default>
+                <label>21st of the Month</label>
+            </value>
+            <value>
+                <fullName>22nd of the Month</fullName>
+                <default>false</default>
+                <label>22nd of the Month</label>
+            </value>
+            <value>
+                <fullName>23rd of the Month</fullName>
+                <default>false</default>
+                <label>23rd of the Month</label>
+            </value>
+            <value>
+                <fullName>24th of the Month</fullName>
+                <default>false</default>
+                <label>24th of the Month</label>
+            </value>
+            <value>
+                <fullName>25th of the Month</fullName>
+                <default>false</default>
+                <label>25th of the Month</label>
+            </value>
+            <value>
+                <fullName>26th of the Month</fullName>
+                <default>false</default>
+                <label>26th of the Month</label>
+            </value>
+            <value>
+                <fullName>27th of the Month</fullName>
+                <default>false</default>
+                <label>27th of the Month</label>
+            </value>
+            <value>
+                <fullName>28th of the Month</fullName>
+                <default>false</default>
+                <label>28th of the Month</label>
+            </value>
+            <value>
+                <fullName>29th of the Month</fullName>
+                <default>false</default>
+                <label>29th of the Month</label>
+            </value>
+            <value>
+                <fullName>30th of the Month</fullName>
+                <default>false</default>
+                <label>30th of the Month</label>
+            </value>
+            <value>
+                <fullName>31st of the Month</fullName>
+                <default>false</default>
+                <label>31st of the Month</label>
+            </value>
+            <value>
+                <fullName>End of Month</fullName>
+                <default>false</default>
+                <label>End of Month</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

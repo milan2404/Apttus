@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__Active__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This flag is true if the term exception approval record is active.  Set this to false if you want the approvals engine to ignore this term exception approver during processing.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This flag is true if the term exception approval record is active.  Set this to false if you want the approvals engine to ignore this term exception approver during processing.</inlineHelpText>
+    <label>Active</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

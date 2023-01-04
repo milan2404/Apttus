@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__BusinessObjectLink__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The link to the associated business object</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(Apttus_Approval__BusinessObjectId__c , &quot;View &quot; &amp; Apttus_Approval__BusinessObjectType__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Business Object Link</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__TierFlatPrice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The flat price associated with the tier</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The flat price associated with the tier</inlineHelpText>
+    <label>Tier Flat Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__PriceRuleEntryId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the adjustment rule entry</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the adjustment rule Entry</inlineHelpText>
+    <label>Price Rule Entry</label>
+    <referenceTo>Apttus_Config2__PriceRuleEntry__c</referenceTo>
+    <relationshipLabel>Agreement Adjustment Line Items</relationshipLabel>
+    <relationshipName>AgreementAdjustmentLineItems</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

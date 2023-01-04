@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ContextType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of context, whether its All or Object. 
+All means that any input can be used in the step design. 
+Object means that only aligned (same object) inputs can be used in the step design.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of context, whether its All or Object. 
+All means that any input can be used in the step design. 
+Object means that only aligned (same object) inputs can be used in the step design.</inlineHelpText>
+    <label>Context Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>true</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>Object</fullName>
+                <default>false</default>
+                <label>Object</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

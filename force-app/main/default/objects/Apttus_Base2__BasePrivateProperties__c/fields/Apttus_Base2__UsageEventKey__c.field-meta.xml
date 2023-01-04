@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Base2__UsageEventKey__c</fullName>
+    <defaultValue>&quot;dd56818f-5d18-41d9-6191-82958113d295&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Usage integration key</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Usage integration key</inlineHelpText>
+    <label>Usage Event Key</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

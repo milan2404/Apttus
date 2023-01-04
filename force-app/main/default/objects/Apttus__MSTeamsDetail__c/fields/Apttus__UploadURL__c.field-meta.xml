@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__UploadURL__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Upload URL of MS teams</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Upload URL of MS teams</inlineHelpText>
+    <label>Upload URL</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__RuleType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Rule types that can be used for navigating the runtime wizard flow, determining the focus object and record type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Rule types that can be used for navigating the runtime wizard flow, determining the focus object and record type.</inlineHelpText>
+    <label>Rule Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Determine Focus Object</fullName>
+                <default>false</default>
+                <label>Determine Focus Object</label>
+            </value>
+            <value>
+                <fullName>Determine Record Type</fullName>
+                <default>false</default>
+                <label>Determine Record Type</label>
+            </value>
+            <value>
+                <fullName>Enable This Control</fullName>
+                <default>false</default>
+                <label>Enable This Control</label>
+            </value>
+            <value>
+                <fullName>Disable This Control</fullName>
+                <default>false</default>
+                <label>Disable This Control</label>
+            </value>
+            <value>
+                <fullName>Show This Control</fullName>
+                <default>false</default>
+                <label>Show This Control</label>
+            </value>
+            <value>
+                <fullName>Hide This Control</fullName>
+                <default>false</default>
+                <label>Hide This Control</label>
+            </value>
+            <value>
+                <fullName>Set This Control Value</fullName>
+                <default>false</default>
+                <label>Set This Control Value</label>
+            </value>
+            <value>
+                <fullName>Go To Step</fullName>
+                <default>false</default>
+                <label>Go To Step</label>
+            </value>
+            <value>
+                <fullName>Go To Submit</fullName>
+                <default>false</default>
+                <label>Go To Submit</label>
+            </value>
+            <value>
+                <fullName>Go To Abort</fullName>
+                <default>false</default>
+                <label>Go To Abort</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

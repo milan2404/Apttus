@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EnhancedSearchURL__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Search URL end point for enhanced search. When it is blank native search is used.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enhanced search server URL, the valid URL format is &quot;https://search.apttuscloud.com&quot;</inlineHelpText>
+    <label>Enhanced Search URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

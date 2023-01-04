@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__SendEmail</fullName>
+    <availability>online</availability>
+    <description>Button to send credit memo email.</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Send Email</masterLabel>
+    <openType>sidebar</openType>
+    <page>Apttus_Billing__SendCreditMemoEmail</page>
+    <protected>false</protected>
+</WebLink>

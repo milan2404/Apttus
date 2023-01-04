@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ProductGroupCriteriaOper__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The product group criteria operator</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The product group criteria operator</inlineHelpText>
+    <label>Product Group Criteria Oper</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>in</fullName>
+                <default>false</default>
+                <label>in</label>
+            </value>
+            <value>
+                <fullName>not in</fullName>
+                <default>false</default>
+                <label>not in</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ReviewStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Review Status</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&apos;/apex/Apttus__ParallelReviewCycle?id=&apos;+  Id  , Apttus__LatestReviewCycleStatus__c, &quot;_self&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Review Status</inlineHelpText>
+    <label>Review Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

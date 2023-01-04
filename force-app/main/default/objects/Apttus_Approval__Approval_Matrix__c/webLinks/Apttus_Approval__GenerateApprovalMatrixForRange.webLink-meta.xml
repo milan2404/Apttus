@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__GenerateApprovalMatrixForRange</fullName>
+    <availability>online</availability>
+    <description>Generate Approval Matrix For Range</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Generate Approval Matrix For Range</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/Apttus_Approval__ApprovalMatrixGenerate?matrixOwnerId={!Apttus_Approval__Approval_Matrix__c.Apttus_Approval__Matrix_OwnerId__c}&amp;generateMatrixFor=range</url>
+</WebLink>

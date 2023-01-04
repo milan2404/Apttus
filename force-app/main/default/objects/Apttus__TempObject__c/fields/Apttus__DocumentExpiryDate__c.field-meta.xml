@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__DocumentExpiryDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Date to store the expiry date of documents linked to temp object</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date to store the expiry date of documents linked to temp object</inlineHelpText>
+    <label>Document Expiry Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__EditorView__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Editor View</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Input Sequence List</fullName>
+                <default>false</default>
+                <label>Input Sequence List</label>
+            </value>
+            <value>
+                <fullName>Input Name</fullName>
+                <default>false</default>
+                <label>Input Name</label>
+            </value>
+            <value>
+                <fullName>Input Q / S</fullName>
+                <default>false</default>
+                <label>Input Q / S</label>
+            </value>
+            <value>
+                <fullName>Input Response</fullName>
+                <default>false</default>
+                <label>Input Response</label>
+            </value>
+            <value>
+                <fullName>Q / S &amp; Response</fullName>
+                <default>false</default>
+                <label>Q / S &amp; Response</label>
+            </value>
+            <value>
+                <fullName>Rule Editors</fullName>
+                <default>false</default>
+                <label>Rule Editors</label>
+            </value>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

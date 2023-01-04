@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__OrderStatusFields__c</fullName>
+    <deprecated>false</deprecated>
+    <description>List of line item fields to display inventory and  order status</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the list of line item fields separated by comma that has information about promotion, delivery info, shipping info etc.</inlineHelpText>
+    <label>Order Status Fields</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

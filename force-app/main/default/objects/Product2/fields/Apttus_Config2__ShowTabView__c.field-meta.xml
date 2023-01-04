@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ShowTabView__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Show the option groups in a tab view. Top level option groups are displayed as tabs.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check to show tab view. Top level option groups are displayed as tabs.</inlineHelpText>
+    <label>Show Tab View</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

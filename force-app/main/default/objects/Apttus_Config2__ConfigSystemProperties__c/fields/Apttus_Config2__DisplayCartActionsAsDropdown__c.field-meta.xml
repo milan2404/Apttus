@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DisplayCartActionsAsDropdown__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Display action buttons inside a drop down menu</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Display action buttons inside a drop down menu</inlineHelpText>
+    <label>Display Cart Actions As Dropdown</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

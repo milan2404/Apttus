@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__AgreementId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the associated agreement</description>
+    <externalId>false</externalId>
+    <label>Agreement</label>
+    <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+    <relationshipLabel>Summary Groups</relationshipLabel>
+    <relationshipName>AgreementSummaryGroups</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

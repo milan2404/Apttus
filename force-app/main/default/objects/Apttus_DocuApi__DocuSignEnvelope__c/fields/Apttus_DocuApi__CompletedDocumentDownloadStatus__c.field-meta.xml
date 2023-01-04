@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__CompletedDocumentDownloadStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Completed Document Download Status. This flag used to validate before downloading completed documents</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Completed Document Download Status. This flag used to validate before downloading completed documents</inlineHelpText>
+    <label>Completed Document Download Status</label>
+    <length>40</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

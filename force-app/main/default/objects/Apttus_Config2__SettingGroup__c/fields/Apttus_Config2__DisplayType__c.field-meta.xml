@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DisplayType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>display type of the setting group such as List, Actions, Columns or Field Set</description>
+    <externalId>false</externalId>
+    <inlineHelpText>display type of the setting group such as List, Actions, Columns or Field Set</inlineHelpText>
+    <label>Display Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>List</fullName>
+                <default>true</default>
+                <label>List</label>
+            </value>
+            <value>
+                <fullName>Actions</fullName>
+                <default>false</default>
+                <label>Actions</label>
+            </value>
+            <value>
+                <fullName>Columns</fullName>
+                <default>false</default>
+                <label>Columns</label>
+            </value>
+            <value>
+                <fullName>Field Set</fullName>
+                <default>false</default>
+                <label>Field Set</label>
+            </value>
+            <value>
+                <fullName>Flow</fullName>
+                <default>false</default>
+                <label>Flow</label>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

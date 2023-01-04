@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__GroupFieldValues__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The group field values</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The group field values</inlineHelpText>
+    <label>Group Field Values</label>
+    <length>1000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

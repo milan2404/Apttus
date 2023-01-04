@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ShowBundleDetail__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked bundle price and quantity fields are displayed in options pages</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check to show bundle price and quantity in options pages</inlineHelpText>
+    <label>Show Bundle Detail</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

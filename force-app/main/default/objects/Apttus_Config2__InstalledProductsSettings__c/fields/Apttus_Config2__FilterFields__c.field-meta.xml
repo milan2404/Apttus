@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__FilterFields__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Asset Line Fields to be displayed on filter.   Works with text fields and End Date.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Asset Line Fields to be displayed on filter.  Works with text fields and End Date.</inlineHelpText>
+    <label>Filter Fields</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RelatedRollupId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the associated rollup. Only valid for child filters based on rollup data.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the associated rollup. Only valid for child filters based on rollup data.</inlineHelpText>
+    <label>Related Rollup</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.Apttus_Config2__UseType__c</field>
+            <operation>equals</operation>
+            <value>Child Filter</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Apttus_Config2__BusinessObject__c</field>
+            <operation>equals</operation>
+            <value>Apttus_Config2__RollupData__c</value>
+        </filterItems>
+        <filterItems>
+            <field>Apttus_Config2__SearchFilter__c.Apttus_Config2__UseType__c</field>
+            <operation>equals</operation>
+            <value>Rollup</value>
+        </filterItems>
+        <infoMessage>Please select a rollup associated with the child filter</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Apttus_Config2__SearchFilter__c</referenceTo>
+    <relationshipLabel>Rollups</relationshipLabel>
+    <relationshipName>Rollups</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

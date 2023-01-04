@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ApplicationMethod__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The incentive application method, depends on the application type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The incentive application method, depends on the application type.</inlineHelpText>
+    <label>Application Method</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Apttus_Config2__UseType__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Buy X Get X</fullName>
+                <default>true</default>
+                <label>Buy X Get X</label>
+            </value>
+            <value>
+                <fullName>Buy X Get Y</fullName>
+                <default>false</default>
+                <label>Buy X Get Y</label>
+            </value>
+            <value>
+                <fullName>For Every X Get X</fullName>
+                <default>false</default>
+                <label>For Every X Get X</label>
+            </value>
+            <value>
+                <fullName>For Every X Get Y</fullName>
+                <default>false</default>
+                <label>For Every X Get Y</label>
+            </value>
+            <value>
+                <fullName>Own Every X Get Y</fullName>
+                <default>false</default>
+                <label>Own Every X Get Y</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <controllingFieldValue>Rebate</controllingFieldValue>
+            <controllingFieldValue>Price Program</controllingFieldValue>
+            <controllingFieldValue>Loyalty</controllingFieldValue>
+            <valueName>Buy X Get X</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <controllingFieldValue>Rebate</controllingFieldValue>
+            <valueName>Buy X Get Y</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <controllingFieldValue>Price Program</controllingFieldValue>
+            <valueName>For Every X Get X</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <controllingFieldValue>Price Program</controllingFieldValue>
+            <valueName>For Every X Get Y</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promotion</controllingFieldValue>
+            <controllingFieldValue>Price Program</controllingFieldValue>
+            <valueName>Own Every X Get Y</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

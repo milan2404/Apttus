@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ShowAssets__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determines whether current, parent, or child assets of the current asset&apos;s account will be shown. Accepted values are a comma separated string of Parents and/or Children. If empty, only context account assets are shown.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Comma separated values of Parents and/or Children or empty. If empty, only context account assets are shown. Examples: 1) parents 2) parents,children.</inlineHelpText>
+    <label>Show Assets</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

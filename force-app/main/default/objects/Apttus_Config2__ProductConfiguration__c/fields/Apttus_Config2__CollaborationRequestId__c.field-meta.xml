@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CollaborationRequestId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to the Collaboration Request business object.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to the Collaboration Request business object.</inlineHelpText>
+    <label>Collaboration Request</label>
+    <referenceTo>Apttus_Config2__CollaborationRequest__c</referenceTo>
+    <relationshipLabel>Product Configurations</relationshipLabel>
+    <relationshipName>Product_Configurations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

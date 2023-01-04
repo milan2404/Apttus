@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__AccountLeafId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The account Id of the leaf.
+Root &gt; Parent &gt; Leaf</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The account Id of the leaf.
+Root &gt; Parent &gt; Leaf</inlineHelpText>
+    <label>Account Leaf</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Account Hierarchies</relationshipLabel>
+    <relationshipName>AccountHierarchiesLeaf</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

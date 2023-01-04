@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CollapseAllLeafOptionGroups__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Collapse all the leaf option groups in the Config Options Detail View page</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Collapse all the leaf option groups in the Config Options Detail View page</inlineHelpText>
+    <label>Collapse All Leaf Option Groups</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

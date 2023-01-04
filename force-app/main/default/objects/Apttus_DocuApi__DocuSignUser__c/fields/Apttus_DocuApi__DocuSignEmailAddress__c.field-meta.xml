@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__DocuSignEmailAddress__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Email Address form DocuSign system</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Email Address form DocuSign system</inlineHelpText>
+    <label>DocuSign Email Address</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

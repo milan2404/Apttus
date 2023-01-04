@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Initiation_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>To indicate whether this record is being filed as an executed agreement or is being negotiated in the system</description>
+    <externalId>false</externalId>
+    <label>Initiation Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Negotiate Contract</fullName>
+                <default>true</default>
+                <label>Negotiate Contract</label>
+            </value>
+            <value>
+                <fullName>Store Executed Contract</fullName>
+                <default>false</default>
+                <label>Store Executed Contract</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

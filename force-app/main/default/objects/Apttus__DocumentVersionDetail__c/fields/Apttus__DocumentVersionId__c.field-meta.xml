@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__DocumentVersionId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Lookup to the Document Version this record is part of</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to the Document Version this record is part of</inlineHelpText>
+    <label>Document Version</label>
+    <referenceTo>Apttus__DocumentVersion__c</referenceTo>
+    <relationshipLabel>Document Version Details</relationshipLabel>
+    <relationshipName>Document_Version_Details</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

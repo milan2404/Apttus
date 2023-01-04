@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RunDayOfWeek__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The run day of week. Specific Day of Week when recurring weekly jobs should run.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The run day of week. Specific Day of Week when recurring weekly jobs should run.</inlineHelpText>
+    <label>Run Day Of Week</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1st Day of the Week</fullName>
+                <default>false</default>
+                <label>1st Day of the Week</label>
+            </value>
+            <value>
+                <fullName>2nd Day of the Week</fullName>
+                <default>false</default>
+                <label>2nd Day of the Week</label>
+            </value>
+            <value>
+                <fullName>3rd Day of the Week</fullName>
+                <default>false</default>
+                <label>3rd Day of the Week</label>
+            </value>
+            <value>
+                <fullName>4th Day of the Week</fullName>
+                <default>false</default>
+                <label>4th Day of the Week</label>
+            </value>
+            <value>
+                <fullName>5th Day of the Week</fullName>
+                <default>false</default>
+                <label>5th Day of the Week</label>
+            </value>
+            <value>
+                <fullName>6th Day of the Week</fullName>
+                <default>false</default>
+                <label>6th Day of the Week</label>
+            </value>
+            <value>
+                <fullName>7th Day of the Week</fullName>
+                <default>false</default>
+                <label>7th Day of the Week</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

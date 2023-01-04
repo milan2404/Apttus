@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__UseFilesInsteadOfNotesAndAttachments__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked the approvals engine will query all attachments from Files instead of Notes&amp;Attachment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked the approvals engine will query all attachments from Files instead of Notes&amp;Attachment</inlineHelpText>
+    <label>Use Files Instead of Notes &amp; Attachments</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

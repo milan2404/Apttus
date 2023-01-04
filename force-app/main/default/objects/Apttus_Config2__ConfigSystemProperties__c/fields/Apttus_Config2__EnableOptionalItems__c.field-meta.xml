@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EnableOptionalItems__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether items in the cart can be toggled as optional</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A global setting to enable optional items in the cart.</inlineHelpText>
+    <label>Enable Optional Items</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

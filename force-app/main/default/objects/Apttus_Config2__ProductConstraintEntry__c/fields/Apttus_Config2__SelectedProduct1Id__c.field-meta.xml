@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SelectedProduct1Id__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the selected product or option</description>
+    <externalId>false</externalId>
+    <label>Selected Product 1</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Product Constraint Entries (Selected Product 1)</relationshipLabel>
+    <relationshipName>SelectedProductContraintEntries1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

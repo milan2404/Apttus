@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__LastSuccessfulSync__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Datetime of last successful sync</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Datetime of last successful sync</inlineHelpText>
+    <label>Last Successful Sync</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

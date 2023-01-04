@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__UIAssigneeSearchPageSize__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specify a value here to denote the number of search results rows to display when searching for assignee queues, roles, rules, or users in admin setup. The default is 20 rows.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specify a value here to denote the number of search results rows to display when searching for assignee queues, roles, rules, or users in admin setup. The default is 20 rows.</inlineHelpText>
+    <label>UI Assignee Search Page Size</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

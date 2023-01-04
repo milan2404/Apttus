@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Term_Validation_2</fullName>
+    <active>true</active>
+    <description>Validate that Term is entered correctly</description>
+    <errorConditionFormula>AND( (Apttus__Perpetual__c ),  NOT(ISNULL(  Apttus__Contract_End_Date__c )) )</errorConditionFormula>
+    <errorDisplayField>Apttus__Contract_End_Date__c</errorDisplayField>
+    <errorMessage>Cannot enter both Perpetual and End Date.  Please enter only one of the values</errorMessage>
+</ValidationRule>

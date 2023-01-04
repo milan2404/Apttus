@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_QPConfig__ProposalId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the associated quote/proposal</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the associated quote/proposal</inlineHelpText>
+    <label>Quote/Proposal</label>
+    <referenceTo>Apttus_Proposal__Proposal__c</referenceTo>
+    <relationshipLabel>Proposal Location</relationshipLabel>
+    <relationshipName>ProposalLocation</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

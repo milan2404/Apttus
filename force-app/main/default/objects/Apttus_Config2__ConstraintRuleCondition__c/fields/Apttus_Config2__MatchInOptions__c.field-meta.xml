@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__MatchInOptions__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Conditions are evaluated against the products added as options.</description>
+    <externalId>false</externalId>
+    <label>Match In Options</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

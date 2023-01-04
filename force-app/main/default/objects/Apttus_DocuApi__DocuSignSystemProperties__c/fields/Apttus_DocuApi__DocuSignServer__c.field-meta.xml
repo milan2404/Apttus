@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__DocuSignServer__c</fullName>
+    <defaultValue>&quot;PROD&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>DocuSign Server environment to connect : valid entries (DEMO, PROD,NA1,NA2,EU1)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>DocuSign Server environment to connect : valid entries (DEMO, PROD,NA1,NA2,EU1)</inlineHelpText>
+    <label>Production Server Pod</label>
+    <length>80</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

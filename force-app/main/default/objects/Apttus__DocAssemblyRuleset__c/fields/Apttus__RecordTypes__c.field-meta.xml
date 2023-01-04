@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__RecordTypes__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Note: If you add a new agreement/quote record type, the type must also be manually added to this set of picklist values to keep record types in sync between agreements/quotes and templates.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Note: If you add a new agreement/quote record type, the type must also be manually added to this set of picklist values to keep record types in sync between agreements/quotes and templates.</inlineHelpText>
+    <label>Record Types</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>true</default>
+                <label>All</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

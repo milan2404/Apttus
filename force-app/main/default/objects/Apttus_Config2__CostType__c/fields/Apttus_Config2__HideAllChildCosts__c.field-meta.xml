@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HideAllChildCosts__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether child cost types should be hidden in the price waterfall</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether child cost types should be hidden in the price waterfall</inlineHelpText>
+    <label>Hide Child Cost Types in Price Waterfall</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

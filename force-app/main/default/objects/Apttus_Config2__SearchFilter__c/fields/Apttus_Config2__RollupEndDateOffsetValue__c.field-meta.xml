@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RollupEndDateOffsetValue__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The offset value to apply to the rollup end date</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The offset value to apply to the rollup end date</inlineHelpText>
+    <label>Rollup End Date Offset Value</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

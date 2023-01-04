@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Base2__SyncBaseObjects__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box if you have to sync base objects (like Line Items, Summary groups etc...) also along with line item related objects</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Check this box if you have to sync base objects (like Line Items, Summary groups etc...) also along with line item related objects</inlineHelpText>
+    <label>Sync Base Objects</label>
+    <type>Checkbox</type>
+</CustomField>

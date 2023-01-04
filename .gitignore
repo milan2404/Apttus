@@ -1,7 +1,7 @@
 # General Project related
 target/
 temp/
-/deploy/*
+/deploy/src
 /debug/
 **/dep-dir.txt
 *.prefs

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__FieldNumber__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of the Field (1 - 5) this mapping pertains to. An empty field or null implies the mapping pertains to all of the fields.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>The number of the Field (1 - 5) this mapping pertains to. An empty field or null implies the mapping pertains to all of the fields.</inlineHelpText>
+    <label>Field Number</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

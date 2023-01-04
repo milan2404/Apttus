@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__InEffect__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked this means this backup/delegate is in effect.  A backup/delegate can be active, in effect, or both.  In order for requests to be actively assigned to the backup/delegate they must be active and in effect.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When checked this means this backup/delegate is in effect.  A backup/delegate can be active, in effect, or both.  In order for requests to be actively assigned to the backup/delegate they must be active and in effect.</inlineHelpText>
+    <label>In Effect</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

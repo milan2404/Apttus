@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IsCustom__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Boolean field to specify whether the group is custom created</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Boolean field to specify whether the group is custom created</inlineHelpText>
+    <label>Is Custom</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

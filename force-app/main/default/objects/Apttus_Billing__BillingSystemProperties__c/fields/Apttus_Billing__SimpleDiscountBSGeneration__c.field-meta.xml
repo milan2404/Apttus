@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__SimpleDiscountBSGeneration__c</fullName>
+    <defaultValue>$Label.apttus_billing__GenerateForAsset</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Option to determine which period and amount to use when generating new Billing Schedules for a simple discount (Net Price is positive and Delta Price is negative).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Option to determine which period and amount to use when generating new Billing Schedules for a simple discount.</inlineHelpText>
+    <label>Simple Discount BS... (Deprecated)</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

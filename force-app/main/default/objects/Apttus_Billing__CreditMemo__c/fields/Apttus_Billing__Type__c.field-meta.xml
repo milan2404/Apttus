@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Credit Memo type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The type of the credit memo.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ABO Credit</fullName>
+                <default>false</default>
+                <label>ABO Credit</label>
+            </value>
+            <value>
+                <fullName>Manual Credit</fullName>
+                <default>false</default>
+                <label>Manual Credit</label>
+            </value>
+            <value>
+                <fullName>Wallet Credit</fullName>
+                <default>false</default>
+                <label>Wallet Credit</label>
+            </value>
+            <value>
+                <fullName>Ad Hoc Credit</fullName>
+                <default>false</default>
+                <label>Ad Hoc Credit</label>
+            </value>
+            <value>
+                <fullName>Incentive</fullName>
+                <default>false</default>
+                <label>Incentive</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__AllowRegenerateFromXAC__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This is a flag to control the UI button visibility on the XAC for regenerate</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is a flag to control the UI button visibility on the XAC for regenerate</inlineHelpText>
+    <label>Allow Regenerate From XAC</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

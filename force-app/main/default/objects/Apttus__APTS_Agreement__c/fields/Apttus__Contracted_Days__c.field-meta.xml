@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Contracted_Days__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Days from Contract Start Date to Current Date if the contract is In Effect and Start Date is set.</description>
+    <externalId>false</externalId>
+    <formula>IF(AND(NOT(ISNULL(Apttus__Contract_Start_Date__c )), ISPICKVAL(Apttus__Status_Category__c,&quot;In Effect&quot;)), (TODAY() - Apttus__Contract_Start_Date__c ) + 1, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contracted Days</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

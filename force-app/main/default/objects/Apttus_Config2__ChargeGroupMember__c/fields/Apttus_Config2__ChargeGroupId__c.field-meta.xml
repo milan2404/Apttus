@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ChargeGroupId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the charge group to which this charge type is associated</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the charge group to which this charge type is associated</inlineHelpText>
+    <label>Charge Group</label>
+    <referenceTo>Apttus_Config2__ChargeGroup__c</referenceTo>
+    <relationshipLabel>Members</relationshipLabel>
+    <relationshipName>Members</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

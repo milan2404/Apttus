@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ParentConfigRequestId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to the Config Request record of Parent Cart</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to the Config Request record of Parent Cart</inlineHelpText>
+    <label>Parent Config Request Id</label>
+    <referenceTo>Apttus_Config2__TempObject__c</referenceTo>
+    <relationshipLabel>Collaboration Requests</relationshipLabel>
+    <relationshipName>CollaborationRequests</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

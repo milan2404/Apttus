@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__GroupByField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Represents rollup field expression aggregation field name</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Represents rollup field expression aggregation field name</inlineHelpText>
+    <label>Group By Field</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

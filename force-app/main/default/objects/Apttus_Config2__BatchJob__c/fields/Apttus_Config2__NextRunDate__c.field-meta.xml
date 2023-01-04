@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__NextRunDate__c</fullName>
+    <defaultValue>DATETIMEVALUE(&apos;2000-01-01 00:00:00&apos;)</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates the date/time when the job would run next</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the date/time when the job would run next</inlineHelpText>
+    <label>Next Run Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SameDayCancellation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Checking out Same Day Cancellation option will provide with behavior where cancellation will be done on same day, unchecking it will mean Cancellation will be using cancel day + 1 behavior.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checking out Same Day Cancellation option will provide with behavior where cancellation will be done on same day, unchecking it will mean Cancellation will be using cancel day + 1 behavior.</inlineHelpText>
+    <label>Same Day Cancellation</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

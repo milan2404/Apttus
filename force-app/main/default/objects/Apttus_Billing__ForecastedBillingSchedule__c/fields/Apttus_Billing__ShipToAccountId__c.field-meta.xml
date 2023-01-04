@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__ShipToAccountId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Id of the ship-to Account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Id of the ship-to Account.</inlineHelpText>
+    <label>Ship To</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Forecasted Billing Schedules (Ship To)</relationshipLabel>
+    <relationshipName>Forecasted_Billing_Schedules1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

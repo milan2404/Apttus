@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__UsageSchedule__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Link to the Usage Schedule that corresponds to the Asset Number and the Usage Date</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&apos;/apex/Apttus_Billing__AssociatedUsageSchedule?id=&apos;&amp;Id, $Label.apttus_billing__UsageSchedule , &apos;_self&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Link to the Usage Schedule that corresponds to the Asset Number and the Usage Date</inlineHelpText>
+    <label>Usage Schedule</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

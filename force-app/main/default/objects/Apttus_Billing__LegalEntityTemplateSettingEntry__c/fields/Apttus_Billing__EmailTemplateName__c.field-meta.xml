@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__EmailTemplateName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Name of the Email Template to use for Email delivery.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the name of the Email Template to use when sending an Email for the specified Document Type.</inlineHelpText>
+    <label>Email Template Name</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ImportSupportingDocument__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF ((Apttus__VersionAware__c ), IF(OR($User.UIThemeDisplayed == &apos;Theme4d&apos;, $User.UIThemeDisplayed == &apos;Theme4t&apos;, $User.UIThemeDisplayed == &apos;Theme4u&apos;),   HYPERLINK(&quot;/apex/Apttus__LightningOfflineDocumentImport?action=ImportSupportingDocument&amp;id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus__Button_ImportSupportingDocument&quot;, &quot;Import Supporting Document&quot;),&quot;_self&quot;),   HYPERLINK(&quot;/apex/Apttus__OfflineDocumentImport?action=ImportSupportingDocument&amp;id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus__Button_ImportSupportingDocument&quot;, &quot;Import Supporting Document&quot;),&quot;_self&quot;)), NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Import Supporting Document</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__View__c</fullName>
+    <deprecated>false</deprecated>
+    <description>View the associated content</description>
+    <externalId>false</externalId>
+    <formula>if(Apttus__IsTransient__c == FALSE , CASE(Apttus__FileType__c, &quot;ContentDocument&quot;, HYPERLINK(&quot;/sfc/servlet.shepherd/version/download/&quot; &amp; Apttus__ContentVersionId__c,&quot;View&quot;), HYPERLINK(&quot;/servlet/servlet.FileDownload?file=&quot; &amp; Apttus__ContentId__c,&quot;View&quot;)) ,&quot;&quot; )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>View the associated content</inlineHelpText>
+    <label>View</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

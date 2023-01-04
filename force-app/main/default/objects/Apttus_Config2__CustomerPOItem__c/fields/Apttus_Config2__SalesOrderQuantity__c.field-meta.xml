@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SalesOrderQuantity__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Total quantity for which sales orders have already been created and confirmed against the purchase order item</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Total quantity for which sales orders have already been created and confirmed against the purchase order item</inlineHelpText>
+    <label>Sales Order Quantity</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

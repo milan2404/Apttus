@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__RejectedProposals</fullName>
+    <columns>NAME</columns>
+    <columns>Apttus_Proposal__Opportunity__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Apttus_Proposal__Approval_Stage__c</field>
+        <operation>equals</operation>
+        <value>Denied</value>
+    </filters>
+    <label>Rejected Proposals</label>
+</ListView>

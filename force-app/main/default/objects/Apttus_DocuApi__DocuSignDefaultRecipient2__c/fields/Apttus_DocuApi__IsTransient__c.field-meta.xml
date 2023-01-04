@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__IsTransient__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates a transient recipient record that may get deleted by the user. A new recipient is in transient state until the recipient is explicitly saved by the user. A new recipient is created by new and clone methods. Workflow rules should check this field to test for false before firing so that rules are not incorrectly fired when transient recipients are created .</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates a transient recipient that may get deleted by the user. A new recipient is in transient state until the recipient is explicitly saved by the user.</inlineHelpText>
+    <label>IsTransient</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

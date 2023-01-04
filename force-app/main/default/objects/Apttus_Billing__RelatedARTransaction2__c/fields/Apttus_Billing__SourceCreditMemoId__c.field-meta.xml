@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__SourceCreditMemoId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The source credit memo from where the A/R transaction is originated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The source credit memo from where the A/R transaction is originated.</inlineHelpText>
+    <label>Source Credit Memo Id</label>
+    <referenceTo>Apttus_Billing__CreditMemo__c</referenceTo>
+    <relationshipLabel>Source Related A/R Transactions (Source Credit Memo Id)</relationshipLabel>
+    <relationshipName>SourceRelatedARTransactions</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IsParentCartVisible__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Specifies whether the collaborator gets read-only access to the parent cart</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specifies whether the collaborator gets read-only access to the parent cart</inlineHelpText>
+    <label>Grant Access to Merge Cart (Read Only)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

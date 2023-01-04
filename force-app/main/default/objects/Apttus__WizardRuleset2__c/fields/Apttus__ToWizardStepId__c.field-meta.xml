@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ToWizardStepId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Applicable to rule type &apos;Go To Step&apos;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Applicable to rule type &apos;Go To Step&apos;.</inlineHelpText>
+    <label>Go To Wizard Step</label>
+    <referenceTo>Apttus__WizardStep2__c</referenceTo>
+    <relationshipLabel>Step Rulesets (To)</relationshipLabel>
+    <relationshipName>StepRulesetsTo</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

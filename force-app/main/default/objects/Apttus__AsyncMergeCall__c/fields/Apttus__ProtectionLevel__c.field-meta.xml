@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ProtectionLevel__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The protection level applied to the merged document.</description>
+    <externalId>false</externalId>
+    <label>Protection Level</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Full access</fullName>
+                <default>false</default>
+                <label>Full access</label>
+            </value>
+            <value>
+                <fullName>Insert comments and tracked changes only</fullName>
+                <default>false</default>
+                <label>Insert comments and tracked changes only</label>
+            </value>
+            <value>
+                <fullName>Insert comments only</fullName>
+                <default>false</default>
+                <label>Insert comments only</label>
+            </value>
+            <value>
+                <fullName>Fill in form fields only</fullName>
+                <default>false</default>
+                <label>Fill in form fields only</label>
+            </value>
+            <value>
+                <fullName>Read only</fullName>
+                <default>false</default>
+                <label>Read only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

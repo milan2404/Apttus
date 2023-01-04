@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__Proposal_Category__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The quote/proposal category</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The quote/proposal category</inlineHelpText>
+    <label>Proposal Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote</fullName>
+                <default>true</default>
+                <label>Quote</label>
+            </value>
+            <value>
+                <fullName>Proposal</fullName>
+                <default>false</default>
+                <label>Proposal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CostItemId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Id of the Cost Item associated with the product and the Cost Model</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Id of the Cost Item associated with the product and the Cost Model</inlineHelpText>
+    <label>Cost Item</label>
+    <referenceTo>Apttus_Config2__CostItem__c</referenceTo>
+    <relationshipLabel>Cost Line Items</relationshipLabel>
+    <relationshipName>Cost_Line_Items</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

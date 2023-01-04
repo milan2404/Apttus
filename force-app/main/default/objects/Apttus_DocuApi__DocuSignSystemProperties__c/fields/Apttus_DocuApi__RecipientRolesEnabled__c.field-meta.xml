@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__RecipientRolesEnabled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This settings enables the users to select the recipient role name while adding a recipient and makes the tagging order explicit. When enabled, users will see an additional option list to select the role name for the recipient on the add recipient view.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This settings enables the users to select the recipient role name while adding a recipient and makes the tagging order explicit. When enabled, users will see an additional option list to select the role name for the recipient on the add recipient view.</inlineHelpText>
+    <label>Recipient Roles Enabled</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

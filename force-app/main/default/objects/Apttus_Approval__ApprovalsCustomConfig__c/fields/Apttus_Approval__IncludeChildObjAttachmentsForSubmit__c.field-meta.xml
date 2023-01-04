@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__IncludeChildObjAttachmentsForSubmit__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether or not to include attachments associated with the current context object&apos;s children in the attachment selection screen when submitting for approval.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether or not to include attachments associated with the current context object&apos;s children in the attachment selection screen when submitting for approval.</inlineHelpText>
+    <label>Include Child Obj Attachments For Submit</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

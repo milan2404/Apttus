@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__Steps</fullName>
+    <columns>NAME</columns>
+    <columns>Apttus_Approval__Step__c</columns>
+    <columns>Apttus_Approval__Step_Active__c</columns>
+    <columns>Apttus_Approval__Step_Seq_Number__c</columns>
+    <columns>Apttus_Approval__Step_Name__c</columns>
+    <columns>Apttus_Approval__Step_Assignee__c</columns>
+    <columns>Apttus_Approval__Step_Assignee_Type__c</columns>
+    <columns>Apttus_Approval__Step_Auto_Complete__c</columns>
+    <columns>Apttus_Approval__Send_Email__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Apttus_Approval__Approval_Process__c.Apttus_Approval__Step</value>
+    </filters>
+    <label>Steps</label>
+</ListView>

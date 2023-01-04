@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__All</fullName>
+    <columns>NAME</columns>
+    <columns>Apttus_Config2__IsDefault__c</columns>
+    <columns>Apttus_Config2__Value__c</columns>
+    <columns>Apttus_Config2__Label__c</columns>
+    <columns>Apttus_Config2__OffsetType__c</columns>
+    <columns>Apttus_Config2__StartType__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

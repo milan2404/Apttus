@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ClauseVersionId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to clause version</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to clause version</inlineHelpText>
+    <label>Clause Version</label>
+    <referenceTo>Apttus__TemplateVersion__c</referenceTo>
+    <relationshipLabel>Template Clause References (Clause Version)</relationshipLabel>
+    <relationshipName>TemplateClauseReferenceClauseVersion</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

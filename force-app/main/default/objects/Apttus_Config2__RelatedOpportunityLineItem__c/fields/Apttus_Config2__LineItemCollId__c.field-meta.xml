@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__LineItemCollId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the associated line item collection</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the associated line item collection</inlineHelpText>
+    <label>Line Item Coll</label>
+    <referenceTo>Apttus_Config2__RelatedOpportunityLineItemColl__c</referenceTo>
+    <relationshipLabel>Related Opportunity Line Items</relationshipLabel>
+    <relationshipName>RelatedOpportunityLineItems</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

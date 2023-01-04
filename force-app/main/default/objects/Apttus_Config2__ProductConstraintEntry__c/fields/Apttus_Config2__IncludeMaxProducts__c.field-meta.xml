@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IncludeMaxProducts__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The maximum number of products that may be included from the list of products. Setting the maximum products constrains the number of products the user can include from the list of products.</description>
+    <externalId>false</externalId>
+    <label>Include Max Products</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

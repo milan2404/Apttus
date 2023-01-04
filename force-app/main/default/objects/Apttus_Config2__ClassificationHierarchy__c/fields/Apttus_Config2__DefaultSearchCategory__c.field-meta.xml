@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DefaultSearchCategory__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When the parent category is in context the page should show content from this category by default.</description>
+    <externalId>false</externalId>
+    <label>Default Search Category</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

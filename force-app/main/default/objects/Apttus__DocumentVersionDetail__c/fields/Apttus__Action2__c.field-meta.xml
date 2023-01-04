@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Action2__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The action which created the version</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The action which created the version</inlineHelpText>
+    <label>Action</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Generate Agreement</fullName>
+                <default>false</default>
+                <label>Generate Agreement</label>
+            </value>
+            <value>
+                <fullName>Regenerate Agreement</fullName>
+                <default>false</default>
+                <label>Regenerate Agreement</label>
+            </value>
+            <value>
+                <fullName>Create Offline Agreement</fullName>
+                <default>false</default>
+                <label>Create Offline Agreement</label>
+            </value>
+            <value>
+                <fullName>Import Offline Agreement</fullName>
+                <default>false</default>
+                <label>Import Offline Agreement</label>
+            </value>
+            <value>
+                <fullName>Check In</fullName>
+                <default>false</default>
+                <label>Check In</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

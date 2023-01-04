@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__DeleteForecast__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Delete any Forecasted Billing Schedule when the Billing Schedules are created.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If delete forecast is set to true, the forecast billing schedules linked to a proposal will be deleted as soon as the actual billing schedules are created. Do not check this box if you want to retain the forecast billing schedules linked to the proposal</inlineHelpText>
+    <label>Delete Forecast</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

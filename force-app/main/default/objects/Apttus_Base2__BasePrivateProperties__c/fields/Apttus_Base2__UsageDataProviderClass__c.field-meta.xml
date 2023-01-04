@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Base2__UsageDataProviderClass__c</fullName>
+    <defaultValue>&quot;Apttus_Config2.UsageDataImplementation&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>List of Usage Data provider class names, separated by comma. The class should implement the Apttus_Base2.IUsageData interface.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List of Usage Data provider class names, separated by comma. The class should implement the Apttus_Base2.IUsageData interface.</inlineHelpText>
+    <label>Usage Data Provider Class</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

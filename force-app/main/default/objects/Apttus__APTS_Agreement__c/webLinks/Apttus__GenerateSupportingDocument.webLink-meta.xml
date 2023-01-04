@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__GenerateSupportingDocument</fullName>
+    <availability>online</availability>
+    <description>Generate supporting document</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Generate Supporting Document</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/Apttus__SelectTemplate?id={!Apttus__APTS_Agreement__c.Id}&amp;action=Generate_Supporting_Document&amp;templateType=Supporting_Document</url>
+</WebLink>

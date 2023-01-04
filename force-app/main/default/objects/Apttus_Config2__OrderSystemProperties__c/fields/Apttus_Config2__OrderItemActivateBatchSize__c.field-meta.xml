@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__OrderItemActivateBatchSize__c</fullName>
+    <defaultValue>100</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The order item batch size for the activate order process expressed in line numbers. The default value is 100 bundles or standalone items. The SFDC governor limit affects the batch size.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The order item batch size for the activate order process expressed in line numbers. The default value is 100 bundles or standalone items. The SFDC governor limit affects the batch size.</inlineHelpText>
+    <label>Order Item Activate Batch Size</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

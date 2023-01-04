@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__URL__c</fullName>
+    <defaultValue>&quot;http://&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The http://, https:// or file:// URL to the document.  This field should contain the fully qualified URL path to the document.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The http://, https:// or file:// URL to the document.  This field should contain the fully qualified URL path to the document.</inlineHelpText>
+    <label>URL</label>
+    <length>255</length>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

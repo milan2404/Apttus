@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Label__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The payment term label</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The payment term label</inlineHelpText>
+    <label>Label</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Net 30 Days</fullName>
+                <default>false</default>
+                <label>Net 30 Days</label>
+            </value>
+            <value>
+                <fullName>Net 45 Days</fullName>
+                <default>false</default>
+                <label>Net 45 Days</label>
+            </value>
+            <value>
+                <fullName>Net 60 Days</fullName>
+                <default>false</default>
+                <label>Net 60 Days</label>
+            </value>
+            <value>
+                <fullName>Net 90 days</fullName>
+                <default>false</default>
+                <label>Net 90 days</label>
+            </value>
+            <value>
+                <fullName>Due Upon Receipt</fullName>
+                <default>true</default>
+                <label>Due Upon Receipt</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

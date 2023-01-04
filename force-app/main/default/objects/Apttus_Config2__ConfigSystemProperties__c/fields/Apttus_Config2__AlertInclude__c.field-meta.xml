@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AlertInclude__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Whether to display radio buttons for Renew, Increment, Amend, Cancel asset actions.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check it to display radio buttons for  Renew, Increment, Amend, Cancel asset actions.</inlineHelpText>
+    <label>Show Radio Buttons for Asset</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

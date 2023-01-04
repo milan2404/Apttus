@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__DocuSignBatchProcessingDisabled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This flag indicates whether to use Apex batch to process DocuSign eSignature request. If set to true the request would be processed synchronously.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This flag indicates whether to use Apex batch to process DocuSign eSignature request. If set to true the request would be processed synchronously.</inlineHelpText>
+    <label>DocuSign Batch Processing Disabled</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

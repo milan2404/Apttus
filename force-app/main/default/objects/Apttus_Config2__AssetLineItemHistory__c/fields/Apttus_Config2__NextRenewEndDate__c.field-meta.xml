@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__NextRenewEndDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The next renew end date for the asset line item</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The next renew end date for the asset line item</inlineHelpText>
+    <label>Next Renew End Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

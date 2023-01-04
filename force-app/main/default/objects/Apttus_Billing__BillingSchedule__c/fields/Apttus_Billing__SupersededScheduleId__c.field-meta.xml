@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__SupersededScheduleId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>This is the Id of the Billing Schedule that is being superseded by this Billing schedule.  For a new Billing Schedule this Id will be null.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the Id of the Billing Schedule that is being superseded by this Billing schedule.  For a new Billing Schedule this Id will be null.</inlineHelpText>
+    <label>Superseded Billing Schedule</label>
+    <referenceTo>Apttus_Billing__BillingSchedule__c</referenceTo>
+    <relationshipLabel>Superseded Billing Schedules</relationshipLabel>
+    <relationshipName>SupersededScheduleId</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__AppliedInvoiceLineItemId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>This field will be set when a Wallet is applied to an Invoice Line Item during the Invoice Run.</description>
+    <externalId>false</externalId>
+    <label>Applied Invoice Line Item</label>
+    <referenceTo>Apttus_Billing__InvoiceLineItem__c</referenceTo>
+    <relationshipLabel>Credit Memo Line Items (Applied Invoice Line Item)</relationshipLabel>
+    <relationshipName>WalletCreditMemoLineItems</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

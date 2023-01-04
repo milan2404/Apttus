@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SaveOnAllActions__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked save operation will be performed on all actions.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When checked save operation will be performed on all actions.</inlineHelpText>
+    <label>Save On All Actions</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

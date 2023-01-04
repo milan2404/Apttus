@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__InvoicedScheduleId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Id of the invoiced and superseded Billing Schedule that is the source of the credit.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Id of the invoiced and superseded Billing Schedule that is the source of the credit.
+Will be null if Schedule pertains to a debit.</inlineHelpText>
+    <label>Invoiced Schedule</label>
+    <referenceTo>Apttus_Billing__ForecastedBillingSchedule__c</referenceTo>
+    <relationshipLabel>Forecasted Billing Schedules</relationshipLabel>
+    <relationshipName>ForecastedBillingSchedules</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

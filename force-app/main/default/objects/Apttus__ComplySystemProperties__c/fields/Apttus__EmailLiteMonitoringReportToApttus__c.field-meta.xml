@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__EmailLiteMonitoringReportToApttus__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Flag to decide if email the Lite license usage report to the Apttus administrator.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Emails the Lite license usage report to the Apttus administrator.</inlineHelpText>
+    <label>Email Lite Monitoring Report to Apttus?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

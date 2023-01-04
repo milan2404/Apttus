@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ChildIsId</fullName>
+    <active>true</active>
+    <description>Ensures the length of the Child field is consistent with an id.</description>
+    <errorConditionFormula>LEN(Apttus_Config2__Child__c) &lt; 15</errorConditionFormula>
+    <errorDisplayField>Apttus_Config2__Child__c</errorDisplayField>
+    <errorMessage>The Child field is interpreted as an ID and must be valid as such.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__JobRecurrenceFrequencyValue__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates how frequently recurring jobs should run. e.g. Every 6 hours.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates how frequently recurring jobs should run. e.g. Every 6 hours.</inlineHelpText>
+    <label>Job Recurrence Frequency Value</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

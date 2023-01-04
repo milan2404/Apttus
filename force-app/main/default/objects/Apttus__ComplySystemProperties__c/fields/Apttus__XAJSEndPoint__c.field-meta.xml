@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__XAJSEndPoint__c</fullName>
+    <deprecated>false</deprecated>
+    <description>XAJS End Point used to process the request through XAJS service</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Provide XAJS Endpoint instance url</inlineHelpText>
+    <label>XAJS End Point</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

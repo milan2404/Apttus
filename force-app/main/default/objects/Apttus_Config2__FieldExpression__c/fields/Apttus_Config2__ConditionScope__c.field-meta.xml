@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ConditionScope__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Scope which determines when the rollup will be attached to the configuration.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Scope which determines when the rollup will be attached to the configuration.</inlineHelpText>
+    <label>Scope</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product</fullName>
+                <default>false</default>
+                <label>Product</label>
+            </value>
+            <value>
+                <fullName>Product Group</fullName>
+                <default>false</default>
+                <label>Product Group</label>
+            </value>
+            <value>
+                <fullName>Header Level</fullName>
+                <default>false</default>
+                <label>Header Level</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

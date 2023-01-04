@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__TransferPriceLineItemId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Line Item from collaborators cart from which transfer prices was received for this cost line item</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Line Item from collaborators cart from which transfer prices was received for this cost line item</inlineHelpText>
+    <label>Transfer Price Line Item</label>
+    <referenceTo>Apttus_Config2__LineItem__c</referenceTo>
+    <relationshipLabel>Cost Line Items (Transfer Price Line Item)</relationshipLabel>
+    <relationshipName>CostLineItemsTP</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

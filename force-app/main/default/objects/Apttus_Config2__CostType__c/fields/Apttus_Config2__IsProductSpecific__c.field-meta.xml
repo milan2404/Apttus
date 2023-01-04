@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IsProductSpecific__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Whether the cost type has relevant cost list item(price list item)</description>
+    <externalId>false</externalId>
+    <label>Is Product Specific</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

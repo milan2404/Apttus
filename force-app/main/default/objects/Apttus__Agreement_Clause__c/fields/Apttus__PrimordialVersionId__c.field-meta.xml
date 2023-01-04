@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__PrimordialVersionId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to the first version of agreement clause</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to the first version of agreement clause</inlineHelpText>
+    <label>Primordial Agreement Clause</label>
+    <referenceTo>Apttus__Agreement_Clause__c</referenceTo>
+    <relationshipLabel>Agreement Clauses (Primordial Agreement Clause)</relationshipLabel>
+    <relationshipName>PrimordialAgreementClauses</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

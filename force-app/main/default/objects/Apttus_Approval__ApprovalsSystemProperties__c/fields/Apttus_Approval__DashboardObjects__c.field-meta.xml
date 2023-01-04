@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__DashboardObjects__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A comma separated list of object api names to include in the Approval Center.  The first item in the list is used as the default tab if one or more requests exist for that object when the user navigates to the Approval Center.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A comma separated list of object api names to include in the Approval Center.  The first item in the list is used as the default tab if one or more requests exist for that object when the user navigates to the Approval Center.</inlineHelpText>
+    <label>Approval Center</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

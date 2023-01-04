@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__SubmittedById__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to the user who submitted this runtime</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to the user who submitted this runtime</inlineHelpText>
+    <label>Submitted By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Wizard</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

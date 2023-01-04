@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__CreditMemoCreationOption__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The various ways to create Credit Memos during an Invoice Run.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The various ways to create Credit Memos during an Invoice Run.</inlineHelpText>
+    <label>Credit Memo Creation Option</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Single Credit Memo for Negative Invoice</fullName>
+                <default>false</default>
+                <label>Single Credit Memo for Negative Invoice</label>
+            </value>
+            <value>
+                <fullName>Separate Credit Memo for each Negative Schedule</fullName>
+                <default>false</default>
+                <label>Separate Credit Memo for each Negative Schedule</label>
+            </value>
+            <value>
+                <fullName>Single Credit Memo for all Negative Schedules per Invoice</fullName>
+                <default>false</default>
+                <label>Single Credit Memo for all Negative Schedules per Invoice</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

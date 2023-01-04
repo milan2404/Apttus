@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FF_Amend__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Amend the agreement</description>
+    <externalId>false</externalId>
+    <formula>IF (AND(ISPICKVAL(Apttus__Status_Category__c,&quot;In Effect&quot;),NOT(ISPICKVAL(Apttus__Status__c,&quot;Being Amended&quot;)), NOT(ISPICKVAL(Apttus__Status__c,&quot;Being Renewed&quot;)), NOT(ISPICKVAL(Apttus__Status__c,&quot;Being Activated&quot;))), IF(OR($User.UIThemeDisplayed == &apos;Theme4d&apos;, $User.UIThemeDisplayed == &apos;Theme4t&apos;, $User.UIThemeDisplayed == &apos;Theme4u&apos;), HYPERLINK(&quot;/apex/Apttus__LightningAgreementAmend?id=&quot; &amp;Id, IMAGE(&quot;/resource/Apttus__Button_Amend&quot;, &quot;Amend&quot;),&quot;_self&quot;) , HYPERLINK(&quot;/apex/Apttus__AgreementAmend?id=&quot; &amp;Id, IMAGE(&quot;/resource/Apttus__Button_Amend&quot;, &quot;Amend&quot;),&quot;_self&quot;)),NULL)</formula>
+    <inlineHelpText>Amend the agreement</inlineHelpText>
+    <label>Amend</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

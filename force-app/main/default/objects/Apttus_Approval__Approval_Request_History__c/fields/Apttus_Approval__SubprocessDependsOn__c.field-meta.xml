@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__SubprocessDependsOn__c</fullName>
+    <deprecated>false</deprecated>
+    <description>List of sub processes (belonging to the same step) which must be completed before this sub process. The list contains a comma separated subprocess sequence numbers</description>
+    <externalId>false</externalId>
+    <label>Subprocess Depends On</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__InterfaceDefinition__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The definition of the data type entered in by the designer.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The definition of the data type entered in by the designer.</inlineHelpText>
+    <label>Interface Definition</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Apttus__ResponseDataType__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Text Entry</fullName>
+                <default>false</default>
+                <label>Text Entry</label>
+            </value>
+            <value>
+                <fullName>Picklist Dropdown</fullName>
+                <default>false</default>
+                <label>Picklist Dropdown</label>
+            </value>
+            <value>
+                <fullName>Picklist Radio Button</fullName>
+                <default>false</default>
+                <label>Picklist Radio Button</label>
+            </value>
+            <value>
+                <fullName>Checkbox</fullName>
+                <default>false</default>
+                <label>Checkbox</label>
+            </value>
+            <value>
+                <fullName>Currency &lt;Type, Chars, Dec&gt;</fullName>
+                <default>false</default>
+                <label>Currency &lt;Type, Chars, Dec&gt;</label>
+            </value>
+            <value>
+                <fullName>Number &lt;Chars, Dec&gt;</fullName>
+                <default>false</default>
+                <label>Number &lt;Chars, Dec&gt;</label>
+            </value>
+            <value>
+                <fullName>Date &lt;Format&gt;</fullName>
+                <default>false</default>
+                <label>Date &lt;Format&gt;</label>
+            </value>
+            <value>
+                <fullName>Percent &lt;Dec&gt;</fullName>
+                <default>false</default>
+                <label>Percent &lt;Dec&gt;</label>
+            </value>
+            <value>
+                <fullName>Expression Formula</fullName>
+                <default>false</default>
+                <label>Expression Formula</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Text</controllingFieldValue>
+            <valueName>Text Entry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Text</controllingFieldValue>
+            <controllingFieldValue>List</controllingFieldValue>
+            <controllingFieldValue>Currency</controllingFieldValue>
+            <controllingFieldValue>Number</controllingFieldValue>
+            <controllingFieldValue>Date</controllingFieldValue>
+            <controllingFieldValue>Percent</controllingFieldValue>
+            <controllingFieldValue>Concatenation</controllingFieldValue>
+            <valueName>Expression Formula</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>List</controllingFieldValue>
+            <valueName>Picklist Dropdown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>List</controllingFieldValue>
+            <valueName>Picklist Radio Button</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Currency</controllingFieldValue>
+            <valueName>Currency &lt;Type, Chars, Dec&gt;</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Number</controllingFieldValue>
+            <valueName>Number &lt;Chars, Dec&gt;</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Date</controllingFieldValue>
+            <valueName>Date &lt;Format&gt;</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Percent</controllingFieldValue>
+            <valueName>Percent &lt;Dec&gt;</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Checkbox</controllingFieldValue>
+            <valueName>Checkbox</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HasValidationErrors__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether there are validation errors associated with the po item</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether there are validation errors associated with the po item</inlineHelpText>
+    <label>Validation Errors ?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__AgreementNumberFieldForImportedDocs__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The API name of the agreement number field for third party documents</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The API name of the agreement number field for third party documents</inlineHelpText>
+    <label>Agreement Number Field For Imported Docs</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

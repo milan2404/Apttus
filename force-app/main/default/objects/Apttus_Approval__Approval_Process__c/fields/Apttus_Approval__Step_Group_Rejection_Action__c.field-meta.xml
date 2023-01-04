@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__Step_Group_Rejection_Action__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Step Group Rejection Action</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Group Rejection</fullName>
+                <default>false</default>
+                <label>Group Rejection</label>
+            </value>
+            <value>
+                <fullName>Final Rejection</fullName>
+                <default>false</default>
+                <label>Final Rejection</label>
+            </value>
+            <value>
+                <fullName>Group &amp; Final Rejection</fullName>
+                <default>false</default>
+                <label>Group &amp; Final Rejection</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

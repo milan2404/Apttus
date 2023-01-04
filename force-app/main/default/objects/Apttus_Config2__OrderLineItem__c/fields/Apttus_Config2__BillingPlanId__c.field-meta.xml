@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__BillingPlanId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the associated billing plan</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the associated billing plan</inlineHelpText>
+    <label>Billing Plan</label>
+    <referenceTo>Apttus_Config2__BillingPlan__c</referenceTo>
+    <relationshipLabel>Order Line Items</relationshipLabel>
+    <relationshipName>OrderLineItems</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

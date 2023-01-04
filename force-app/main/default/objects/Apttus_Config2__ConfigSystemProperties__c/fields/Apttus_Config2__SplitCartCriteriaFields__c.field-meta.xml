@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SplitCartCriteriaFields__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The criteria fields used to split a large cart</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The list of Line item fields to break summarized view of items added during a large cart process. Each field API name separated by a comma or a new line.</inlineHelpText>
+    <label>Split Cart Criteria Fields</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

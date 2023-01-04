@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DeductionAmount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The amount that may be deducted from payments for partially completed milestones</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The amount that may be deducted from payments for partially completed milestones</inlineHelpText>
+    <label>Deduction Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

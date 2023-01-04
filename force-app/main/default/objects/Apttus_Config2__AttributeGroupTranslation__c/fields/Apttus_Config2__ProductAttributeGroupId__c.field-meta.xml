@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ProductAttributeGroupId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Looks up to Product Attribute Group</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Looks up to Product Attribute Group</inlineHelpText>
+    <label>Product Attribute Group</label>
+    <referenceTo>Apttus_Config2__ProductAttributeGroup__c</referenceTo>
+    <relationshipName>Translation</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

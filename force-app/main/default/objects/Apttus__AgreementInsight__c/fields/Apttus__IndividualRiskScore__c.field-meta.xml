@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__IndividualRiskScore__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Individual Risk Score</description>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISNULL(Apttus__Rating__c)) &amp;&amp; NOT(ISBLANK(Apttus__RatingIconPath__c)) &amp;&amp; NOT(ISBLANK(Apttus__RatingLevel__c )), IMAGE(Apttus__RatingIconPath__c, &quot;&quot;) + &apos; &apos; + TEXT(Apttus__Rating__c) +&apos; (&apos; + Apttus__RatingLevel__c + &apos;)&apos; , &apos;&apos;)</formula>
+    <inlineHelpText>Individual Risk Score</inlineHelpText>
+    <label>Individual Risk Score</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

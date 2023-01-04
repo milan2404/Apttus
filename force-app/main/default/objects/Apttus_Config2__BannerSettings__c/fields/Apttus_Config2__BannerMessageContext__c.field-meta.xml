@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__BannerMessageContext__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Identifies message fragments to display on intermediate page. The &apos;Progressbar&apos; context displays right below the progress bar and &apos;Marketing&apos; context display at the middle of the page.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Allow values:
+Progressbar
+Marketing
+
+If the page context is &apos;Progressbar&apos;, BannerType must be &apos;CustomLabel&apos;</inlineHelpText>
+    <label>BannerMessageContext</label>
+    <length>18</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

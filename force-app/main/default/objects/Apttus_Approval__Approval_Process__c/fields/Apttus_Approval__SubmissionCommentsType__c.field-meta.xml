@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__SubmissionCommentsType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Select the type of submission comments that can be entered for this process.  For process level comments, only a single comment can be entered.  For step level comments, up to three comments can be entered for each step.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the type of submission comments that can be entered for this process.  For process level comments, only a single comment can be entered.  For step level comments, up to three comments can be entered for each step.</inlineHelpText>
+    <label>Submission Comments Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Process</fullName>
+                <default>true</default>
+                <label>Process</label>
+            </value>
+            <value>
+                <fullName>Step</fullName>
+                <default>false</default>
+                <label>Step</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

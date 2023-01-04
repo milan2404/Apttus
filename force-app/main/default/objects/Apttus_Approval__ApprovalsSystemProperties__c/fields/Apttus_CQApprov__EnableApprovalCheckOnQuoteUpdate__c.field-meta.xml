@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CQApprov__EnableApprovalCheckOnQuoteUpdate__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether approval check should performed automatically when a quote updated</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether approval check should performed automatically when a quote updated</inlineHelpText>
+    <label>Enable Approval Check On Quote Update</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

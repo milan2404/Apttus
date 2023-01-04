@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SourceChannel__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The order source channel. Indicates the primary Sales Channel for the Order.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The order source channel. Indicates the primary Sales Channel for the Order.</inlineHelpText>
+    <label>Source Channel</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direct</fullName>
+                <default>true</default>
+                <label>Direct</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>E-Commerce</fullName>
+                <default>false</default>
+                <label>E-Commerce</label>
+            </value>
+            <value>
+                <fullName>EDI</fullName>
+                <default>false</default>
+                <label>EDI</label>
+            </value>
+            <value>
+                <fullName>Digital Commerce</fullName>
+                <default>false</default>
+                <label>Digital Commerce</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

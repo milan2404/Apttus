@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__MatchRule__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates if the rule should match all or match any filter conditions</description>
+    <externalId>false</externalId>
+    <label>Match Rule</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Match All</fullName>
+                <default>true</default>
+                <label>Match All</label>
+            </value>
+            <value>
+                <fullName>Match Any</fullName>
+                <default>false</default>
+                <label>Match Any</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

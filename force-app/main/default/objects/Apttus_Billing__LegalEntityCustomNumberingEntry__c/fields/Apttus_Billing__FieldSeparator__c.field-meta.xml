@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__FieldSeparator__c</fullName>
+    <defaultValue>&quot;-&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The separator to place after each field fetched for the field based prefix and/or the field based suffix. based prefix_ or the field based suffix. Example: INV-CA-0000000001-SOUTH</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The separator to place after each field fetched for the field based prefix and/or the field based suffix.</inlineHelpText>
+    <label>Field Separator</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

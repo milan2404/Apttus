@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__EmailInvoiceAttachmentCallbackClass__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The name of the callback class to provide customized contact list and email template for a given Invoice which will be used to send invoice attachment via email</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The name of the callback class to provide customized contact list and email template for a given Invoice which will be used to send invoice attachment via email</inlineHelpText>
+    <label>Email Invoice Attachment Callback Class</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

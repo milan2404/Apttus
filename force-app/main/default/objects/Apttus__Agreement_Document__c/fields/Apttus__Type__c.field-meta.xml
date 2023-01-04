@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The type of document (i.e. scanned image, etc)</description>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Scanned Image</fullName>
+                <default>true</default>
+                <label>Scanned Image</label>
+            </value>
+            <value>
+                <fullName>Final Electronic Copy</fullName>
+                <default>false</default>
+                <label>Final Electronic Copy</label>
+            </value>
+            <value>
+                <fullName>Supporting Attachment</fullName>
+                <default>false</default>
+                <label>Supporting Attachment</label>
+            </value>
+            <value>
+                <fullName>Interim Version</fullName>
+                <default>false</default>
+                <label>Interim Version</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

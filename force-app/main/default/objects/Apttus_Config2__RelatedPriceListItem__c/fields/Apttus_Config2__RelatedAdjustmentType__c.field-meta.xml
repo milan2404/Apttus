@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RelatedAdjustmentType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The related item price adjustment type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The related item price adjustment type</inlineHelpText>
+    <label>Related Adjustment Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Percentage</fullName>
+                <default>false</default>
+                <label>Percentage</label>
+            </value>
+            <value>
+                <fullName>% Discount</fullName>
+                <default>false</default>
+                <label>% Discount</label>
+            </value>
+            <value>
+                <fullName>Discount Amount</fullName>
+                <default>false</default>
+                <label>Discount Amount</label>
+            </value>
+            <value>
+                <fullName>% Markup</fullName>
+                <default>false</default>
+                <label>% Markup</label>
+            </value>
+            <value>
+                <fullName>Markup Amount</fullName>
+                <default>false</default>
+                <label>Markup Amount</label>
+            </value>
+            <value>
+                <fullName>Price Factor</fullName>
+                <default>false</default>
+                <label>Price Factor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

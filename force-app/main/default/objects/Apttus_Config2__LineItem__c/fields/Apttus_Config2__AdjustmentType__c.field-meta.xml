@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AdjustmentType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The manual price adjustment type</description>
+    <externalId>false</externalId>
+    <label>Adjustment Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>% Discount</fullName>
+                <default>false</default>
+                <label>% Discount</label>
+            </value>
+            <value>
+                <fullName>% Discount Off List</fullName>
+                <default>false</default>
+                <label>% Discount Off List</label>
+            </value>
+            <value>
+                <fullName>% Discount Effective</fullName>
+                <default>false</default>
+                <label>% Discount Effective</label>
+            </value>
+            <value>
+                <fullName>% Discount (Bundle Only)</fullName>
+                <default>false</default>
+                <label>% Discount (Bundle Only)</label>
+            </value>
+            <value>
+                <fullName>Discount Amount</fullName>
+                <default>false</default>
+                <label>Discount Amount</label>
+            </value>
+            <value>
+                <fullName>Discount Amount (Bundle Only)</fullName>
+                <default>false</default>
+                <label>Discount Amount (Bundle Only)</label>
+            </value>
+            <value>
+                <fullName>% Uplift</fullName>
+                <default>false</default>
+                <label>% Uplift</label>
+            </value>
+            <value>
+                <fullName>% Uplift (Bundle Only)</fullName>
+                <default>false</default>
+                <label>% Uplift (Bundle Only)</label>
+            </value>
+            <value>
+                <fullName>% Markup</fullName>
+                <default>false</default>
+                <label>% Markup</label>
+            </value>
+            <value>
+                <fullName>% Markup Effective</fullName>
+                <default>false</default>
+                <label>% Markup Effective</label>
+            </value>
+            <value>
+                <fullName>% Markup (Bundle Only)</fullName>
+                <default>false</default>
+                <label>% Markup (Bundle Only)</label>
+            </value>
+            <value>
+                <fullName>Markup Amount</fullName>
+                <default>false</default>
+                <label>Markup Amount</label>
+            </value>
+            <value>
+                <fullName>Markup Amount (Bundle Only)</fullName>
+                <default>false</default>
+                <label>Markup Amount (Bundle Only)</label>
+            </value>
+            <value>
+                <fullName>Price Override</fullName>
+                <default>false</default>
+                <label>Price Override</label>
+            </value>
+            <value>
+                <fullName>Price Override (Bundle Only)</fullName>
+                <default>false</default>
+                <label>Price Override (Bundle Only)</label>
+            </value>
+            <value>
+                <fullName>Base Price Override</fullName>
+                <default>false</default>
+                <label>Base Price Override</label>
+            </value>
+            <value>
+                <fullName>Base Price Discount</fullName>
+                <default>false</default>
+                <label>Base Price Discount</label>
+            </value>
+            <value>
+                <fullName>Base Price Markup</fullName>
+                <default>false</default>
+                <label>Base Price Markup</label>
+            </value>
+            <value>
+                <fullName>Price Factor</fullName>
+                <default>false</default>
+                <label>Price Factor</label>
+            </value>
+            <value>
+                <fullName>Price Factor Effective</fullName>
+                <default>false</default>
+                <label>Price Factor Effective</label>
+            </value>
+            <value>
+                <fullName>Price Factor (Bundle Only)</fullName>
+                <default>false</default>
+                <label>Price Factor (Bundle Only)</label>
+            </value>
+            <value>
+                <fullName>% Discount Off Delta</fullName>
+                <default>false</default>
+                <label>% Discount Off Delta</label>
+            </value>
+            <value>
+                <fullName>Delta Price Override</fullName>
+                <default>false</default>
+                <label>Delta Price Override</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

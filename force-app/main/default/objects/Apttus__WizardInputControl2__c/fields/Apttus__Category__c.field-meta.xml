@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Category__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Controlling the subcategory field, whose list values shall allow users to search, find, and select Input controls</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Controlling the subcategory field, whose list values shall allow users to search, find, and select Input controls</inlineHelpText>
+    <label>Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Default</fullName>
+                <default>true</default>
+                <label>Default</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

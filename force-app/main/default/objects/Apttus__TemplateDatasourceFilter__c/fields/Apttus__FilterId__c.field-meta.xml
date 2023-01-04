@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FilterId__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the search filter</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the search filter</inlineHelpText>
+    <label>Search Filter</label>
+    <referenceTo>Apttus__SearchFilter__c</referenceTo>
+    <relationshipName>Datasource_Filters</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

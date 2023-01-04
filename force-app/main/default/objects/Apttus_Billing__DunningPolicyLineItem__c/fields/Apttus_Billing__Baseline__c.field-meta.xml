@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__Baseline__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Baseline to calculate the interval value to send reminder</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Baseline to calculate the interval value to send reminder</inlineHelpText>
+    <label>Baseline</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>From Invoice Due Date</fullName>
+                <default>true</default>
+                <label>From Invoice Due Date</label>
+            </value>
+            <value>
+                <fullName>From Previous Reminder</fullName>
+                <default>false</default>
+                <label>From Previous Reminder</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

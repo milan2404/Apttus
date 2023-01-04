@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__CancelPendingRequestsOnAReject__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Cancel all pending request on a single reject. This is deprecated and no longer used.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Cancel all pending request on a single reject. This is deprecated and no longer used..</inlineHelpText>
+    <label>Cancel Pending Requests (Deprecated)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

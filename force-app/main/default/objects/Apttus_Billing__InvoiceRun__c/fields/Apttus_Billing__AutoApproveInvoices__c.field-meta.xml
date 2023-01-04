@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__AutoApproveInvoices__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Approve invoices automatically if checked based on the condition. Approve all if there is no condition.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Approve invoices automatically if checked based on the condition. Approve all if there is no condition.</inlineHelpText>
+    <label>Auto Approve Invoices</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

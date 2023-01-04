@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Validation2__c</fullName>
+    <deprecated>false</deprecated>
+    <description>List of values to be displayed during runtime.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List of values to be displayed during runtime.</inlineHelpText>
+    <label>Validation Input</label>
+    <length>2000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

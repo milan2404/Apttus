@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SellingTermCalculationMethod__c</fullName>
+    <defaultValue>&quot;Calendar&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates the method to calculate the selling term for Line Items.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The method to calculate selling terms. With &quot;Billing Preference&quot;, selling term is calculated as indicated by the billing preference associated with the cart or order.
+
+Valid values (default=&quot;Calendar&quot;):
+Calendar
+Billing Preference</inlineHelpText>
+    <label>Selling Term Calculation Method</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

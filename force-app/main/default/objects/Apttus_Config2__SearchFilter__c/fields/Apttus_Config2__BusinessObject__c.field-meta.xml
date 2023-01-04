@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__BusinessObject__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The business object which provides the context for the filter</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The business object which provides the context for the filter</inlineHelpText>
+    <label>Business Object</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Apttus_Config2__UseType__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asset</fullName>
+                <default>false</default>
+                <label>Asset</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__AssetLineItem__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__AssetLineItem__c</label>
+            </value>
+            <value>
+                <fullName>Product2</fullName>
+                <default>false</default>
+                <label>Product2</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__ProductConfiguration__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__ProductConfiguration__c</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__ProductAttributeValue__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__ProductAttributeValue__c</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__RollupData__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__RollupData__c</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__OrderLineItem__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__OrderLineItem__c</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__ExternalOrderSummaryItem__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__ExternalOrderSummaryItem__c</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__Incentive__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__Incentive__c</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__Milestone2__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__Milestone2__c</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__MilestoneTemplate__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__MilestoneTemplate__c</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__SearchAttributeValue__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__SearchAttributeValue__c</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__ClassificationHierarchy__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__ClassificationHierarchy__c</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <controllingFieldValue>Pre-Filter</controllingFieldValue>
+            <valueName>Product2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Option</controllingFieldValue>
+            <controllingFieldValue>Child Filter</controllingFieldValue>
+            <controllingFieldValue>Pre-Filter</controllingFieldValue>
+            <valueName>Apttus_Config2__ProductConfiguration__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Option</controllingFieldValue>
+            <controllingFieldValue>Child Filter</controllingFieldValue>
+            <valueName>Apttus_Config2__ProductAttributeValue__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Option</controllingFieldValue>
+            <controllingFieldValue>Child Filter</controllingFieldValue>
+            <valueName>Apttus_Config2__SearchAttributeValue__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Child Filter</controllingFieldValue>
+            <valueName>Asset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Child Filter</controllingFieldValue>
+            <controllingFieldValue>Pre-Filter</controllingFieldValue>
+            <valueName>Apttus_Config2__AssetLineItem__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Child Filter</controllingFieldValue>
+            <valueName>Apttus_Config2__RollupData__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Child Filter</controllingFieldValue>
+            <controllingFieldValue>Rollup</controllingFieldValue>
+            <valueName>Apttus_Config2__OrderLineItem__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pre-Filter</controllingFieldValue>
+            <valueName>Apttus_Config2__Incentive__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pre-Filter</controllingFieldValue>
+            <valueName>Apttus_Config2__Milestone2__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pre-Filter</controllingFieldValue>
+            <valueName>Apttus_Config2__MilestoneTemplate__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Category</controllingFieldValue>
+            <controllingFieldValue>Category with Products</controllingFieldValue>
+            <valueName>Apttus_Config2__ClassificationHierarchy__c</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__MaxPoints__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The maximum loyalty points that may be accrued for the enrollment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The maximum loyalty points that may be accrued for the enrollment</inlineHelpText>
+    <label>Max Points</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

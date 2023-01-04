@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__OriginalParentApprovalProcessId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Holds reference to the original process definition id - because we are creating a temporary process definition for each process instance - to avoid locking contention - please refer to Jira - AWA-1970 for further details.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Holds reference to the original process definition id</inlineHelpText>
+    <label>Original Parent Approval Process</label>
+    <length>20</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

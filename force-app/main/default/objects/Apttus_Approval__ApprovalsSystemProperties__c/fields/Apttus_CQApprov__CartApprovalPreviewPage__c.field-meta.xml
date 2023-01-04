@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CQApprov__CartApprovalPreviewPage__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The name of a custom page used to show preview information. Leave it blank to use the default page.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The name of a custom page used to show preview information. Leave it blank to use the default page.</inlineHelpText>
+    <label>Cart Approval Preview Page</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

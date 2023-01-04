@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__ProfilesEnabledForTemplateSelection__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Comma separated names for the user profiles that need the ability to select DocuSign template on the user interface. This custom setting is used in combination with the DocuSignTemplatesEnabled custom setting. If this setting is blank, and the DocuSignTemplatesEnabled custom setting is checked, all the profiles will see the template selection list box.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this to enable the DocuSign template selection only for specific profiles.</inlineHelpText>
+    <label>Profiles Enabled For Template Selection</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

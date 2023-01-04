@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__LastEnvelopeStatusSyncTime__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field is used by Apttus system internal to keep track of DocuSign status sync</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field is used by Apttus system internal to keep track of DocuSign status sync</inlineHelpText>
+    <label>Last Envelope Status Sync Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

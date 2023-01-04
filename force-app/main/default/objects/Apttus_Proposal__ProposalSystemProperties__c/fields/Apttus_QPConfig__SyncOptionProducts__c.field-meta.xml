@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_QPConfig__SyncOptionProducts__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the option products should be synchronized along with the bundle. The default is synchronize bundle only.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether the option products should be synchronized along with the bundle. The default is synchronize bundle only.</inlineHelpText>
+    <label>Sync Option Products</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

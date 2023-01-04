@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__RuleExpressionRuleType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Rule types that can be used for navigating the runtime wizard flow, determining the focus object and record type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Rule types that can be used for navigating the runtime wizard flow, determining the focus object and record type.</inlineHelpText>
+    <label>Rule Expression Rule Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Go To Input</fullName>
+                <default>false</default>
+                <label>Go To Input</label>
+            </value>
+            <value>
+                <fullName>Go To Step</fullName>
+                <default>false</default>
+                <label>Go To Step</label>
+            </value>
+            <value>
+                <fullName>Determine Focus Object</fullName>
+                <default>false</default>
+                <label>Determine Focus Object</label>
+            </value>
+            <value>
+                <fullName>Determine Record Type</fullName>
+                <default>false</default>
+                <label>Determine Record Type</label>
+            </value>
+            <value>
+                <fullName>Go To URL</fullName>
+                <default>false</default>
+                <label>Go To URL</label>
+            </value>
+            <value>
+                <fullName>Go To Submit</fullName>
+                <default>false</default>
+                <label>Go To Submit</label>
+            </value>
+            <value>
+                <fullName>Next Step</fullName>
+                <default>false</default>
+                <label>Next Step</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

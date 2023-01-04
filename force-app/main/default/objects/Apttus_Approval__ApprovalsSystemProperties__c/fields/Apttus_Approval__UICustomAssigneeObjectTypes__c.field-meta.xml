@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__UICustomAssigneeObjectTypes__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The field specifies a comma separated list of API names of Standard or Custom objects you want to use to when defining custom assignee expressions</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The field specifies a comma separated list of API names of Standard or Custom objects you want to use to when defining custom assignee expressions</inlineHelpText>
+    <label>UI Custom Assignee Object Types</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

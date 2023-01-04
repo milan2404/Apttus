@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Points__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The loyalty points accrued for the line item</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The loyalty points accrued for the line item</inlineHelpText>
+    <label>Points</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

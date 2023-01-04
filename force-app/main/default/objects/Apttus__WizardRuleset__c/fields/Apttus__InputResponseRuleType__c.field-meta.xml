@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__InputResponseRuleType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Supports only rule of type &apos;Input Expression&apos;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Supports only rule of type &apos;Input Expression&apos;</inlineHelpText>
+    <label>Input Response Rule Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Input Expression</fullName>
+                <default>false</default>
+                <label>Input Expression</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

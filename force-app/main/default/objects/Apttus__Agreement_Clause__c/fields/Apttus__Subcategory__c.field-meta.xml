@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Subcategory__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The clause subcategory</description>
+    <externalId>false</externalId>
+    <label>Subcategory</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Apttus__Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Default</fullName>
+                <default>false</default>
+                <label>Default</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <controllingFieldValue>Term and Termination</controllingFieldValue>
+            <controllingFieldValue>Verification</controllingFieldValue>
+            <controllingFieldValue>Warranties</controllingFieldValue>
+            <controllingFieldValue>Confidentiality</controllingFieldValue>
+            <controllingFieldValue>Definitions</controllingFieldValue>
+            <controllingFieldValue>Disclosure</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>Indemnity</controllingFieldValue>
+            <controllingFieldValue>Intellectual Property Claims</controllingFieldValue>
+            <controllingFieldValue>License Grant</controllingFieldValue>
+            <controllingFieldValue>License Restrictions</controllingFieldValue>
+            <controllingFieldValue>Limitation of Liability</controllingFieldValue>
+            <controllingFieldValue>Maintenance / Support</controllingFieldValue>
+            <valueName>Default</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

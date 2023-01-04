@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Dimension4Id__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the fourth dimension, Only applicable to Dimension rules.</description>
+    <externalId>false</externalId>
+    <label>Dimension 4</label>
+    <referenceTo>Apttus_Config2__PriceDimension__c</referenceTo>
+    <relationshipLabel>Price Rules (Dimension 4)</relationshipLabel>
+    <relationshipName>PriceRules4</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EffectiveStartDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The start date of the product in a store</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The start date of the product in a store</inlineHelpText>
+    <label>Effective Start Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

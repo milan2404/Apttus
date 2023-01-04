@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EligibilityStartDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date when the member becomes eligible</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date when the member becomes eligible</inlineHelpText>
+    <label>Eligibility Start Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

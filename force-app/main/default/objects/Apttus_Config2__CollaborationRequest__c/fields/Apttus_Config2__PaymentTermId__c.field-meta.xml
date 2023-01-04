@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__PaymentTermId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the payment term associated with the order</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the payment term associated with the order</inlineHelpText>
+    <label>Payment Term</label>
+    <referenceTo>Apttus_Config2__PaymentTerm__c</referenceTo>
+    <relationshipLabel>DC Orders</relationshipLabel>
+    <relationshipName>DCOrders</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

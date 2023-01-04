@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ViewAgreementHierarchyforAccount</fullName>
+    <availability>online</availability>
+    <description>Link to view the Agreement hierarchy for the account associated with the agreement</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>View Agreement Hierarchy for Account (Link)</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/Apttus__AgreementExplorerResults?contextId={!Apttus__APTS_Agreement__c.Apttus__AccountId__c}&amp;context=Agreement%20By%20Account(s)&amp;retUrl=/{!Apttus__APTS_Agreement__c.Id}</url>
+</WebLink>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__LimitEndDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The end date of the limit period</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The end date of the limit period</inlineHelpText>
+    <label>Limit End Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

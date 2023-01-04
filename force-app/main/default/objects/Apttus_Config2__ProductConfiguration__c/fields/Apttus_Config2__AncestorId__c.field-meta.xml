@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AncestorId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the ancestor configuration</description>
+    <externalId>false</externalId>
+    <label>Ancestor</label>
+    <referenceTo>Apttus_Config2__ProductConfiguration__c</referenceTo>
+    <relationshipLabel>Derived Configurations</relationshipLabel>
+    <relationshipName>DerivedConfigurations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

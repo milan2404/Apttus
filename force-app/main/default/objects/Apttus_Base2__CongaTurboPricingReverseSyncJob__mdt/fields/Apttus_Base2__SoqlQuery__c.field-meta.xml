@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Base2__SoqlQuery__c</fullName>
+    <deprecated>false</deprecated>
+    <description>SOQL Query to run to select objects based on the cartId (for eg: Line Items) to process. This is required to if your Handler class is implementing Batchable.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>SOQL Query to run to select objects based on the cartId (for eg: Line Items) to process.  This is required to if your Handler class is implementing Batchable. eg: SELECT Id, Apttus_Config2__PrimaryLineNumber__c FROM Apttus_Config2__LineItem__c WHERE Apttus_Config2__ConfigurationId__c = :cartId</inlineHelpText>
+    <label>Soql Query</label>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>8</visibleLines>
+</CustomField>

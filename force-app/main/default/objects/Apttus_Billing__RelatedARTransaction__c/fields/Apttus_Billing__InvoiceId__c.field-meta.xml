@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__InvoiceId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the related invoice</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the related invoice</inlineHelpText>
+    <label>Invoice</label>
+    <referenceTo>Apttus_Billing__Invoice__c</referenceTo>
+    <relationshipName>RelatedTransactions</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

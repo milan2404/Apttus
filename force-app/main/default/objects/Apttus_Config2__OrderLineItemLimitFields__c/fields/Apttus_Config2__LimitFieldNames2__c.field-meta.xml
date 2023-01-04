@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__LimitFieldNames2__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter the list of field API names from the order line item object used in limit processing in incentive pricing. Each field may be separated by a comma or a new line.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the list of field API names from the order line item object used in limit processing in incentive pricing. Each field may be separated by a comma or a new line.</inlineHelpText>
+    <label>Limit Field Names 2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

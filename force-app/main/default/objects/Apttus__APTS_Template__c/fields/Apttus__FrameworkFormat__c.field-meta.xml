@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FrameworkFormat__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Template framework format</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Template framework format</inlineHelpText>
+    <label>Framework Format</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pre FX2</fullName>
+                <default>false</default>
+                <label>Pre FX2</label>
+            </value>
+            <value>
+                <fullName>FX2</fullName>
+                <default>false</default>
+                <label>FX2</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

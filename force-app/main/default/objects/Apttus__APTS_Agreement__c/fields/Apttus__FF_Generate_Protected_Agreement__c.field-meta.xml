@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FF_Generate_Protected_Agreement__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Generates a read-only password protected agreement</description>
+    <externalId>false</externalId>
+    <formula>IF (ISPICKVAL(Apttus__Status_Category__c, &quot;Request&quot;), HYPERLINK(&quot;/servlet/servlet.Integration?lid=00b50000000lgo8&quot;&amp;&quot;&amp;eid=&quot;&amp;Id, &quot;Generate Agreement&quot;,&quot;_self&quot;), NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Generate Protected (OBSOLETE)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

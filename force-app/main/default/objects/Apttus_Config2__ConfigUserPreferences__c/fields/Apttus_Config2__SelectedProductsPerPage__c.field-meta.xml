@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SelectedProductsPerPage__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of selected products to show in the configuration pages. Valid values are 5, 10, 15, 20 &amp; 25.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of selected products to show in the configuration pages. Valid values are 5, 10, 15, 20 &amp; 25.</inlineHelpText>
+    <label>Selected Products Per Page</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

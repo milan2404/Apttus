@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AdjustmentAppliesTo__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the price field the price adjustment should be applied to.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the price field the price adjustment should be applied to.</inlineHelpText>
+    <label>Adjustment Applies To</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Base Price</fullName>
+                <default>false</default>
+                <label>Base Price</label>
+            </value>
+            <value>
+                <fullName>List Price</fullName>
+                <default>false</default>
+                <label>List Price</label>
+            </value>
+            <value>
+                <fullName>Extended Price</fullName>
+                <default>false</default>
+                <label>Extended Price</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Base2__ParentSpanId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The parent of a telemetry span record. A record with this field set to null represents the Root span node.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The parent of a telemetry span record. A record with this field set to null represents the Root span node.</inlineHelpText>
+    <label>Parent Span</label>
+    <referenceTo>Apttus_Base2__TelemetrySpan__c</referenceTo>
+    <relationshipLabel>Telemetry Spans</relationshipLabel>
+    <relationshipName>TelemetrySpans</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

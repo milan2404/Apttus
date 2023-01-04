@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HideSelectedProductsColumn1__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The look up to product record can be hidden by checking this setting.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this if you want to hide the column that  shows the product name.</inlineHelpText>
+    <label>Hide Selected Products Column1</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__InvoiceNumber__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <deprecated>false</deprecated>
+    <description>The custom Invoice number.  Will only be set if Invoice Custom Numbering has been configured.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The custom Invoice number.  Will only be set if Invoice Custom Numbering has been configured.</inlineHelpText>
+    <label>Invoice Number</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HasBaseProduct__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the line item is associated with a base product</description>
+    <externalId>false</externalId>
+    <label>Has Base Product</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

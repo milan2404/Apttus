@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__RecipientStatusSyncInterval__c</fullName>
+    <defaultValue>&quot;30&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>System settings to refresh data from DocuSign about the Envelope Recipient Status Sync Interval for the Scheduled job in minutes on each hour (Comma separated values)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>System settings to refresh data from DocuSign about the Envelope Recipient Status Sync Interval for the Scheduled job in minutes on each hour (Comma separated values) - (DEPRECATED)</inlineHelpText>
+    <label>RecipientStatusSyncInterval (DEPRECATED)</label>
+    <length>40</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

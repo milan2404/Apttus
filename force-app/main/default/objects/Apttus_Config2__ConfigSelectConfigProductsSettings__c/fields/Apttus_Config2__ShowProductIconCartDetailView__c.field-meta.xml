@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ShowProductIconCartDetailView__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Show the product icon on each line item in  the Cart Detail View page (Note: this will disable the action item columns and show the actions underneath the product icon)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Show the product icon on each line item in  the Cart Detail View page (Note: this will disable the action item columns and show the actions underneath the product icon)</inlineHelpText>
+    <label>Show Product Icon Cart Detail View</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__InputBusinessObject__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The business object which provides the context for the input filter</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The business object which provides the context for the input filter</inlineHelpText>
+    <label>Input Business Object</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apttus_Config2__Order__c</fullName>
+                <default>true</default>
+                <label>Apttus_Config2__Order__c</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__OrderLineItem__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__OrderLineItem__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

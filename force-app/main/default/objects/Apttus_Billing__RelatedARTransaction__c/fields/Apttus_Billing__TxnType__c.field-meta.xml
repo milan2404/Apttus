@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__TxnType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The transaction type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The transaction type</inlineHelpText>
+    <label>Txn Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Invoice Creation</fullName>
+                <default>false</default>
+                <label>Invoice Creation</label>
+            </value>
+            <value>
+                <fullName>Standard Invoice</fullName>
+                <default>false</default>
+                <label>Standard Invoice</label>
+            </value>
+            <value>
+                <fullName>Credit Invoice</fullName>
+                <default>false</default>
+                <label>Credit Invoice</label>
+            </value>
+            <value>
+                <fullName>Payment</fullName>
+                <default>true</default>
+                <label>Payment</label>
+            </value>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <label>Refund</label>
+            </value>
+            <value>
+                <fullName>Credit Memo</fullName>
+                <default>false</default>
+                <label>Credit Memo</label>
+            </value>
+            <value>
+                <fullName>Debit Memo</fullName>
+                <default>false</default>
+                <label>Debit Memo</label>
+            </value>
+            <value>
+                <fullName>Payment Reversal</fullName>
+                <default>false</default>
+                <label>Payment Reversal</label>
+            </value>
+            <value>
+                <fullName>Refund Reversal</fullName>
+                <default>false</default>
+                <label>Refund Reversal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

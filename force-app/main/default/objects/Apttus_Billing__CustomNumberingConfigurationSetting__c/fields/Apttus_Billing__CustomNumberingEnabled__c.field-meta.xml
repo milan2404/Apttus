@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__CustomNumberingEnabled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Checkbox to enable/disable custom numbering.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checkbox to enable/disable custom numbering.</inlineHelpText>
+    <label>Custom Numbering Enabled</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

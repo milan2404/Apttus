@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__BundleInvoiceLevel__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The invoice level associated with the bundle</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The invoice level associated with the bundle</inlineHelpText>
+    <label>Bundle Invoice Level</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bundle</fullName>
+                <default>false</default>
+                <label>Bundle</label>
+            </value>
+            <value>
+                <fullName>Detail</fullName>
+                <default>false</default>
+                <label>Detail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

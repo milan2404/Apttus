@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__RulesetId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the associated rule set</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the associated rule set</inlineHelpText>
+    <label>Ruleset</label>
+    <referenceTo>Apttus__DocAssemblyRuleset__c</referenceTo>
+    <relationshipName>SectionRules</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

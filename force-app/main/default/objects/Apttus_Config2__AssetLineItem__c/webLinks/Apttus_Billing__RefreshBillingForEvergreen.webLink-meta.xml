@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__RefreshBillingForEvergreen</fullName>
+    <availability>online</availability>
+    <description>Used to trigger the evergreen job manually directly from the asset line item</description>
+    <displayType>button</displayType>
+    <linkType>page</linkType>
+    <masterLabel>Refresh Billing For Evergreen</masterLabel>
+    <openType>replace</openType>
+    <page>Apttus_Billing__RefreshEvergreenSchedules</page>
+    <protected>false</protected>
+</WebLink>

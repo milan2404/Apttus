@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__MaxAllowedLinesForMassActions__c</fullName>
+    <defaultValue>10</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Maximum number of lines allowed for performing mass actions on cart page</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Maximum number of lines allowed for performing mass actions on cart page</inlineHelpText>
+    <label>Max Allowed Lines For Mass Actions</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

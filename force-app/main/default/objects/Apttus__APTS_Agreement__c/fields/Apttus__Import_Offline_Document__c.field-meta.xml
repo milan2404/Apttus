@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Import_Offline_Document__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Conditionally show the &quot;Import Document&quot; custom link if the status category is not &quot;In Effect&quot; or &quot;Expired&quot; or &quot;Terminated&quot; or &quot;Amended&quot; or &quot;Cancelled&quot; or &quot;Import&quot;</description>
+    <externalId>false</externalId>
+    <formula>IF (NOT(OR(ISPICKVAL(Apttus__Status_Category__c, &quot;In Effect&quot;), ISPICKVAL(Apttus__Status_Category__c, &quot;Expired&quot;),ISPICKVAL(Apttus__Status_Category__c, &quot;Terminated&quot;),ISPICKVAL(Apttus__Status_Category__c, &quot;Amended&quot;),ISPICKVAL(Apttus__Status_Category__c, &quot;Cancelled&quot;),ISPICKVAL(Apttus__Status_Category__c, &quot;Import&quot;))), IF(OR($User.UIThemeDisplayed == &apos;Theme4d&apos;, $User.UIThemeDisplayed == &apos;Theme4t&apos;, $User.UIThemeDisplayed == &apos;Theme4u&apos;),   HYPERLINK(&quot;/apex/Apttus__LightningOfflineDocumentImport?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus__Button_ImportOfflineDocument&quot;, &quot;Import Offline Document&quot;),&quot;_self&quot;),   HYPERLINK(&quot;/apex/Apttus__OfflineDocumentImport?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus__Button_ImportOfflineDocument&quot;, &quot;Import Offline Document&quot;),&quot;_self&quot;)), NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Import Offline Document</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

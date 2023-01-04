@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IncludeMinProducts__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The minimum number of products that must be included from the list of products. Setting the minimum products to greater than 0 means the user is required to include a product from the list products. This creates an &quot;inclusion&quot; rule. Setting the minimum products to 0 means the user is not required to include a product from the list of products.</description>
+    <externalId>false</externalId>
+    <label>Include Min Products</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

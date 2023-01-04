@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Path__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The http path to a file located on an internal web server.  It is not necessary to prefix this with http:// since the data type is URL and this gets added automatically.</description>
+    <externalId>false</externalId>
+    <label>Path</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

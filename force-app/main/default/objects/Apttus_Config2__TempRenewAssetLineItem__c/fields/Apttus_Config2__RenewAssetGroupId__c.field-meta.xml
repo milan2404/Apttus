@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RenewAssetGroupId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the associated renew group</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the associated renew group</inlineHelpText>
+    <label>Renew Asset Group</label>
+    <referenceTo>Apttus_Config2__TempRenewAssetGroup__c</referenceTo>
+    <relationshipLabel>Temp Renew Asset Line Items</relationshipLabel>
+    <relationshipName>TempRenewAssetLineItems</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

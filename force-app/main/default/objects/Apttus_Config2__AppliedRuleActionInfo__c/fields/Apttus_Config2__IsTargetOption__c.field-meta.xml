@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IsTargetOption__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Whether the target include or exclude products should be present in the shopping cart as options.</description>
+    <externalId>false</externalId>
+    <label>Is Target Option</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

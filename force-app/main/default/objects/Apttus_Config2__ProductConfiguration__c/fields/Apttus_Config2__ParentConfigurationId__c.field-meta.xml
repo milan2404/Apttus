@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ParentConfigurationId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Parent Product Configuration Id</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Parent Product Configuration Id</inlineHelpText>
+    <label>Parent Configuration</label>
+    <referenceTo>Apttus_Config2__ProductConfiguration__c</referenceTo>
+    <relationshipLabel>Child Configurations</relationshipLabel>
+    <relationshipName>ChildConfigurations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

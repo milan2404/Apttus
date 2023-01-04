@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__GenerateInvoiceStatement</fullName>
+    <availability>online</availability>
+    <description>Generates an Invoice statement PDF and attaches to the invoice</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Generate Invoice Statement</masterLabel>
+    <openType>sidebar</openType>
+    <page>Apttus_Billing__GenerateInvoiceStatement</page>
+    <protected>false</protected>
+</WebLink>

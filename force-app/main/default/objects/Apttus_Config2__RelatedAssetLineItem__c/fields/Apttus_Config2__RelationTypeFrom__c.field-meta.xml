@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RelationTypeFrom__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The relation type (from)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The relation type (from)</inlineHelpText>
+    <label>Relation Type (From)</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Is Amended By</fullName>
+                <default>false</default>
+                <label>Is Amended By</label>
+            </value>
+            <value>
+                <fullName>Is Amendment For</fullName>
+                <default>false</default>
+                <label>Is Amendment For</label>
+            </value>
+            <value>
+                <fullName>Is Renewed By</fullName>
+                <default>false</default>
+                <label>Is Renewed By</label>
+            </value>
+            <value>
+                <fullName>Is Renewal For</fullName>
+                <default>false</default>
+                <label>Is Renewal For</label>
+            </value>
+            <value>
+                <fullName>Is Superseded By</fullName>
+                <default>false</default>
+                <label>Is Superseded By</label>
+            </value>
+            <value>
+                <fullName>Is Upgrade For</fullName>
+                <default>false</default>
+                <label>Is Upgrade For</label>
+            </value>
+            <value>
+                <fullName>Is Serviced By</fullName>
+                <default>false</default>
+                <label>Is Serviced By</label>
+            </value>
+            <value>
+                <fullName>Is Service For</fullName>
+                <default>false</default>
+                <label>Is Service For</label>
+            </value>
+            <value>
+                <fullName>Is Consumed By</fullName>
+                <default>false</default>
+                <label>Is Consumed By</label>
+            </value>
+            <value>
+                <fullName>Is Consumed From</fullName>
+                <default>false</default>
+                <label>Is Consumed From</label>
+            </value>
+            <value>
+                <fullName>Is Split Into</fullName>
+                <default>false</default>
+                <label>Is Split Into</label>
+            </value>
+            <value>
+                <fullName>Is Split From</fullName>
+                <default>false</default>
+                <label>Is Split From</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

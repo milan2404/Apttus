@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Holds the map between field API names from the order line item object and the associated field API names from the cart line item object, used in calculating dynamic rollup data in incentives. Multiple data sets may be used.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Order LineItem Map Fields</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__BundleProductId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The name of the bundle product id</description>
+    <externalId>false</externalId>
+    <label>Bundle Product</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Bundle Components</relationshipLabel>
+    <relationshipName>SystemComponents</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

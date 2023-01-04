@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__AutoSendInvoiceEmail__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Option to send invoice email automatically as part of the invoice run.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Option to send invoice email automatically as part of the invoice run.</inlineHelpText>
+    <label>Auto Send Invoice Email</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

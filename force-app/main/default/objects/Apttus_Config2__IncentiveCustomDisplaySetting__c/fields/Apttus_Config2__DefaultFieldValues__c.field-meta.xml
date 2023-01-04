@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DefaultFieldValues__c</fullName>
+    <deprecated>false</deprecated>
+    <description>List of fields and their corresponding default values.  List should contain field name, equal sign then value with new line as the delimiter.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List of fields and their corresponding default values.  List should contain field name, equal sign then value with new line as the delimiter.</inlineHelpText>
+    <label>Default Field Values</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

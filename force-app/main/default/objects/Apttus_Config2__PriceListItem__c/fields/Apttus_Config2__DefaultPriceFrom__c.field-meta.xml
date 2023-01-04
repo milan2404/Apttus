@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DefaultPriceFrom__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The related object to default the base price from. If the related object is not available, the list price will be used.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The related object to default the base price from. If the related object is not available, the list price will be used.</inlineHelpText>
+    <label>Default Price From</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product Attribute</fullName>
+                <default>false</default>
+                <label>Product Attribute</label>
+            </value>
+            <value>
+                <fullName>Advanced Formula</fullName>
+                <default>false</default>
+                <label>Advanced Formula</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

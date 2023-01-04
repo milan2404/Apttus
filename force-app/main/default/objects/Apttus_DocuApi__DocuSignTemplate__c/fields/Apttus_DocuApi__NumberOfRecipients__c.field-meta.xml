@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__NumberOfRecipients__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Number of recipients in the template</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of recipients in the template</inlineHelpText>
+    <label>Number Of Recipients</label>
+    <length>3</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

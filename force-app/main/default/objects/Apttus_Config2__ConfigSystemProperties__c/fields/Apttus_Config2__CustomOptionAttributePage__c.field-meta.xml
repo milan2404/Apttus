@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CustomOptionAttributePage__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The name of the custom attributes page associated with ConfigureBundle and SelectConfigOptionsDetailView pages</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The name of the custom attributes page associated with ConfigureBundle and SelectConfigOptionsDetailView pages</inlineHelpText>
+    <label>Custom Option Attribute Page</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

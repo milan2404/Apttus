@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ShowCheckboxInRuleDialog__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Shows checkbox instead of Add to Cart button in Rule Dialog</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Shows checkbox instead of Add to Cart button in Rule Dialog</inlineHelpText>
+    <label>Show Checkbox In Rule Dialog</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

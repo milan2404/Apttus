@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RenewalAdjustmentType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The renewal price adjustment type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The renewal price adjustment type</inlineHelpText>
+    <label>Renewal Adjustment Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>% Uplift</fullName>
+                <default>false</default>
+                <label>% Uplift</label>
+            </value>
+            <value>
+                <fullName>Uplift Amount</fullName>
+                <default>false</default>
+                <label>Uplift Amount</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

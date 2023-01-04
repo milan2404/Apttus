@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Action__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Agreement action to specify protection settings for.</description>
+    <externalId>false</externalId>
+    <label>Action</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Preview Agreement</fullName>
+                <default>false</default>
+                <label>Preview Agreement</label>
+            </value>
+            <value>
+                <fullName>Generate Agreement</fullName>
+                <default>false</default>
+                <label>Generate Agreement</label>
+            </value>
+            <value>
+                <fullName>Auto Generate Agreement</fullName>
+                <default>false</default>
+                <label>Auto Generate Agreement</label>
+            </value>
+            <value>
+                <fullName>Generate Supporting Document</fullName>
+                <default>false</default>
+                <label>Generate Supporting Document</label>
+            </value>
+            <value>
+                <fullName>Regenerate Agreement</fullName>
+                <default>false</default>
+                <label>Regenerate Agreement</label>
+            </value>
+            <value>
+                <fullName>Create Offline Agreement</fullName>
+                <default>false</default>
+                <label>Create Offline Agreement</label>
+            </value>
+            <value>
+                <fullName>Import Offline Agreement</fullName>
+                <default>false</default>
+                <label>Import Offline Agreement</label>
+            </value>
+            <value>
+                <fullName>Save Internal Version</fullName>
+                <default>false</default>
+                <label>Save Internal Version</label>
+            </value>
+            <value>
+                <fullName>Save External Version</fullName>
+                <default>false</default>
+                <label>Save External Version</label>
+            </value>
+            <value>
+                <fullName>Save Final Version</fullName>
+                <default>false</default>
+                <label>Save Final Version</label>
+            </value>
+            <value>
+                <fullName>Send To Other Party For Review</fullName>
+                <default>false</default>
+                <label>Send To Other Party For Review</label>
+            </value>
+            <value>
+                <fullName>Send To Other Party For Signatures</fullName>
+                <default>false</default>
+                <label>Send To Other Party For Signatures</label>
+            </value>
+            <value>
+                <fullName>Merge Documents</fullName>
+                <default>false</default>
+                <label>Merge Documents</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

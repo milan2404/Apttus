@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__Preview__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Preview a quote/proposal</description>
+    <externalId>false</externalId>
+    <formula>IF($User.UIThemeDisplayed == &apos;Theme4d&apos;,HYPERLINK(&quot;/one/one.app#/alohaRedirect/apex/Apttus_Proposal__ProposalGenerate?id=&quot;&amp;Id &amp; &quot;&amp;action=Preview&quot;, IMAGE(&quot;/resource/Apttus_Proposal__Button_Preview&quot;, &quot;Preview&quot;),&quot;_self&quot;),HYPERLINK(&quot;/apex/Apttus_Proposal__ProposalGenerate?id=&quot;&amp;Id &amp; &quot;&amp;action=Preview&quot;, IMAGE(&quot;/resource/Apttus_Proposal__Button_Preview&quot;, &quot;Preview&quot;),&quot;_self&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Preview a quote/proposal</inlineHelpText>
+    <label>Preview</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

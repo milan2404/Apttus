@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__CloneAgreementWithLineItems</fullName>
+    <availability>online</availability>
+    <description>Clone agreement with line items</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Clone (with Line Items)</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/Apttus_CMConfig__AgreementClone?id={!Apttus__APTS_Agreement__c.Id}&amp;pageMode=detail</url>
+</WebLink>

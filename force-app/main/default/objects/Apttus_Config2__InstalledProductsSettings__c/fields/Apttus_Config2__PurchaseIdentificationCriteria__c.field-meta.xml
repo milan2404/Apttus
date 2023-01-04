@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__PurchaseIdentificationCriteria__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Identify the fields that determine the eligibility for cotermination and the cumulation of the quantity.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List of comma separated asset line item fields that determine the eligibility for cotermination and quantity cumulation.</inlineHelpText>
+    <label>Purchase Identification Criteria</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ProductsOper__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The products criteria operator</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The products criteria operator</inlineHelpText>
+    <label>Products Oper</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>in</fullName>
+                <default>false</default>
+                <label>in</label>
+            </value>
+            <value>
+                <fullName>all</fullName>
+                <default>false</default>
+                <label>all</label>
+            </value>
+            <value>
+                <fullName>any</fullName>
+                <default>false</default>
+                <label>any</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

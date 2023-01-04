@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ProductCount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of products associated with the classification</description>
+    <externalId>false</externalId>
+    <label>Product Count</label>
+    <summaryForeignKey>Apttus_Config2__ProductClassification__c.Apttus_Config2__ClassificationId__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

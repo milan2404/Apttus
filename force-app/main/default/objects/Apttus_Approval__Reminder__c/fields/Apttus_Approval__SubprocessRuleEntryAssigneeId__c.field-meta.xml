@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__SubprocessRuleEntryAssigneeId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Subprocess Rule Entry Assignee Id</label>
+    <referenceTo>Apttus_Approval__ApprovalRuleAssignee__c</referenceTo>
+    <relationshipLabel>Reminders</relationshipLabel>
+    <relationshipName>Approval_Request_Reminders</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SubtitleText__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Controles the text displayed to the left of the Incentive Name on the Incentive Manager Page.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Controles the text displayed to the left of the Incentive Name on the Incentive Manager Page.</inlineHelpText>
+    <label>Subtitle Text</label>
+    <length>80</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

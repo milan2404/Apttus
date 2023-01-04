@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HideGrandTotal__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked grand total price will be hidden</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When checked grand total line will be hidden</inlineHelpText>
+    <label>Hide Grand Total</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

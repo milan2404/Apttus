@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CancelOrder</fullName>
+    <availability>online</availability>
+    <description>Cancel an existing customer purchase order</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Cancel CPO</masterLabel>
+    <openType>sidebar</openType>
+    <page>Apttus_Config2__CustomerPOCancel</page>
+    <protected>false</protected>
+</WebLink>

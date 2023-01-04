@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__NumberOfItems__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the number of line items associated with the product configuration</description>
+    <externalId>false</externalId>
+    <label>Number Of Items</label>
+    <summaryForeignKey>Apttus_Config2__LineItem__c.Apttus_Config2__ConfigurationId__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

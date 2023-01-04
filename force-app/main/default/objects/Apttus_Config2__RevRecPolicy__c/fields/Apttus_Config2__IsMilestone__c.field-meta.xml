@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IsMilestone__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The flag is required to let the system know that the policy is for milestone revenue recognition which will let the system to create a milestone and assign it to the corresponding agreement fee</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The flag is required to let the system know that the policy is for milestone revenue recognition which will let the system to create a milestone and assign it to the corresponding agreement fee</inlineHelpText>
+    <label>Is Milestone</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

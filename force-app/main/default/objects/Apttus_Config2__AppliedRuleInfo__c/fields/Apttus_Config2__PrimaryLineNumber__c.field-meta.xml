@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__PrimaryLineNumber__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Primary Line Number of the product or option that is part of the product scope.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Primary Line Number of the product or option that is part of the product scope.</inlineHelpText>
+    <label>Primary Line Number</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

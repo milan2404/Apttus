@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ExcludedMergeChildObjects__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specifies the child objects to exclude for a given parent from the merge process. Only applicable when a child object has multiple parents.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specifies the child objects to exclude for a given parent from the merge process. Only applicable when a child object has multiple parents.</inlineHelpText>
+    <label>Excluded Merge Child Objects</label>
+    <length>4000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

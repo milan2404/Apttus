@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ExecuteRulesOnValidate__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this flag to execute all rules on validate click.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this flag to execute all rules on validate click.</inlineHelpText>
+    <label>Execute Rules On Validate</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

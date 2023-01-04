@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__CreateAgreement__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Create Agreement, if the proposal is accepted.</description>
+    <externalId>false</externalId>
+    <formula>IF (ISPICKVAL(Apttus_Proposal__Approval_Stage__c, &quot;Accepted&quot;) , IF($User.UIThemeDisplayed == &apos;Theme4d&apos;,HYPERLINK(&quot;/one/one.app#/alohaRedirect/apex/Apttus_Proposal__ProposalAgreementCreate?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_Proposal__Button_CreateAgreement&quot;, &quot;Create Agreement&quot;),&quot;_self&quot;),HYPERLINK(&quot;/apex/Apttus_Proposal__ProposalAgreementCreate?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_Proposal__Button_CreateAgreement&quot;, &quot;Create Agreement&quot;),&quot;_self&quot;)), NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Create Agreement</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

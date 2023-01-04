@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__CancellationEmailToApprovedNotified__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If this flag is true then we to send cancellation emails for Approved/Notified requests when approval requests are recalled.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this flag is true then we to send cancellation emails for Approved/Notified requests when approval requests are recalled.</inlineHelpText>
+    <label>Cancellation Email to Approved/Notified</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

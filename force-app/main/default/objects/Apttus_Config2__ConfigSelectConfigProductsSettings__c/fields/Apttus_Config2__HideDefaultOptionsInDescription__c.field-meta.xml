@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HideDefaultOptionsInDescription__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked default options are listed along with product descriptions.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When checked default options are not listed below the product description.</inlineHelpText>
+    <label>Hide Default Options In Description</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

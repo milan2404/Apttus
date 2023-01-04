@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__EnableCollateInfo__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether collate info is enabled for the quote/proposal</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether collate info is enabled for the quote/proposal</inlineHelpText>
+    <label>Enable Collate Info</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Response__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Used to store the response from MergeService and XAJS</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Response represents the output from external systems</inlineHelpText>
+    <label>Response</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

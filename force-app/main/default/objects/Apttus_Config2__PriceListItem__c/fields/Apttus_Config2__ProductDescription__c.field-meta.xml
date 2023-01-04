@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ProductDescription__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The product description</description>
+    <externalId>false</externalId>
+    <formula>Apttus_Config2__ProductId__r.Description</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The product description</inlineHelpText>
+    <label>Product Description</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

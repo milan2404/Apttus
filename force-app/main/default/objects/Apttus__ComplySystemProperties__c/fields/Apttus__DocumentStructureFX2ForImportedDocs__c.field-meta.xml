@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__DocumentStructureFX2ForImportedDocs__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Applies FX2 framework to CM actions Create, Import Offline Documents, else Pre-FX2. Not for X-Author actions</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Applies FX2 framework to CM actions Create, Import Offline Documents, else Pre-FX2. Not for X-Author actions</inlineHelpText>
+    <label>Document Structure FX2 For Imported Docs</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

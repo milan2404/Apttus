@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SuspensionEndDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date when the asset line item may resume after a suspension.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date when the asset line item may resume after a suspension.</inlineHelpText>
+    <label>Suspension End Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

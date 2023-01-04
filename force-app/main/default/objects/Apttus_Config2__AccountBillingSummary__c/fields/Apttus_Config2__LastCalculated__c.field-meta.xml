@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__LastCalculated__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is the point in time when the Account Billing Summary was fully calculated. This happens when one or more of the contributing Billing objects (Invoices, Schedules, etc.) have changed and the change is detected by the Account Billing Summary batch job.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the point in time when the Account Billing Summary was fully calculated. This happens when one or more of the contributing Billing objects (Invoices, Schedules, etc.) have changed and the change is detected by the Account Billing Summary batch job</inlineHelpText>
+    <label>Last Calculated</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

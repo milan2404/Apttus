@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__SubCategory__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Custom Option Sub-category. Can be used by the Invoice Filter callback to determine the context of a given Invoice Run.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Custom Option Sub-category. Can be used by the Invoice Filter callback to determine the context of a given Invoice Run.</inlineHelpText>
+    <label>Sub Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

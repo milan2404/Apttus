@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Exception__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The exception reported by the job</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The exception reported by the job</inlineHelpText>
+    <label>Exception</label>
+    <length>32000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

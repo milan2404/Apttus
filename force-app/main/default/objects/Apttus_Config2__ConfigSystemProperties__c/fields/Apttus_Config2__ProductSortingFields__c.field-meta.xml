@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ProductSortingFields__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter the list of API names of fields from the Product object made available in the Sorting drop down on the Catalog page. User is allowed to select a field from this list to sort the Catalog page content.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the list of API names of fields from the Product object made available in the Sorting drop down on the Catalog page. User is allowed to select a field from this list to sort the Catalog page content.</inlineHelpText>
+    <label>Product Sorting Fields</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

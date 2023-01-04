@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__PricePoints__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Represents the price point name when the rule type is Price Point or Net Price Point. Or a list of target price points when the rule type is Dimension/Condition.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Zero or more target price point names. Required if the rule type is Price Point or Net Price Point</inlineHelpText>
+    <label>Price Points</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>List Price</fullName>
+                <default>false</default>
+                <label>List Price</label>
+            </value>
+            <value>
+                <fullName>Base Price</fullName>
+                <default>false</default>
+                <label>Base Price</label>
+            </value>
+            <value>
+                <fullName>Net Price</fullName>
+                <default>false</default>
+                <label>Net Price</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

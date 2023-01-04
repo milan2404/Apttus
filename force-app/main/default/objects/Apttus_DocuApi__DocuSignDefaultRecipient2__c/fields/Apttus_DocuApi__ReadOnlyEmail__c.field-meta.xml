@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__ReadOnlyEmail__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Email</description>
+    <externalId>false</externalId>
+    <formula>IF( (ISBLANK(Apttus_DocuApi__SigningGroupId__c )) ,
+IF( (ISBLANK(Apttus_DocuApi__ContactId__c )) ,
+IF( (ISBLANK( Apttus_DocuApi__UserId__c )) , Apttus_DocuApi__Email__c
+, Apttus_DocuApi__UserId__r.Email
+
+),
+Apttus_DocuApi__ContactId__r.Email
+),
+$Label.Apttus_DocuApi__SigningGroupEmailPlaceholder
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Email</inlineHelpText>
+    <label>Email</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

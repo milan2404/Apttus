@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__UseEnhancedCSS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether to include the enhanced css file on CPQ pages</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether to include the enhanced css file on CPQ pages</inlineHelpText>
+    <label>Use Enhanced CSS</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__CreateRedundantBillingSchedules__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If a Billing Schedule has been invoiced and the user does a mid-cycle amend and the amount per period has not changed then still create a credit and a debit Billing Schedule, even though the credit and debit will be for the same amount and will cancel one another out.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If a Billing Schedule has been invoiced and the user does a mid-cycle amend and the amount per period has not changed then still create a credit and a debit Billing Schedule, even though the credit and debit will be for the same amount and will cancel one</inlineHelpText>
+    <label>Create redundant Billing Schedules</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

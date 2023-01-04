@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__ShowAllDocumentVersionDetails__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked, this setting shows all agreement versions from the document version details related list.  When unchecked (default) it only shows the most recent version from the document versions related list.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When checked, this setting shows all agreement versions from the document version details related list.  When unchecked (default) it only shows the most recent version from the document versions related list.</inlineHelpText>
+    <label>Show All Document Version Details</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

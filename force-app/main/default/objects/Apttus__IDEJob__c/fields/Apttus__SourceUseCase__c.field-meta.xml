@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__SourceUseCase__c</fullName>
+    <defaultValue>&quot;Create Offline Agreement&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates the use case for which the record is created</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the use case for which the record is created</inlineHelpText>
+    <label>Source Use Case</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Create Offline Agreement</fullName>
+                <default>false</default>
+                <label>Create Offline Agreement</label>
+            </value>
+            <value>
+                <fullName>Import Offline</fullName>
+                <default>false</default>
+                <label>Import Offline</label>
+            </value>
+            <value>
+                <fullName>Save and Stored Execute</fullName>
+                <default>false</default>
+                <label>Save and Stored Execute</label>
+            </value>
+            <value>
+                <fullName>Upload Signed Document</fullName>
+                <default>false</default>
+                <label>Upload Signed Document</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

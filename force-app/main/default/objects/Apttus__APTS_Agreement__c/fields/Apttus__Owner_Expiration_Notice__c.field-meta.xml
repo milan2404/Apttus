@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Owner_Expiration_Notice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>To indicate the number of days prior to expiration date that a notification needs to be sent to the owner</description>
+    <externalId>false</externalId>
+    <label>Owner Expiration Notice</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>15 Days</fullName>
+                <default>false</default>
+                <label>15 Days</label>
+            </value>
+            <value>
+                <fullName>30 Days</fullName>
+                <default>false</default>
+                <label>30 Days</label>
+            </value>
+            <value>
+                <fullName>45 Days</fullName>
+                <default>false</default>
+                <label>45 Days</label>
+            </value>
+            <value>
+                <fullName>60 Days</fullName>
+                <default>false</default>
+                <label>60 Days</label>
+            </value>
+            <value>
+                <fullName>90 Days</fullName>
+                <default>true</default>
+                <label>90 Days</label>
+            </value>
+            <value>
+                <fullName>120 Days</fullName>
+                <default>false</default>
+                <label>120 Days</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

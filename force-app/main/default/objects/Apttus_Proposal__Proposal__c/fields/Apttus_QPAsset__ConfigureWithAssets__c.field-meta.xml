@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_QPAsset__ConfigureWithAssets__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Configure products (with assets) for the quote/proposal</description>
+    <externalId>false</externalId>
+    <formula>IF ( LEN( Apttus_QPConfig__PriceListId__c ) &gt; 0 , HYPERLINK(&quot;/apex/Apttus_QPAsset__ProposalConfiguration?id=&quot; &amp;Id, IMAGE(&quot;/resource/Apttus_QPConfig__Button_Configure&quot;, &quot;Configure Products&quot;),&quot;_self&quot;), NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Configure products (with assets) for the quote/proposal</inlineHelpText>
+    <label>Configure Products</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

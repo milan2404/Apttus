@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__MSTeamsStatusType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Status Type of review cycle</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Review cycle status type</inlineHelpText>
+    <label>MS Teams Status Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GroupCreation</fullName>
+                <default>false</default>
+                <label>GroupCreation</label>
+            </value>
+            <value>
+                <fullName>TeamCreation</fullName>
+                <default>false</default>
+                <label>TeamCreation</label>
+            </value>
+            <value>
+                <fullName>ChannelCreation</fullName>
+                <default>false</default>
+                <label>ChannelCreation</label>
+            </value>
+            <value>
+                <fullName>Upload</fullName>
+                <default>false</default>
+                <label>Upload</label>
+            </value>
+            <value>
+                <fullName>Review</fullName>
+                <default>false</default>
+                <label>Review</label>
+            </value>
+            <value>
+                <fullName>ReviewEnd</fullName>
+                <default>false</default>
+                <label>ReviewEnd</label>
+            </value>
+            <value>
+                <fullName>ReviewCancel</fullName>
+                <default>false</default>
+                <label>ReviewCancel</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

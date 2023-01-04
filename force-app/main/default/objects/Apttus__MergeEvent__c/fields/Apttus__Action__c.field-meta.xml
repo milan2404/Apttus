@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Action__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The action which triggered the event</description>
+    <externalId>false</externalId>
+    <label>Action</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Preview</fullName>
+                <default>false</default>
+                <label>Preview</label>
+            </value>
+            <value>
+                <fullName>Generate</fullName>
+                <default>false</default>
+                <label>Generate</label>
+            </value>
+            <value>
+                <fullName>Generate Supporting Document</fullName>
+                <default>false</default>
+                <label>Generate Supporting Document</label>
+            </value>
+            <value>
+                <fullName>Regenerate</fullName>
+                <default>false</default>
+                <label>Regenerate</label>
+            </value>
+            <value>
+                <fullName>Check Out</fullName>
+                <default>false</default>
+                <label>Check Out</label>
+            </value>
+            <value>
+                <fullName>Revert Check Out</fullName>
+                <default>false</default>
+                <label>Revert Check Out</label>
+            </value>
+            <value>
+                <fullName>Check In</fullName>
+                <default>false</default>
+                <label>Check In</label>
+            </value>
+            <value>
+                <fullName>Create Offline Agreement</fullName>
+                <default>false</default>
+                <label>Create Offline Agreement</label>
+            </value>
+            <value>
+                <fullName>Import Offline Agreement</fullName>
+                <default>false</default>
+                <label>Import Offline Agreement</label>
+            </value>
+            <value>
+                <fullName>Review</fullName>
+                <default>false</default>
+                <label>Review</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

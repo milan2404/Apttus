@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Base2__Data</fullName>
+    <active>true</active>
+    <description>Data provider record</description>
+    <label>Data</label>
+</RecordType>

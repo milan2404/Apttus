@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The sub stage of an agreement – the status underneath a given status category.  These are generally modifiable by the customer except for the following values which are Apttus reserved to manage agreement lifecycles:
+
+Request, Submitted Request,
+Cancelled Request, In Amendment, Being Amended, Superseded, Activated, Expired, Internal Signatures, Author Contract, Expired, Terminated,  Ready for Signatures, Fully Signed, Signature Declined</description>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Apttus__Status_Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Request</fullName>
+                <default>false</default>
+                <label>Request</label>
+            </value>
+            <value>
+                <fullName>Request Approval</fullName>
+                <default>false</default>
+                <label>Request Approval</label>
+            </value>
+            <value>
+                <fullName>Submitted Request</fullName>
+                <default>false</default>
+                <label>Submitted Request</label>
+            </value>
+            <value>
+                <fullName>Approved Request</fullName>
+                <default>false</default>
+                <label>Approved Request</label>
+            </value>
+            <value>
+                <fullName>Cancelled Request</fullName>
+                <default>false</default>
+                <label>Cancelled Request</label>
+            </value>
+            <value>
+                <fullName>In Amendment</fullName>
+                <default>false</default>
+                <label>In Amendment</label>
+            </value>
+            <value>
+                <fullName>Author Contract</fullName>
+                <default>false</default>
+                <label>Author Contract</label>
+            </value>
+            <value>
+                <fullName>Language Approval</fullName>
+                <default>false</default>
+                <label>Language Approval</label>
+            </value>
+            <value>
+                <fullName>Language Approved</fullName>
+                <default>false</default>
+                <label>Language Approved</label>
+            </value>
+            <value>
+                <fullName>Internal Signatures</fullName>
+                <default>false</default>
+                <label>Internal Signatures</label>
+            </value>
+            <value>
+                <fullName>Other Party Signatures</fullName>
+                <default>false</default>
+                <label>Other Party Signatures</label>
+            </value>
+            <value>
+                <fullName>Activated</fullName>
+                <default>false</default>
+                <label>Activated</label>
+            </value>
+            <value>
+                <fullName>Being Activated</fullName>
+                <default>false</default>
+                <label>Being Activated</label>
+            </value>
+            <value>
+                <fullName>Being Amended</fullName>
+                <default>false</default>
+                <label>Being Amended</label>
+            </value>
+            <value>
+                <fullName>Being Renewed</fullName>
+                <default>false</default>
+                <label>Being Renewed</label>
+            </value>
+            <value>
+                <fullName>In Renewal</fullName>
+                <default>false</default>
+                <label>In Renewal</label>
+            </value>
+            <value>
+                <fullName>Superseded</fullName>
+                <default>false</default>
+                <label>Superseded</label>
+            </value>
+            <value>
+                <fullName>Being Terminated</fullName>
+                <default>false</default>
+                <label>Being Terminated</label>
+            </value>
+            <value>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+                <label>Terminated</label>
+            </value>
+            <value>
+                <fullName>Expired</fullName>
+                <default>false</default>
+                <label>Expired</label>
+            </value>
+            <value>
+                <fullName>In Reconciliation</fullName>
+                <default>false</default>
+                <label>In Reconciliation</label>
+            </value>
+            <value>
+                <fullName>Reconciled</fullName>
+                <default>false</default>
+                <label>Reconciled</label>
+            </value>
+            <value>
+                <fullName>Internal Review</fullName>
+                <default>false</default>
+                <label>Internal Review</label>
+            </value>
+            <value>
+                <fullName>Other Party Review</fullName>
+                <default>false</default>
+                <label>Other Party Review</label>
+            </value>
+            <value>
+                <fullName>Signature Declined</fullName>
+                <default>false</default>
+                <label>Signature Declined</label>
+            </value>
+            <value>
+                <fullName>Ready for Signatures</fullName>
+                <default>false</default>
+                <label>Ready for Signatures</label>
+            </value>
+            <value>
+                <fullName>Fully Signed</fullName>
+                <default>false</default>
+                <label>Fully Signed</label>
+            </value>
+            <value>
+                <fullName>Review</fullName>
+                <default>false</default>
+                <label>Review</label>
+            </value>
+            <value>
+                <fullName>In Clause Approval</fullName>
+                <default>false</default>
+                <label>In Clause Approval</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Request</controllingFieldValue>
+            <valueName>Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request</controllingFieldValue>
+            <valueName>Request Approval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request</controllingFieldValue>
+            <valueName>Submitted Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request</controllingFieldValue>
+            <valueName>Approved Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request</controllingFieldValue>
+            <valueName>Cancelled Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request</controllingFieldValue>
+            <valueName>In Amendment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Authoring</controllingFieldValue>
+            <valueName>Author Contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Authoring</controllingFieldValue>
+            <valueName>Language Approval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Authoring</controllingFieldValue>
+            <valueName>Language Approved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Authoring</controllingFieldValue>
+            <valueName>Internal Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Authoring</controllingFieldValue>
+            <valueName>Other Party Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Authoring</controllingFieldValue>
+            <controllingFieldValue>In Signatures</controllingFieldValue>
+            <valueName>Signature Declined</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Authoring</controllingFieldValue>
+            <valueName>In Clause Approval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Signatures</controllingFieldValue>
+            <valueName>Internal Signatures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Signatures</controllingFieldValue>
+            <valueName>Other Party Signatures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Signatures</controllingFieldValue>
+            <controllingFieldValue>In Filing</controllingFieldValue>
+            <valueName>In Reconciliation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Signatures</controllingFieldValue>
+            <controllingFieldValue>In Filing</controllingFieldValue>
+            <valueName>Reconciled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Signatures</controllingFieldValue>
+            <valueName>Ready for Signatures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Signatures</controllingFieldValue>
+            <valueName>Fully Signed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Effect</controllingFieldValue>
+            <valueName>Activated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Effect</controllingFieldValue>
+            <valueName>Being Activated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Effect</controllingFieldValue>
+            <valueName>Being Amended</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Effect</controllingFieldValue>
+            <valueName>Being Renewed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Effect</controllingFieldValue>
+            <valueName>Superseded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Effect</controllingFieldValue>
+            <valueName>Being Terminated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Expired</controllingFieldValue>
+            <valueName>Expired</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminated</controllingFieldValue>
+            <valueName>Terminated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Import</controllingFieldValue>
+            <valueName>Review</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

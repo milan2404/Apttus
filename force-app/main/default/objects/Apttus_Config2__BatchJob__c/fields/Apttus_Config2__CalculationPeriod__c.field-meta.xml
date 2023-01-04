@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CalculationPeriod__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The period for which the rollup or rebate calculation needs to be run.Only input records that fall within the specified period will be selected for processing.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The period for which the rollup or rebate calculation needs to be run.Only input records that fall within the specified period will be selected for processing.</inlineHelpText>
+    <label>Calculation Period</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Default Period</fullName>
+                <default>true</default>
+                <label>Default Period</label>
+            </value>
+            <value>
+                <fullName>Current Month</fullName>
+                <default>false</default>
+                <label>Current Month</label>
+            </value>
+            <value>
+                <fullName>Current Quarter</fullName>
+                <default>false</default>
+                <label>Current Quarter</label>
+            </value>
+            <value>
+                <fullName>Current Half Year</fullName>
+                <default>false</default>
+                <label>Current Half Year</label>
+            </value>
+            <value>
+                <fullName>Current Year</fullName>
+                <default>false</default>
+                <label>Current Year</label>
+            </value>
+            <value>
+                <fullName>Fixed Date</fullName>
+                <default>false</default>
+                <label>Fixed Date</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

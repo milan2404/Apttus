@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DeferPricingUntilCart__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicator to defer pricing until the user clicks on a pricing action. .</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicator to defer pricing until the user clicks on a pricing action.</inlineHelpText>
+    <label>Defer Pricing</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

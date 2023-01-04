@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__EmailSubject__c</fullName>
+    <defaultValue>&quot;Request for eSignatures&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>No longer used.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>No longer used.</inlineHelpText>
+    <label>Email Subject (DEPRECATED)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

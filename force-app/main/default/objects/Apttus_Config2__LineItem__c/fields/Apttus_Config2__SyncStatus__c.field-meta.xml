@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SyncStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The line synchronization status.</description>
+    <externalId>false</externalId>
+    <label>Sync Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending</fullName>
+                <default>true</default>
+                <label>Pending</label>
+            </value>
+            <value>
+                <fullName>Synchronized</fullName>
+                <default>false</default>
+                <label>Synchronized</label>
+            </value>
+            <value>
+                <fullName>Pre-Pricing Pending</fullName>
+                <default>false</default>
+                <label>Pre-Pricing Pending</label>
+            </value>
+            <value>
+                <fullName>Pre-Pricing Complete</fullName>
+                <default>false</default>
+                <label>Pre-Pricing Complete</label>
+            </value>
+            <value>
+                <fullName>Post-Pricing Pending</fullName>
+                <default>false</default>
+                <label>Post-Pricing Pending</label>
+            </value>
+            <value>
+                <fullName>Post-Pricing Complete</fullName>
+                <default>false</default>
+                <label>Post-Pricing Complete</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

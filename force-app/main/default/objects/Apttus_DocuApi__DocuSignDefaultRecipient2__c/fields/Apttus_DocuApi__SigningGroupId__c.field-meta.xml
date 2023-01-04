@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__SigningGroupId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the signing group recipient</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the signing group recipient</inlineHelpText>
+    <label>Signing Group</label>
+    <referenceTo>Apttus_DocuApi__DocuSignSigningGroup__c</referenceTo>
+    <relationshipLabel>DocuSign Recipients</relationshipLabel>
+    <relationshipName>DocuSignRecipients</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

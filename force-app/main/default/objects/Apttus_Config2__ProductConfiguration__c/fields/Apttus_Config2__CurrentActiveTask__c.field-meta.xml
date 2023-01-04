@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CurrentActiveTask__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The current active task for the cart</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The current active task for the cart</inlineHelpText>
+    <label>Current Active Task</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cloning Attribute Values</fullName>
+                <default>false</default>
+                <label>Cloning Attribute Values</label>
+            </value>
+            <value>
+                <fullName>Cloning Detail Objects</fullName>
+                <default>false</default>
+                <label>Cloning Detail Objects</label>
+            </value>
+            <value>
+                <fullName>Cloning Usage Tiers</fullName>
+                <default>false</default>
+                <label>Cloning Usage Tiers</label>
+            </value>
+            <value>
+                <fullName>Cloning Adjustment Line Items</fullName>
+                <default>false</default>
+                <label>Cloning Adjustment Line Items</label>
+            </value>
+            <value>
+                <fullName>Cloning Price Breakups</fullName>
+                <default>false</default>
+                <label>Cloning Price Breakups</label>
+            </value>
+            <value>
+                <fullName>Cloning Tax Breakups</fullName>
+                <default>false</default>
+                <label>Cloning Tax Breakups</label>
+            </value>
+            <value>
+                <fullName>Cloning Agreement Price Rules</fullName>
+                <default>false</default>
+                <label>Cloning Agreement Price Rules</label>
+            </value>
+            <value>
+                <fullName>Cloning Agreement Price Tier</fullName>
+                <default>false</default>
+                <label>Cloning Agreement Price Tier</label>
+            </value>
+            <value>
+                <fullName>Cloning Rule Information</fullName>
+                <default>false</default>
+                <label>Cloning Rule Information</label>
+            </value>
+            <value>
+                <fullName>Cloning Expression Information</fullName>
+                <default>false</default>
+                <label>Cloning Expression Information</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

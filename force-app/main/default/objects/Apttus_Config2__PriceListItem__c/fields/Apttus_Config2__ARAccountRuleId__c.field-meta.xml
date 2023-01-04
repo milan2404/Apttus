@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ARAccountRuleId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the A/R account rule</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the A/R account rule</inlineHelpText>
+    <label>A/R Account</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Apttus_Config2__GLAccountMapRule__c.Apttus_Config2__GLAccountType__c</field>
+            <operation>equals</operation>
+            <value>Accounts Receivable Account</value>
+        </filterItems>
+        <infoMessage>Please select an A/R Account Rule</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Apttus_Config2__GLAccountMapRule__c</referenceTo>
+    <relationshipLabel>Price List Items  (A/R Account)</relationshipLabel>
+    <relationshipName>PriceListItemsAR</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

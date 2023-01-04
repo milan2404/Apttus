@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__EmailCreditMemoAttachmentCallbackClass__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The name of the callback class to provide customized contact list and email template for a given credit memo which will be used to send credit memo attachment via email</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The name of the callback class to provide customized contact list and email template for a given credit memo which will be used to send credit memo attachment via email</inlineHelpText>
+    <label>EmailCreditMemoAttachmentCallbackClass</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__Transfer_in_flight__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>All in-flight and pending approval requests will be directed to the person designated as backup/delegate.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>All in-flight and pending approval requests will be directed to the person designated as backup/delegate.</inlineHelpText>
+    <label>Transfer in-flight</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

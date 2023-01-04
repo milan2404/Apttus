@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__StaticPrefix__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Initial prefix to prepend when generating a Custom Number. This will precede the optional field based prefix.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Initial prefix to prepend when generating a Custom Number.</inlineHelpText>
+    <label>Static Prefix</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

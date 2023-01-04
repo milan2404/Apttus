@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__TemplateId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the template associated with the version</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the template associated with the version</inlineHelpText>
+    <label>Template</label>
+    <referenceTo>Apttus__APTS_Template__c</referenceTo>
+    <relationshipLabel>Document Versions</relationshipLabel>
+    <relationshipName>DocumentVersions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

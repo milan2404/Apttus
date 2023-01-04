@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EnableCartLockingForConcurrentAccess__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Boolean flag to specify whether cart locking for concurrent access to cart is enabled</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Boolean flag to specify whether cart locking for concurrent access to cart is enabled</inlineHelpText>
+    <label>Enable CartLocking for Concurrent Access</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

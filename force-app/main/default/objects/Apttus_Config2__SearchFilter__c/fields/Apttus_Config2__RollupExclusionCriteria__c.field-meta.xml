@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RollupExclusionCriteria__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The rollup exclusion filter criteria specification</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The rollup exclusion filter criteria specification</inlineHelpText>
+    <label>Rollup Exclusion Criteria</label>
+    <length>16000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

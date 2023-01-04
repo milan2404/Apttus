@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The incentive status</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The incentive status</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Being Amended</fullName>
+                <default>false</default>
+                <label>Being Amended</label>
+            </value>
+            <value>
+                <fullName>In Amendment</fullName>
+                <default>false</default>
+                <label>In Amendment</label>
+            </value>
+            <value>
+                <fullName>Being Renewed</fullName>
+                <default>false</default>
+                <label>Being Renewed</label>
+            </value>
+            <value>
+                <fullName>In Renewal</fullName>
+                <default>false</default>
+                <label>In Renewal</label>
+            </value>
+            <value>
+                <fullName>Superseded</fullName>
+                <default>false</default>
+                <label>Superseded</label>
+            </value>
+            <value>
+                <fullName>Being Terminated</fullName>
+                <default>false</default>
+                <label>Being Terminated</label>
+            </value>
+            <value>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+                <label>Terminated</label>
+            </value>
+            <value>
+                <fullName>Activated</fullName>
+                <default>false</default>
+                <label>Activated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

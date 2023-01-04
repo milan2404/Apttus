@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Ignored__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Whether the user wants to ignore to rule action. Only warning type rule action can be ignored</description>
+    <externalId>false</externalId>
+    <label>Ignored</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

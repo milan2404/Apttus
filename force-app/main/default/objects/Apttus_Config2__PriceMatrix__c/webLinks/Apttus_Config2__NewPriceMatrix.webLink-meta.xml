@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__NewPriceMatrix</fullName>
+    <availability>online</availability>
+    <description>Create a new price matrix</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Matrix Pricing</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/apex/Apttus_Config2__PriceMatrix?priceListItemId={!Apttus_Config2__PriceListItem__c.Id}</url>
+</WebLink>

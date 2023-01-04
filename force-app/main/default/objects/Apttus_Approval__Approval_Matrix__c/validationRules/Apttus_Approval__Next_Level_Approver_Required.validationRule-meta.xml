@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__Next_Level_Approver_Required</fullName>
+    <active>true</active>
+    <description>Next Level Approver required for all except Level 6 users.</description>
+    <errorConditionFormula>AND(NOT(ISPICKVAL(Apttus_Approval__Approval_Level__c, &apos;Level 6&apos;) ) , Apttus_Approval__Next_Level_Approver__c = &quot;&quot; )</errorConditionFormula>
+    <errorDisplayField>Apttus_Approval__Next_Level_Approver__c</errorDisplayField>
+    <errorMessage>You have to specify a Next Level Approver for all except Level 6 users.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IsDefaultView__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>As we create individual records for roles/users/profiles added in the admin UI, introducing this field to track view level default attribute</description>
+    <externalId>false</externalId>
+    <inlineHelpText>As we create individual records for roles/users/profiles added in the admin UI, introducing this field to track view level default attribute</inlineHelpText>
+    <label>IsDefaultView</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

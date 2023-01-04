@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FinalDocumentVersionDetail__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Final document version of the review.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Final document version of the review.</inlineHelpText>
+    <label>Final Document Version Detail</label>
+    <referenceTo>Apttus__DocumentVersionDetail__c</referenceTo>
+    <relationshipLabel>Review Cycles (Final Document Version Detail)</relationshipLabel>
+    <relationshipName>ReviewCyclesFinal</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

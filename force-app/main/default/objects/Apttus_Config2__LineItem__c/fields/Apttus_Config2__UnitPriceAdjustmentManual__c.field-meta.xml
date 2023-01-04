@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__UnitPriceAdjustmentManual__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The manual unit adjustment for the product or service applied to the base price</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The manual unit adjustment for the product or service applied to the base price</inlineHelpText>
+    <label>Unit Price Adjustment (Manual)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

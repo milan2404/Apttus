@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HideCartViews__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Hide Cart Views</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether cart views will be hidden</inlineHelpText>
+    <label>Hide Cart Views</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

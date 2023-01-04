@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HideListedProductsPriceColumn__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Whether to hide the price information column in listed product page.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please be careful in hiding this critical price information column.</inlineHelpText>
+    <label>Hide Listed Products Price Column</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

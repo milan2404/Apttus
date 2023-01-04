@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AutoRefreshUsageTier__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether modifiable usage tiers are refreshed upon PLI change</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether modifiable usage tiers are refreshed upon PLI change</inlineHelpText>
+    <label>Auto Refresh Usage Tier</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

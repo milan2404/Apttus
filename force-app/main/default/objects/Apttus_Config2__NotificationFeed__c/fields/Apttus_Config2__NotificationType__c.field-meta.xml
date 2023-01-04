@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__NotificationType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of the Notification. This may be used to display along with the Notifications or to filter the notifications.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of the Notification. This may be used to display along with the Notifications or to filter the notifications.</inlineHelpText>
+    <label>NotificationType</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

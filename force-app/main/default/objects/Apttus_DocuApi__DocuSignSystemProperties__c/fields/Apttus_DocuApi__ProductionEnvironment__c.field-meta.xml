@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__ProductionEnvironment__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This will connect to DocuSign Production environment.
+Also add “Production Server Pod:” to any one of the value “{DEMO, PROD,NA1,NA2,EU1,WWWSTAGE1}”
+Unchecked will be connected to Demo Server.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This will connect to DocuSign Production environment.
+Also add “Production Server Pod:” to any one of the value “{DEMO, PROD,NA1,NA2,EU1,WWWSTAGE1}”
+Unchecked will be connected to Demo Server.</inlineHelpText>
+    <label>Production Environment?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

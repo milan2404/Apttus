@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ParentPricePipelineId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to the Price Pipeline to which this Price Waterfall belongs to</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to the Price Pipeline to which this Price Waterfall belongs to</inlineHelpText>
+    <label>Parent Price Pipeline Id</label>
+    <referenceTo>Apttus_Config2__PriceRuleset__c</referenceTo>
+    <relationshipLabel>Price Waterfalls</relationshipLabel>
+    <relationshipName>PriceWaterfalls</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

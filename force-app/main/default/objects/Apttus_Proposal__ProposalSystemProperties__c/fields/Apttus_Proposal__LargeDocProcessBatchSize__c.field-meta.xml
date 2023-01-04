@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__LargeDocProcessBatchSize__c</fullName>
+    <defaultValue>2000</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates the number of repeating child items to process in a single batch transaction</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the number of repeating child items to process in a single batch transaction</inlineHelpText>
+    <label>Large Doc Process Batch Size</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

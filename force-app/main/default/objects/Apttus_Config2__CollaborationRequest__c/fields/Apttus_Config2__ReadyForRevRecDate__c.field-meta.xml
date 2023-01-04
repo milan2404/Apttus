@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ReadyForRevRecDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date when the order is ready for revenue recognition. The revenue schedules are created on this date.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date when the order is ready for revenue recognition. The revenue schedules are created on this date.</inlineHelpText>
+    <label>Ready For Revenue Recognition Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

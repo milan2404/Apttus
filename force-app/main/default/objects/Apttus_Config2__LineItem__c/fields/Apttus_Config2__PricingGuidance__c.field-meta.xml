@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__PricingGuidance__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The pricing guidance associated with the line item</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The pricing guidance associated with the line item</inlineHelpText>
+    <label>Pricing Guidance</label>
+    <length>8000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

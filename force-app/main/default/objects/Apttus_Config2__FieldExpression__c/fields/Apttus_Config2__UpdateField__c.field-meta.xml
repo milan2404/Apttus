@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__UpdateField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Represents the target field name which gets value at runtime from field update or rollup expressions.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Represents the target field name which gets value at runtime from field update or rollup expressions.</inlineHelpText>
+    <label>Update Field</label>
+    <length>128</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

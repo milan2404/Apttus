@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__BasePriceDefaultingMethodForRenewal__c</fullName>
+    <defaultValue>&quot;Net Unit Price&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates how the base price should be defaulted when the asset is renewed. Valid Values are:
+
+Net Unit Price (default if not specified)
+Higher Of Contract Unit Price / Net Unit Price
+Lower Of Contract Unit Price / Net Unit Price</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates how the base price should be defaulted when the asset is renewed. Valid Values are:
+
+Net Unit Price (default if not specified)
+Higher Of Contract Unit Price / Net Unit Price
+Lower Of Contract Unit Price / Net Unit Price</inlineHelpText>
+    <label>Base Price Defaulting Method For Renewal</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

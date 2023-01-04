@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ViewCartTotalCustomFields__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter the list of custom fields from the summary group object displayed in the custom view cart page</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the list of custom fields from the summary group object displayed in the custom view cart page</inlineHelpText>
+    <label>View Cart Total Custom Fields</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

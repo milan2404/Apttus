@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__ProcessthruDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date used to collect relevant pending billing schedules up to (including) this date.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date used to collect relevant pending billing schedules up to (including) this date.</inlineHelpText>
+    <label>Process thru Date</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

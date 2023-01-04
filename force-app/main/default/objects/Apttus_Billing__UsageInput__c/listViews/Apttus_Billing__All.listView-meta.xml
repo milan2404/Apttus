@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__All</fullName>
+    <columns>NAME</columns>
+    <columns>Apttus_Billing__AssetNumber__c</columns>
+    <columns>Apttus_Billing__AssetLineItemId__c</columns>
+    <columns>Apttus_Billing__Status__c</columns>
+    <columns>Apttus_Billing__Quantity__c</columns>
+    <columns>Apttus_Billing__RatedAmount__c</columns>
+    <columns>Apttus_Billing__Uom__c</columns>
+    <columns>Apttus_Billing__UsageDate__c</columns>
+    <columns>Apttus_Billing__StartDate__c</columns>
+    <columns>Apttus_Billing__EndDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

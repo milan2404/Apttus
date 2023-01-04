@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IsBundleContext__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the constraint rule will be evaluated within a bundle context.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When checked all of the rule conditions will be evaluated within a bundle context.</inlineHelpText>
+    <label>Is Bundle Context</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

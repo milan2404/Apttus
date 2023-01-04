@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Subcategory__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Dependent on the category field, whose list values shall allow users to search, find, and select Steps</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Dependent on the category field, whose list values shall allow users to search, find, and select Steps</inlineHelpText>
+    <label>Subcategory</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Apttus__Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Default</fullName>
+                <default>true</default>
+                <label>Default</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Default</controllingFieldValue>
+            <valueName>Default</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

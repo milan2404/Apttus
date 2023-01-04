@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__ReassignmentEmailTemplate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The name of the Email Template used to send notifications when an approval request is reassigned. This will be the global default if not overridden for the approval process.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The name of the Email Template used to send notifications when an approval request is reassigned. This will be the global default if not overridden for the approval process.</inlineHelpText>
+    <label>Reassignment Email Template</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

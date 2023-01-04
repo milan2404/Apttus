@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FF_View_Final_Contract__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Conditionally show the &quot;Generate&quot; custom button if the contract status category is &quot;Request&quot;.</description>
+    <externalId>false</externalId>
+    <formula>IF (ISPICKVAL(Apttus__Status_Category__c, &quot;Request&quot;), IF(OR($User.UIThemeDisplayed == &apos;Theme4d&apos;, $User.UIThemeDisplayed == &apos;Theme4t&apos;, $User.UIThemeDisplayed == &apos;Theme4u&apos;),  HYPERLINK(&quot;/apex/Apttus__LightningSelectTemplate?id=&quot;&amp;Id &amp; &quot;&amp;action=Generate_Agreement&amp;templateType=Agreement&quot;, IMAGE(&quot;/resource/Apttus__Button_Generate&quot;, &quot;Generate&quot;),&quot;_self&quot;) ,  HYPERLINK(&quot;/apex/Apttus__SelectTemplate?id=&quot;&amp;Id &amp; &quot;&amp;action=Generate_Agreement&amp;templateType=Agreement&quot;, IMAGE(&quot;/resource/Apttus__Button_Generate&quot;, &quot;Generate&quot;),&quot;_self&quot;)), NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Generate the agreement</inlineHelpText>
+    <label>Generate</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

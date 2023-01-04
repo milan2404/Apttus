@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_QPDSign__ESignatureStrictMode__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>RESERVED: Run Docusign eSignature Strict more where this will disable buttons for Select Attachments / Recipeints</description>
+    <externalId>false</externalId>
+    <inlineHelpText>RESERVED: Run Docusign eSignature Strict more where this will disable buttons for Select Attachments / Recipeints</inlineHelpText>
+    <label>ESignatureStrictMode</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__PriceListItemId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the associated price list item</description>
+    <externalId>false</externalId>
+    <label>Price List Item</label>
+    <referenceTo>Apttus_Config2__PriceListItem__c</referenceTo>
+    <relationshipLabel>Matrix Pricing</relationshipLabel>
+    <relationshipName>PriceMatrices</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

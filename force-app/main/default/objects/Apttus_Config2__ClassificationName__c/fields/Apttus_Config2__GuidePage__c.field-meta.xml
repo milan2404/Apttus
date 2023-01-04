@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__GuidePage__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The name of the guide page to use for Help Me Choose</description>
+    <externalId>false</externalId>
+    <label>Guide Page</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

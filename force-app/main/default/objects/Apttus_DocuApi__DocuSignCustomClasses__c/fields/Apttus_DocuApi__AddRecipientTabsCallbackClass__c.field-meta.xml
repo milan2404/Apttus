@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__AddRecipientTabsCallbackClass__c</fullName>
+    <deprecated>false</deprecated>
+    <description>AddRecipientTabs Callback Class must Implement Global interface IDocuSignEnvelopeAddRecipientTabs</description>
+    <externalId>false</externalId>
+    <inlineHelpText>AddRecipientTabs Callback Class must Implement Global interface IDocuSignEnvelopeAddRecipientTabs</inlineHelpText>
+    <label>Add Recipient Tabs Callback Class</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

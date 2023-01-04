@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__QueueableApexBatchSize__c</fullName>
+    <defaultValue>1</defaultValue>
+    <deprecated>false</deprecated>
+    <description>DEPRECATED. Specifies the number of records to be processed by a single queueable apex batch job</description>
+    <externalId>false</externalId>
+    <inlineHelpText>DEPRECATED. Specifies the number of records to be processed by a single queueable apex batch job</inlineHelpText>
+    <label>Queueable Apex Batch Size-DEPRECATED</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

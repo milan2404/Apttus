@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__EnableFile__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable use of Files , It is mandatory to Run the Migration after making it true.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable use of Files , It is mandatory to Run the Migration after making it true.</inlineHelpText>
+    <label>Enable File</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

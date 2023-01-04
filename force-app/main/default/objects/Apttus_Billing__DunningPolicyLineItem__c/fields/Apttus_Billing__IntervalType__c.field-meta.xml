@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__IntervalType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of the interval</description>
+    <externalId>false</externalId>
+    <label>Interval Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Day(s)</fullName>
+                <default>false</default>
+                <label>Day(s)</label>
+            </value>
+            <value>
+                <fullName>Hour(s)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hour(s)</label>
+            </value>
+            <value>
+                <fullName>Week(s)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Week(s)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

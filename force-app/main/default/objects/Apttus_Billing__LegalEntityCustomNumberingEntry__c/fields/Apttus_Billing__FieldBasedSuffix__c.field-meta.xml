@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__FieldBasedSuffix__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The field-based suffix to append after the generated Custom Number. Each fetched field value will be separated with the specified field separator.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The field based suffix to append after the generated Custom Number.</inlineHelpText>
+    <label>Field Based Suffix</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

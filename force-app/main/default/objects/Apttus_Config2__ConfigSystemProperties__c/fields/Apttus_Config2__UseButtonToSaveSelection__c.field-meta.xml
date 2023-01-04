@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__UseButtonToSaveSelection__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether to wait for button click before processing option selection and validation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether to wait for button click before processing option selection and validation.</inlineHelpText>
+    <label>Use Button To Save Selection</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__FutureBenefitValidityOffset__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The offset to establish the validity period of a future benefit. Only applicable to incentive rules.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The offset to establish the validity period of a future benefit. Only applicable to incentive rules.</inlineHelpText>
+    <label>Future Benefit Validity Offset</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

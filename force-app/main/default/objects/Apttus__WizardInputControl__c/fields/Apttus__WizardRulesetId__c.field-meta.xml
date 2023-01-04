@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__WizardRulesetId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to ruleset for input expression</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to ruleset for input expression</inlineHelpText>
+    <label>Wizard Ruleset</label>
+    <referenceTo>Apttus__WizardRuleset__c</referenceTo>
+    <relationshipName>Wizard_Input_Controls1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

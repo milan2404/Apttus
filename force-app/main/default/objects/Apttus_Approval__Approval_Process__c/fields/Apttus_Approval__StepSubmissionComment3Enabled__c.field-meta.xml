@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__StepSubmissionComment3Enabled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Select this to enable submission comment 3 for this step. When enabled, the user will be prompted to enter submission comment 3 using the submission comment 3 label when the request is submitted for approval.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select this to enable submission comment 3 for this step. When enabled, the user will be prompted to enter submission comment 3 using the submission comment 3 label when the request is submitted for approval.</inlineHelpText>
+    <label>Step Submission Comment 3 Enabled</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

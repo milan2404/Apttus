@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__TaxAmount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The aggregate amount of tax of the underlying Tax Break-ups.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The aggregate amount of tax of the underlying Tax Break-ups.</inlineHelpText>
+    <label>Tax Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

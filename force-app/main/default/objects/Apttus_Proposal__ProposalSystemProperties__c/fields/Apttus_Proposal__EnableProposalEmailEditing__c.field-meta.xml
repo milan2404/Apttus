@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__EnableProposalEmailEditing__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable editing of Proposal email template.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable editing of Proposal email template.</inlineHelpText>
+    <label>Enable Proposal Email Editing</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

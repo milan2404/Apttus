@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__OriginalLineNumberRef__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The line number of the associated original order line item</description>
+    <externalId>true</externalId>
+    <inlineHelpText>The line number of the associated original order line item</inlineHelpText>
+    <label>Original Line Number Ref</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__Workflow_Trigger_Added_Comments__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Flag that gets set by the ApprovalAction visualforce page when comments are added to an approval request without actually approving or rejecting the request. This flag then becomes the trigger for workflow rules that get fired to send a notification to parties that comments have been entered for the request.</description>
+    <externalId>false</externalId>
+    <label>Workflow Trigger Added Comments</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

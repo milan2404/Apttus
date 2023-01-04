@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__AccountId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The account associated with the payment method.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The account associated with the payment method.</inlineHelpText>
+    <label>Account Id</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Payment Methods</relationshipLabel>
+    <relationshipName>PaymentMethods</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

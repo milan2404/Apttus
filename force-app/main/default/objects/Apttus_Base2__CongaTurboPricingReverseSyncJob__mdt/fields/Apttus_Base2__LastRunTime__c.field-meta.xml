@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Base2__LastRunTime__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Shows the Date/Time of the last run.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Shows the Date/Time of the last run.</inlineHelpText>
+    <label>Last Run Time</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

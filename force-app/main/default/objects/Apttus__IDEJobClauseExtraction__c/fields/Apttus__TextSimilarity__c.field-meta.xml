@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__TextSimilarity__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The text similarity for use by the refactoring algorithm</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The text similarity for use by the refactoring algorithm</inlineHelpText>
+    <label>Text Similarity</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__EnvelopeRecipientStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <description>System internal use only. Make limited SOQL query find the current recipient status</description>
+    <externalId>false</externalId>
+    <formula>Apttus_DocuApi__DocuSignEnvelopeId__r.Apttus_DocuApi__EnvelopeId__c   &amp; &apos;_&apos; &amp; Apttus_DocuApi__Email__c  &amp; &apos;_&apos; &amp; Apttus_DocuApi__RoleName__c  &amp; &apos;_&apos; &amp; Apttus_DocuApi__RoutingOrder__c  &amp; &apos;_&apos; &amp; Apttus_DocuApi__Status__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>System internal use only. Make limited SOQL query find the current recipient status</inlineHelpText>
+    <label>Envelope Recipient Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

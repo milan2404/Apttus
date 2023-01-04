@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__InvoiceOutputFormat__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The invoice output format.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The invoice output format.</inlineHelpText>
+    <label>Invoice Output Format</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PDF</fullName>
+                <default>true</default>
+                <label>PDF</label>
+            </value>
+            <value>
+                <fullName>DOC</fullName>
+                <default>false</default>
+                <label>DOC</label>
+            </value>
+            <value>
+                <fullName>DOCX</fullName>
+                <default>false</default>
+                <label>DOCX</label>
+            </value>
+            <value>
+                <fullName>RTF</fullName>
+                <default>false</default>
+                <label>RTF</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

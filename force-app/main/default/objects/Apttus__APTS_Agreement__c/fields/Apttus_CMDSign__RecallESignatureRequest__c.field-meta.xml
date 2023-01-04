@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMDSign__RecallESignatureRequest__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Recall E-Signature request</description>
+    <externalId>false</externalId>
+    <formula>IF(
+	AND(
+           ISPICKVAL(Apttus__Status_Category__c,&quot;In Signatures&quot;), 
+           ISPICKVAL(Apttus__Status__c,&quot;Other Party Signatures&quot;) 
+	   ),
+HYPERLINK(&quot;/apex/Apttus_DocuApi__DocuSignRecallEnvByEnvId?envelopeparentid=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_DocuApi__RecallEnvelope&quot;,&quot;Recall E-Signature Document&quot;), &quot;_self&quot;),
+NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Recall E-Signature request</inlineHelpText>
+    <label>Recall E-Signature Request</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

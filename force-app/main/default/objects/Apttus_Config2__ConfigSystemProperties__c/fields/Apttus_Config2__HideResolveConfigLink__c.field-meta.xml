@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HideResolveConfigLink__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Whether to hide resolve configuration error page link.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When checked the link to the resolve configuration error page is hidden. It is displayed along with the constraint rule messages.</inlineHelpText>
+    <label>Hide Resolve Config Link</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

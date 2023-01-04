@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__TargetObjectToValidate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Data object that needs to be validated and enriched</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Data object that needs to be validated and enriched</inlineHelpText>
+    <label>Target Object To Validate</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apttus_Config2__CustomerPurchaseOrder__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__CustomerPurchaseOrder__c</label>
+            </value>
+            <value>
+                <fullName>Apttus_Config2__CustomerPOItem__c</fullName>
+                <default>false</default>
+                <label>Apttus_Config2__CustomerPOItem__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

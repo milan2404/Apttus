@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ToWizardId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Not currently used. Will be available in a future release, applicable to rule type &apos;Go To Wizard&apos;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Not currently used. Will be available in a future release, applicable to rule type &apos;Go To Wizard&apos;.</inlineHelpText>
+    <label>Go To Wizard</label>
+    <referenceTo>Apttus__Wizard__c</referenceTo>
+    <relationshipName>WizardRulesets2</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

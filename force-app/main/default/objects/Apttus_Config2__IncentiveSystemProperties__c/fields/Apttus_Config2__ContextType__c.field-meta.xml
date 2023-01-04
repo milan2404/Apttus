@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ContextType__c</fullName>
+    <defaultValue>&quot;Order Line Item&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The type of context associated with the incentive. Valid values are :
+
+Line Item
+Order Line Item
+External Order Summary Item
+Milestone</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The type of context associated with the incentive. Valid values are :
+
+Line Item
+Order Line Item
+External Order Summary Item
+Milestone</inlineHelpText>
+    <label>Context Type</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

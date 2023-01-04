@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__InformationType__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Information Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Attached File</fullName>
+                <default>false</default>
+                <label>Attached File</label>
+            </value>
+            <value>
+                <fullName>URL Address</fullName>
+                <default>false</default>
+                <label>URL Address</label>
+            </value>
+            <value>
+                <fullName>Embedded Code</fullName>
+                <default>false</default>
+                <label>Embedded Code</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

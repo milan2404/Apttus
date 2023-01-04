@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__ForecastTerm__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Option used to specify the extent of the term. Use End Date or End Date + Renewal Term.
+Only impacts Proposal Line Items with Auto Renewal set to true and Renewal Type set to Fixed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Option used to specify the extent of the term. Use End Date or End Date + Renewal Term.</inlineHelpText>
+    <label>Forecast Term</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Current Term</fullName>
+                <default>true</default>
+                <label>Current Term</label>
+            </value>
+            <value>
+                <fullName>Current Term + Renewal Term</fullName>
+                <default>false</default>
+                <label>Current Term + Renewal Term</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

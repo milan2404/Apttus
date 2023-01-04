@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AllowBackdatedTermination__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>No (By default) - By default user cannot specify a &quot;Cancellation Date&quot; earlier than today.
+Yes - User can specify cancellation date earlier than today. This may have additional impact on billing as invoice for the period may have already been generated.</description>
+    <externalId>false</externalId>
+    <label>Allow Backdated Termination</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

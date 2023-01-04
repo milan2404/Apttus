@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__EnableUploadAttachmentFromDesktop__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enables user to upload attachments from the desktop instead of limiting attachments to those already associated with the object in the Notes &amp; Attachments section.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enables user to upload attachments from the desktop instead of limiting attachments to those already associated with the object in the Notes &amp; Attachments section.</inlineHelpText>
+    <label>Enable Upload Attachment From Desktop</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

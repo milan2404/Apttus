@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DoNotCreateInformational__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Suppresses the creation of all informational billing schedules</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Suppresses the creation of all informational billing schedules</inlineHelpText>
+    <label>Do Not Create Informational</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

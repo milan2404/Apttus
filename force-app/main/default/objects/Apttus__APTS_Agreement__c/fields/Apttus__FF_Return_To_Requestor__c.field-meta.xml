@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FF_Return_To_Requestor__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Return the agreement to the requestor</description>
+    <externalId>false</externalId>
+    <formula>IF ((ISPICKVAL(Apttus__Status_Category__c,&quot;In Authoring&quot;)), HYPERLINK(&quot;/apex/Apttus__AgreementReturnToRequestor?id=&quot; &amp;Id, IMAGE(&quot;/resource/Apttus__Button_ReturnToRequestor&quot;, &quot;Return To Requestor&quot;),&quot;_self&quot;), NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Return the agreement to the requestor</inlineHelpText>
+    <label>Return To Requestor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

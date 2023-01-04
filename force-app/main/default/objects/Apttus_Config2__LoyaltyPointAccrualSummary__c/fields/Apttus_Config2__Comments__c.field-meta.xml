@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Comments__c</fullName>
+    <deprecated>false</deprecated>
+    <description>User Entered Memo text</description>
+    <externalId>false</externalId>
+    <inlineHelpText>User Entered Memo text</inlineHelpText>
+    <label>Comments</label>
+    <length>1000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

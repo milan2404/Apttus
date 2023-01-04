@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__IsRecipientTabsEnabled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Recipient Tabs Enabled default set to false</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Recipient Tabs Enabled default set to false</inlineHelpText>
+    <label>Recipient Tabs Enabled</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

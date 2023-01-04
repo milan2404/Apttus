@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__WasFinalized__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Keeps track of reaching the finalized stage</description>
+    <externalId>false</externalId>
+    <label>Was Finalized</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

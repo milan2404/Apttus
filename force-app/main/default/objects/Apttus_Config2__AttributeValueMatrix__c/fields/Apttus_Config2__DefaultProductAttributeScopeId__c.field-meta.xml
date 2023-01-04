@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DefaultProductAttributeScopeId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the product attribute group associated with the matrix</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the product attribute group associated with the matrix</inlineHelpText>
+    <label>Default Product Attribute Scope</label>
+    <referenceTo>Apttus_Config2__ProductAttributeGroup__c</referenceTo>
+    <relationshipLabel>Attribute Value Matrices</relationshipLabel>
+    <relationshipName>AttributeValueMatrices</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ConfigType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>To set whether the configuration should be inline or new page</description>
+    <externalId>false</externalId>
+    <label>Config Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inline</fullName>
+                <default>true</default>
+                <label>Inline</label>
+            </value>
+            <value>
+                <fullName>New Page</fullName>
+                <default>false</default>
+                <label>New Page</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

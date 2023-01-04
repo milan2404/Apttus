@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RenewOneRamp__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Renew only one ramp line item based on the new term in order of renewal term in asset line item, default renewal term in installed product setting and selling term in asset line item.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Renew only one ramp line item based on the new term in order of renewal term in asset line item, default renewal term in installed product setting and selling term in asset line item.</inlineHelpText>
+    <label>Renew One Ramp</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

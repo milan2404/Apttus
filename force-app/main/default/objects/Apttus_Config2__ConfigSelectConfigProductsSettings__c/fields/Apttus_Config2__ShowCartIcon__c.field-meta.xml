@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ShowCartIcon__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Shows the cart as icon and hides the cart sidebar on the right hand side</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Shows the cart as icon and hides the cart sidebar on the right hand side</inlineHelpText>
+    <label>Minimize Cart</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

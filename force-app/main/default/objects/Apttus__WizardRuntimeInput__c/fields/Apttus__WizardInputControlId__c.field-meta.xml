@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__WizardInputControlId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to the wizard input control design element</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to the wizard input control design element</inlineHelpText>
+    <label>Wizard Input Control</label>
+    <referenceTo>Apttus__WizardInputControl2__c</referenceTo>
+    <relationshipLabel>Runtime Inputs</relationshipLabel>
+    <relationshipName>RuntimeInputs</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__Generate</fullName>
+    <availability>online</availability>
+    <description>Generate a quote/proposal</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>sControl</linkType>
+    <masterLabel>Generate</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <scontrol>Apttus_Proposal__aptsProposalGenerate</scontrol>
+</WebLink>

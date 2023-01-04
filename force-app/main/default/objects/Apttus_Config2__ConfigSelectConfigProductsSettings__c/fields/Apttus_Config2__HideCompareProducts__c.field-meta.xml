@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HideCompareProducts__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked compare products feature will be hidden from the catalog page.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Turn this setting on to hide compare products feature in the catalog page.</inlineHelpText>
+    <label>Hide Compare Products</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

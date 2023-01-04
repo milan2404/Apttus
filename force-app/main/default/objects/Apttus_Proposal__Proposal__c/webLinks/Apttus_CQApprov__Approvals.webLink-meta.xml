@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CQApprov__Approvals</fullName>
+    <availability>online</availability>
+    <description>Launch cart header approvals page</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Approvals</masterLabel>
+    <openType>sidebar</openType>
+    <page>Apttus_CQApprov__CartApprovalsLaunch</page>
+    <protected>false</protected>
+</WebLink>

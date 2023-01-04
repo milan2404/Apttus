@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__AutoInsertHeaderFooterData__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicator to allow automatic placement of Agreement number in the header and last modified timestamp in the footer of the document for generate actions and also check-in, offline and import actions by X-Author (7.1.721 or later). The agreement is either the Apttus agreement number  or as indicated by the agreement number field property ( for offline and import actions). The footer datetime format property may be used to indicate the timestamp format.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicator to allow automatic placement of Agreement number in the header and last modified timestamp in the footer of the document for generate, offline and import actions.</inlineHelpText>
+    <label>Auto Insert Header Footer Data</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

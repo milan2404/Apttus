@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__EnableAttachments__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether comments and attachments would be allowed in the wizard flow</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether comments and attachments would be allowed in the wizard flow</inlineHelpText>
+    <label>Allow Comments and Attachments</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

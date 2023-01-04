@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CycleStartDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The loyalty cycle start date associated with the point accrual summary</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The loyalty cycle start date associated with the point accrual summary</inlineHelpText>
+    <label>Cycle Start Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

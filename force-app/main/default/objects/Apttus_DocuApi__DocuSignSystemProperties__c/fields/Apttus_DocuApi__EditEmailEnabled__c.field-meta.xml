@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__EditEmailEnabled__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This setting controls whether users can edit the email subject and body on the user interface, under the additional details section.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This setting controls whether users can edit the email subject and body on the user interface, under the additional details section. If it is checked, users will be able to edit the email subject and the email body.</inlineHelpText>
+    <label>Edit Email Enabled</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

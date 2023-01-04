@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ComponentType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of the component. Clause considers clause document, Attachment (Id) considers a hardcoded attachment id, Attachment (Object/Field) considers attachment id in a field, Parent (Object/Field) considers the first attachment in the parent represented by the field, Content (Object/Field) considers the raw content of that field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Clause = clause document, Attachment (Id) = hardcoded attachment id, Attachment (Object/Field) = attachment id in a field, Parent (Object/Field) = first attachment in the parent represented by the field, Content (Object/Field) =  raw content of the field.</inlineHelpText>
+    <label>Component Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Clause</fullName>
+                <default>true</default>
+                <label>Clause</label>
+            </value>
+            <value>
+                <fullName>Attachment (Id)</fullName>
+                <default>false</default>
+                <label>Attachment (Id)</label>
+            </value>
+            <value>
+                <fullName>Attachment (Object/Field)</fullName>
+                <default>false</default>
+                <label>Attachment (Object/Field)</label>
+            </value>
+            <value>
+                <fullName>Parent (Object/Field)</fullName>
+                <default>false</default>
+                <label>Parent (Object/Field)</label>
+            </value>
+            <value>
+                <fullName>Content (Object/Field)</fullName>
+                <default>false</default>
+                <label>Content (Object/Field)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

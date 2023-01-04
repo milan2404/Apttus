@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__TermPeriodStart__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The term period start indicator</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The term period start indicator</inlineHelpText>
+    <label>Term Period Start</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>At Begin Of Term</fullName>
+                <default>false</default>
+                <label>At Begin Of Term</label>
+            </value>
+            <value>
+                <fullName>At End Of Term</fullName>
+                <default>false</default>
+                <label>At End Of Term</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

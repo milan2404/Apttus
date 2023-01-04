@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__LastUsedDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date and time when the favorite config was last used</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date and time when the favorite config was last used</inlineHelpText>
+    <label>Last Used Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

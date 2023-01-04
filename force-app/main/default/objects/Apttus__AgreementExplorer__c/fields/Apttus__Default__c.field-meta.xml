@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Default__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This field determines if the query in question is the default query for the given context.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field determines if the query in question is the default query for the given context.</inlineHelpText>
+    <label>Default</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

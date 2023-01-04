@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ParentOptionGroupId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the parent option group</description>
+    <externalId>false</externalId>
+    <label>Parent Option Group</label>
+    <referenceTo>Apttus_Config2__ClassificationHierarchy__c</referenceTo>
+    <relationshipLabel>Child Option Groups</relationshipLabel>
+    <relationshipName>ChildOptionGroups</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

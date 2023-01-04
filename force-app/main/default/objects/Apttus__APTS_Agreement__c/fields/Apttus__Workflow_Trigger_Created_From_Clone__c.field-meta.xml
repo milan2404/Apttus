@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Workflow_Trigger_Created_From_Clone__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates a transient agreement that may get deleted by the user. A new agreement is in transient state until the agreement is explicitly saved by the user. A new agreement is created by new, clone, amend, renew, create offline or create from opportunity methods. Workflow rules should check this field to test for false before firing so that rules are not incorrectly fired when transient agreements are created .</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates a transient agreement that may get deleted by the user. A new agreement is in transient state until the agreement is explicitly saved by the user.</inlineHelpText>
+    <label>Is Transient</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

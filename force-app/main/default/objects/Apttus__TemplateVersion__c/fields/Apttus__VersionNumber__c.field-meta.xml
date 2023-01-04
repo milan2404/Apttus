@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__VersionNumber__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Represents version number of this record</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Represents version number of this record</inlineHelpText>
+    <label>Version Number</label>
+    <precision>6</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

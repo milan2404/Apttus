@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RoundingMode__c</fullName>
+    <defaultValue>&quot;HALF_EVEN&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The custom rounding mode. 
+Valid values (default=&quot;HALF_EVEN&quot;)
+UP
+HALF_UP
+DOWN
+HALF_DOWN
+HALF_EVEN</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The custom rounding mode. 
+Valid values (default=&quot;HALF_EVEN&quot;)
+UP
+HALF_UP
+DOWN
+HALF_DOWN
+HALF_EVEN</inlineHelpText>
+    <label>Rounding Mode</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

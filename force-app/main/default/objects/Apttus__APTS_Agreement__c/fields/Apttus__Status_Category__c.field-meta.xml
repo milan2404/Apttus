@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Status_Category__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The higher level state of the agreement – In Authoring, In Effect, Expired, etc.  These are Apttus reserved values and cannot be changed.</description>
+    <externalId>false</externalId>
+    <label>Status Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Request</fullName>
+                <default>true</default>
+                <label>Request</label>
+            </value>
+            <value>
+                <fullName>In Authoring</fullName>
+                <default>false</default>
+                <label>In Authoring</label>
+            </value>
+            <value>
+                <fullName>In Signatures</fullName>
+                <default>false</default>
+                <label>In Signatures</label>
+            </value>
+            <value>
+                <fullName>In Filing</fullName>
+                <default>false</default>
+                <label>In Filing</label>
+            </value>
+            <value>
+                <fullName>In Effect</fullName>
+                <default>false</default>
+                <label>In Effect</label>
+            </value>
+            <value>
+                <fullName>Expired</fullName>
+                <default>false</default>
+                <label>Expired</label>
+            </value>
+            <value>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+                <label>Terminated</label>
+            </value>
+            <value>
+                <fullName>Amended</fullName>
+                <default>false</default>
+                <label>Amended</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Import</fullName>
+                <default>false</default>
+                <label>Import</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

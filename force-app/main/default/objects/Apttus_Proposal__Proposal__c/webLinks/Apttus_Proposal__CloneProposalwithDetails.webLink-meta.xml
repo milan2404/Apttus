@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__CloneProposalwithDetails</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <height>600</height>
+    <linkType>sControl</linkType>
+    <masterLabel>Clone Proposal with Details</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <scontrol>Apttus_Proposal__aptsProposalCloneLineItems</scontrol>
+</WebLink>

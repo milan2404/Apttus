@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__RecordType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Record type that corresponds to the record types for the object</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Record type that corresponds to the record types for the object</inlineHelpText>
+    <label>Record Type</label>
+    <length>50</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

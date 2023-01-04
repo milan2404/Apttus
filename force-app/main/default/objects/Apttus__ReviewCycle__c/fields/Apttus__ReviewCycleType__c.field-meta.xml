@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ReviewCycleType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Review Cycle Type “MS Teams” for MS Teams integration and “Parallel Review” or null for Parallel review</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please provide Review Cycle Type</inlineHelpText>
+    <label>Review Cycle Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Parallel Review</fullName>
+                <default>false</default>
+                <label>Parallel Review</label>
+            </value>
+            <value>
+                <fullName>MS Teams</fullName>
+                <default>false</default>
+                <label>MS Teams</label>
+            </value>
+            <value>
+                <fullName>Office365 Internal Review</fullName>
+                <default>false</default>
+                <label>Office365 Internal Review</label>
+            </value>
+            <value>
+                <fullName>Office365 External Review</fullName>
+                <default>false</default>
+                <label>Office365 External Review</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SaveAsFavoriteDialogColumns__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Columns for save as favorite configuration dialog on cart page</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter comma separated API names of the columns of favorite configuration object for save as favorite configuration dialog on cart page</inlineHelpText>
+    <label>Save as Favorite Dialog Columns</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

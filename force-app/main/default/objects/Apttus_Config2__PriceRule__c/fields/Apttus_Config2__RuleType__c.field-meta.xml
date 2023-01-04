@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RuleType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The rule type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>1. SINGLE RATE:  Same rate for all qualified txns.
+2. RATE TABLE- NO TIERS:  Different rates based on discrete values e.g. Asia  – $5 | EMEA - $10
+3. RATE TABLE - WITH TIERS: Different rate based on volume or revenue tiers - 1-100 - $5, 101-1000 - $10</inlineHelpText>
+    <label>Rule Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dimension</fullName>
+                <default>false</default>
+                <label>Dimension</label>
+            </value>
+            <value>
+                <fullName>Condition</fullName>
+                <default>false</default>
+                <label>Condition</label>
+            </value>
+            <value>
+                <fullName>Single Rate</fullName>
+                <default>false</default>
+                <label>Single Rate</label>
+            </value>
+            <value>
+                <fullName>Rate Table - No Tiers</fullName>
+                <default>false</default>
+                <label>Rate Table - No Tiers</label>
+            </value>
+            <value>
+                <fullName>Rate Table - With Tiers</fullName>
+                <default>false</default>
+                <label>Rate Table - With Tiers</label>
+            </value>
+            <value>
+                <fullName>Volume</fullName>
+                <default>false</default>
+                <label>Volume</label>
+            </value>
+            <value>
+                <fullName>Inclusion</fullName>
+                <default>false</default>
+                <label>Inclusion</label>
+            </value>
+            <value>
+                <fullName>Price Point</fullName>
+                <default>false</default>
+                <label>Price Point</label>
+            </value>
+            <value>
+                <fullName>Net Price Point</fullName>
+                <default>false</default>
+                <label>Net Price Point</label>
+            </value>
+            <value>
+                <fullName>Price Waterfall Metric</fullName>
+                <default>false</default>
+                <label>Price Waterfall Metric</label>
+            </value>
+            <value>
+                <fullName>Price Pipeline Rule</fullName>
+                <default>false</default>
+                <label>Price Pipeline Rule</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

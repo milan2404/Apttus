@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Proposal__ApprovedProposals</fullName>
+    <columns>NAME</columns>
+    <columns>Apttus_Proposal__Opportunity__c</columns>
+    <columns>Apttus_Proposal__Presented_Date__c</columns>
+    <columns>Apttus_Proposal__Valid_Until_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Apttus_Proposal__Approval_Stage__c</field>
+        <operation>equals</operation>
+        <value>Approved</value>
+    </filters>
+    <filters>
+        <field>Apttus_Proposal__Grand_Total__c</field>
+        <operation>greaterThan</operation>
+        <value>100000</value>
+    </filters>
+    <label>Approved Proposals</label>
+</ListView>

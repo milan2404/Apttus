@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Terminate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicator to terminate the agreemen</description>
+    <externalId>false</externalId>
+    <formula>OR(AND(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Effect&quot;),NOT(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Being Amended&quot;)), NOT(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Being Renewed&quot;))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Indicator to terminate the agreemen</inlineHelpText>
+    <label>Terminate</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

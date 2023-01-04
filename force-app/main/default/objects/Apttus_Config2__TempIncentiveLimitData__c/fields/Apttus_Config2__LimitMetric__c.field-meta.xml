@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__LimitMetric__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The limit metric</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The limit metric</inlineHelpText>
+    <label>Limit Metric</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Number Of Times Used</fullName>
+                <default>true</default>
+                <label>Number Of Times Used</label>
+            </value>
+            <value>
+                <fullName>Benefit Quantity</fullName>
+                <default>false</default>
+                <label>Benefit Quantity</label>
+            </value>
+            <value>
+                <fullName>Benefit Amount</fullName>
+                <default>false</default>
+                <label>Benefit Amount</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

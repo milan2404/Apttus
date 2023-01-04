@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__Notify_Only__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Designates whether the approver receives a notification only for the approval request (when set to true) or gets the request assigned to them and receives notification as well (false, which is the default).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Designates whether the approver receives a notification only for the approval request (when set to true) or gets the request assigned to them and receives notification as well (false, which is the default).</inlineHelpText>
+    <label>Notify Only</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

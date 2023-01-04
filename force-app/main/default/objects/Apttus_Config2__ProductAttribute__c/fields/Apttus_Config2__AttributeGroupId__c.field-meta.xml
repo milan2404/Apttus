@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AttributeGroupId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the associated product attribute group</description>
+    <externalId>false</externalId>
+    <label>Attribute Group</label>
+    <referenceTo>Apttus_Config2__ProductAttributeGroup__c</referenceTo>
+    <relationshipLabel>Attributes</relationshipLabel>
+    <relationshipName>Attributes</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

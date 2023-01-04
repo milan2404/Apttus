@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__CustomMyApprovalsPage__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specifies the name of a custom page used to show My Approvals information.  Leave it blank to use the default page.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specifies the name of a custom page used to show My Approvals information.  Leave it blank to use the default page.</inlineHelpText>
+    <label>Custom My Approvals Page</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

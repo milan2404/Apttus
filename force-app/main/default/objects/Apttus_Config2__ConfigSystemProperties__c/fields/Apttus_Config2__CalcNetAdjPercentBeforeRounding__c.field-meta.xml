@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CalcNetAdjPercentBeforeRounding__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether net adjustment percent should be calculated before rounding the net price</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether net adjustment percent should be calculated before rounding the net price</inlineHelpText>
+    <label>Calc Net Adj Percent Before Rounding</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

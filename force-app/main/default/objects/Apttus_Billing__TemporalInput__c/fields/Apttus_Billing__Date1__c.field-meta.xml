@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__Date1__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A field for containing a Date. For example, when creating Invoices this will contain the Invoice Date.</description>
+    <externalId>false</externalId>
+    <label>Date1</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

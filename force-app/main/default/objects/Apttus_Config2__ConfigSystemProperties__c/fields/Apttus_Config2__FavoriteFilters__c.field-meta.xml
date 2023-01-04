@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__FavoriteFilters__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Populate comma separated values with API names of fields from the favorite configuration object. These fields will be used as filters in the catalog page</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Populate comma separated values with API names of fields from the favorite configuration object. These fields will be used as filters in the catalog page</inlineHelpText>
+    <label>FavoriteFilters</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

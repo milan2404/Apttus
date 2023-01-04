@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__FieldName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field Name related to the Notification. E.g. if the notification is about a field update then the Field Name of the field that got update.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field Name related to the Notification. E.g. if the notification is about a field update then the Field Name of the field that got update.</inlineHelpText>
+    <label>Field Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

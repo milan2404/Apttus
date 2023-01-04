@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Holds the list of field API names from the line item object used in setting asset pricing indicator. Multiple data sets may be used. Line Status specific criteria may be defined.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Config Asset Pricing Criteria Fields</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__OpportunityId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the associated opportunity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the associated opportunity</inlineHelpText>
+    <label>Opportunity</label>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Related Opportunity Line Item Collection</relationshipLabel>
+    <relationshipName>RelatedOpportunityLineItems</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__EnableAutoReapprovalOnFinalizedCart__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Setting this flag to true allows previous approvals from the finalized cart to be included in the check for auto-reapproval, otherwise re-approvals start from scratch on the new cart object.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Setting this flag to true allows previous approvals from the finalized cart to be included in the check for auto-reapproval, otherwise re-approvals start from scratch on the new cart object.</inlineHelpText>
+    <label>Enable Auto-Reapproval On Finalized Cart</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

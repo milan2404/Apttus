@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__WizardStepStartId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The first step of the wizard design used in all runtime instances</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The first step of the wizard design used in all runtime instances</inlineHelpText>
+    <label>Wizard Start Step</label>
+    <referenceTo>Apttus__WizardStep__c</referenceTo>
+    <relationshipName>Wizards1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

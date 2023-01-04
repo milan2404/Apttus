@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__EndedCancelledBy__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Id of the User who has cancelled or Ended the review.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Review Ended or Cancelled by user.</inlineHelpText>
+    <label>Ended/Cancelled By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>ReviewCycles</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

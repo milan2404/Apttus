@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__MatchInAsset__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether to match products in Assets. Only applicable to Inclusion based rules.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether to match products in Assets. Only applicable to Inclusion based rules.</inlineHelpText>
+    <label>Match In Asset</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__ClauseId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the clause used to replace the the Standard Clause</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the clause used to replace the the Standard Clause</inlineHelpText>
+    <label>Clause</label>
+    <referenceTo>Apttus__APTS_Template__c</referenceTo>
+    <relationshipLabel>Alternate Clauses</relationshipLabel>
+    <relationshipName>AlternateClauses</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

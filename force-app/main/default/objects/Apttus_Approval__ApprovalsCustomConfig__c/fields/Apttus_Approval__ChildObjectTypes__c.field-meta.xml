@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__ChildObjectTypes__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The list of child object types associated with the approval process for the parent object. This list is automatically maintained by the application.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The list of child object types associated with the approval process for the parent object. This list is automatically maintained by the application.</inlineHelpText>
+    <label>Child Object Types</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__UndoAmendOrder</fullName>
+    <availability>online</availability>
+    <description>Undo the amend order action</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Undo Amend Order</masterLabel>
+    <openType>sidebar</openType>
+    <page>Apttus_Config2__UndoOrderAmend</page>
+    <protected>false</protected>
+</WebLink>

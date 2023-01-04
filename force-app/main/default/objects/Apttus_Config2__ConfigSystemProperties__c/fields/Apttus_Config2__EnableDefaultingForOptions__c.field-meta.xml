@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__EnableDefaultingForOptions__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether defaulting is enabled for options</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A global setting to enable option defaulting rules.</inlineHelpText>
+    <label>Enable Defaulting For Options(D)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

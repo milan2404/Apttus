@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SplitOrderCriteriaFields__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The criteria fields used to split a large order</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The list of Order Line item fields used to split items added during a large order process into multiple orders. Each field API name separated by a comma or a new line.</inlineHelpText>
+    <label>Split Order Criteria Fields</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

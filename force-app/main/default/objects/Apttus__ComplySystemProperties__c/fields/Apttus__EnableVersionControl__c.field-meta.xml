@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__EnableVersionControl__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether version control is in effect. If enabled, checkout/check-in policy is enforced for agreement documents.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether version control is in effect. If enabled, checkout/check-in policy is enforced for agreement documents.</inlineHelpText>
+    <label>Enable Version Control</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

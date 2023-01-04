@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__JobType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The job type</description>
+    <externalId>false</externalId>
+    <label>Job Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hierarchy View Update</fullName>
+                <default>false</default>
+                <label>Hierarchy View Update</label>
+            </value>
+            <value>
+                <fullName>Hierarchy View Delete</fullName>
+                <default>false</default>
+                <label>Hierarchy View Delete</label>
+            </value>
+            <value>
+                <fullName>Criteria Update</fullName>
+                <default>false</default>
+                <label>Criteria Update</label>
+            </value>
+            <value>
+                <fullName>Rollup Update</fullName>
+                <default>true</default>
+                <label>Rollup Update</label>
+            </value>
+            <value>
+                <fullName>Rebate Calculation</fullName>
+                <default>false</default>
+                <label>Rebate Calculation</label>
+            </value>
+            <value>
+                <fullName>Loyalty Point Calculation</fullName>
+                <default>false</default>
+                <label>Loyalty Point Calculation</label>
+            </value>
+            <value>
+                <fullName>Loyalty Cycle Update</fullName>
+                <default>false</default>
+                <label>Loyalty Cycle Update</label>
+            </value>
+            <value>
+                <fullName>Job Monitor</fullName>
+                <default>false</default>
+                <label>Job Monitor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

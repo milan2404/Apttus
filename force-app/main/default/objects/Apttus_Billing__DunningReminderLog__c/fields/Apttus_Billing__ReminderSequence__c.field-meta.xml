@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__ReminderSequence__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The sequence of the reminder. 
+If this is the first reminder the reminder sequence should be 1. For 2nd reminder, it should be 2 and so on</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The sequence of the reminder. 
+If this is the first reminder the reminder sequence should be 1. For 2nd reminder, it should be 2 and so on</inlineHelpText>
+    <label>Reminder Sequence</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__SigningGroupId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field associates the signing group members to the DocuSign signing groups</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field associates the signing group members to the DocuSign signing groups</inlineHelpText>
+    <label>Signing Group Id</label>
+    <referenceTo>Apttus_DocuApi__DocuSignSigningGroup__c</referenceTo>
+    <relationshipLabel>DocuSign Signing Group Members</relationshipLabel>
+    <relationshipName>DocuSignSigningGroupMembers</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

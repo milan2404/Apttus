@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Criteria</fullName>
+    <availability>online</availability>
+    <description>Edit Ruleset Criteria</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Criteria</masterLabel>
+    <openType>sidebar</openType>
+    <page>Apttus_Config2__OrderWorkflowRulesetCriteria</page>
+    <protected>false</protected>
+</WebLink>

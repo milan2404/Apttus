@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__IsTransient__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates a transient version. A new version is in transient state until the document is successfully attached to the version. Workflow rules should check this field to test for false before firing so that rules are not incorrectly fired when transient versions are created .</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates a transient version. A new version is in transient state until the document is successfully attached to the version. Workflow rules should check this field to test for false before firing.</inlineHelpText>
+    <label>Is Transient</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

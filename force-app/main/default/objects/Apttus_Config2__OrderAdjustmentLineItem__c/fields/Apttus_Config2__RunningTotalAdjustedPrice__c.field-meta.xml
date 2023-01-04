@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RunningTotalAdjustedPrice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The adjusted price running total after applying the adjustment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The adjusted price running total after applying the adjustment</inlineHelpText>
+    <label>Running Total (Adjusted Price)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

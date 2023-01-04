@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CartEditAccessIdleTimeout__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field to specify number of minutes of idle time a configuration can be kept open in edit mode.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field to specify number of minutes of idle time a configuration can be kept open in edit mode.</inlineHelpText>
+    <label>Cart Edit Access Idle Timeout in Minutes</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

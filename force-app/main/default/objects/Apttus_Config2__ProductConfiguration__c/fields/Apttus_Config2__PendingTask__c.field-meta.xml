@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__PendingTask__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The pending task for the cart</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The pending task for the cart</inlineHelpText>
+    <label>PendingTask</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Clone</fullName>
+                <default>false</default>
+                <label>Clone</label>
+            </value>
+            <value>
+                <fullName>Finalize</fullName>
+                <default>false</default>
+                <label>Finalize</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

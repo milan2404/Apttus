@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__EnableResubmit__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This property is used for the submit for approvals button on the related list. When true, and user clicks on submit, current approval requests are cancelled and new approval requests are resubmitted. When false, and user clicks on submit, this flag will prevent the user from canceling and resubmitting an on-going approval process.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used for the submit for approvals button on the related list. 
+When true, current approval requests are cancelled and new requests are resubmitted. 
+When false, will prevent the user from canceling and resubmitting an on-going approval process.</inlineHelpText>
+    <label>Enable Resubmit</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

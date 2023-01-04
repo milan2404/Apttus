@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RefineSearchCheckboxDisplayLimit__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Search facet displays as picklist if this limit is crossed, otherwise checkbox(s).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Search facet displays as picklist if this limit is crossed, otherwise checkbox(s).</inlineHelpText>
+    <label>Refine Search Checkbox Display Limit</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

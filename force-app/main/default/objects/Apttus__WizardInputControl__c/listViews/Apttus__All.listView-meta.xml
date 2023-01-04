@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__All</fullName>
+    <columns>NAME</columns>
+    <columns>Apttus__ObjectName__c</columns>
+    <columns>Apttus__FieldName__c</columns>
+    <columns>Apttus__Active__c</columns>
+    <columns>Apttus__Required__c</columns>
+    <columns>Apttus__Sequence__c</columns>
+    <columns>Apttus__ContextObject__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

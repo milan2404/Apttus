@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__Assigned_To_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF (AND(ISPICKVAL(Apttus_Approval__Assigned_To_Type__c,&quot;Queue&quot;),$User.UITheme == &apos;Theme4d&apos;), HYPERLINK(&quot;/lightning/setup/Queues/page?address=%2Fp%2Fown%2FQueue%2Fd%3Fid%3D&quot;&amp;Apttus_Approval__Assigned_To_Id__c,Apttus_Approval__Assigned_To_Name__c,&quot;_top&quot;), IF (ISPICKVAL(Apttus_Approval__Assigned_To_Type__c,&quot;Queue&quot;), HYPERLINK(&quot;/p/own/Queue/d?id=&quot;&amp;Apttus_Approval__Assigned_To_Id__c&amp;&quot;&amp;setupid=Queues&quot;,Apttus_Approval__Assigned_To_Name__c,&quot;_top&quot;), HYPERLINK(Apttus_Approval__Assigned_To_Id__c,Apttus_Approval__Assigned_To_Name__c,&quot;_top&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Assigned To</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__CarbonCopyAssigneeIds__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Contains a list of user ids that should receive carbon copy notifications along with assigned approvers for a given request.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Contains a list of user ids that should receive carbon copy notifications along with assigned approvers for a given request.</inlineHelpText>
+    <label>Carbon Copy Assignee Ids</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

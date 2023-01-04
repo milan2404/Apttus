@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__WizardDesignId__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to wizard design</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to wizard design</inlineHelpText>
+    <label>Wizard Design</label>
+    <referenceTo>Apttus__WizardDesign__c</referenceTo>
+    <relationshipLabel>Wizards</relationshipLabel>
+    <relationshipName>Wizards</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HideLineItemAttributeDetails__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Hide Line item &quot;Details&quot; section on the Product Attribute Detail page</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Hide Line item &quot;Details&quot; section on the Product Attribute Detail page if checked.</inlineHelpText>
+    <label>Hide Line Item Attribute Details</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

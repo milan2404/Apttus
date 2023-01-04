@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__ExcludeFromDunning__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this flag to disable dunning for this account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this flag to disable dunning for this account</inlineHelpText>
+    <label>Exclude From Dunning</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

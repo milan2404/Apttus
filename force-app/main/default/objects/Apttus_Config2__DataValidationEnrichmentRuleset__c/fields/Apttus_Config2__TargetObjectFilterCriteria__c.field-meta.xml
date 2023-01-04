@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__TargetObjectFilterCriteria__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Filter criteria to get to the list of the data objects that needs to be validated / enriched</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Filter criteria to get to the list of the data objects that needs to be validated / enriched</inlineHelpText>
+    <label>Target Object Filter Criteria</label>
+    <length>2048</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

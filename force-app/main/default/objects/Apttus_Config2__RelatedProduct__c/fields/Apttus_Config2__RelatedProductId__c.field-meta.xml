@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__RelatedProductId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The accessory or up sell product</description>
+    <externalId>false</externalId>
+    <label>Related Product</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Base Products (Related Product)</relationshipLabel>
+    <relationshipName>BaseProducts</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

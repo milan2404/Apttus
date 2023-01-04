@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ExcludeOptionalProducts__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this flag to exclude optional products when evaluating structural requirements of bundles.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this flag to exclude optional products when evaluating structural requirements of bundles.</inlineHelpText>
+    <label>Exclude Optional Products</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

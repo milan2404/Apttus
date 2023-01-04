@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__ApprovalPolicy__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The approval policy associated with the rule</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The approval policy associated with the rule</inlineHelpText>
+    <label>Approval Policy</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unanimous</fullName>
+                <default>false</default>
+                <label>Unanimous</label>
+            </value>
+            <value>
+                <fullName>Majority</fullName>
+                <default>false</default>
+                <label>Majority</label>
+            </value>
+            <value>
+                <fullName>Percent</fullName>
+                <default>false</default>
+                <label>Percent</label>
+            </value>
+            <value>
+                <fullName>Quorum</fullName>
+                <default>false</default>
+                <label>Quorum</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

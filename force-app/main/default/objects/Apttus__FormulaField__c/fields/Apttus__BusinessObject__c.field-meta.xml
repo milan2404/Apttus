@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__BusinessObject__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The business object which provides the context for the field</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The business object which provides the context for the field</inlineHelpText>
+    <label>Business Object</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apttus__APTS_Agreement__c</fullName>
+                <default>true</default>
+                <label>Apttus__APTS_Agreement__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

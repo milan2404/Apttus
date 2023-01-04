@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__DueDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The invoice due date</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The invoice due date</inlineHelpText>
+    <label>Due Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

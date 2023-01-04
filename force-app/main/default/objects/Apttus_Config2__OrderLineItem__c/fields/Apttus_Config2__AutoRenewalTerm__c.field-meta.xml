@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AutoRenewalTerm__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The auto renewal term</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The auto renewal term</inlineHelpText>
+    <label>Auto Renewal Term</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

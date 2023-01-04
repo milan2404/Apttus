@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Upgrade__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Upgrade</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>During Program</fullName>
+                <default>false</default>
+                <label>During Program</label>
+            </value>
+            <value>
+                <fullName>Next Program</fullName>
+                <default>false</default>
+                <label>Next Program</label>
+            </value>
+            <value>
+                <fullName>Never</fullName>
+                <default>false</default>
+                <label>Never</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

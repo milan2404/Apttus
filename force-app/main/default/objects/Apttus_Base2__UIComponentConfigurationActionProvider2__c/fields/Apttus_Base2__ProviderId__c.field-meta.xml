@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Base2__ProviderId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Action Provider</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>Apttus_Base2__UIComponentProvider__c.RecordType.DeveloperName</field>
+            <operation>equals</operation>
+            <value>Action</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Apttus_Base2__UIComponentProvider__c</referenceTo>
+    <relationshipLabel>Action Provider</relationshipLabel>
+    <relationshipName>ActionProvider2</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

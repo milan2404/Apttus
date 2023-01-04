@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__HierarchyId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the category hierarchy</description>
+    <externalId>false</externalId>
+    <label>Hierarchy</label>
+    <referenceTo>Apttus_Config2__ClassificationName__c</referenceTo>
+    <relationshipLabel>Product Hierarchy View</relationshipLabel>
+    <relationshipName>ProductHierarchyView</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

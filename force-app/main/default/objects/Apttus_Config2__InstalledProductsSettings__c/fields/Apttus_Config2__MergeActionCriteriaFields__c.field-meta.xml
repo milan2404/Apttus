@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__MergeActionCriteriaFields__c</fullName>
+    <deprecated>false</deprecated>
+    <description>List of asset line item fields separated by comma to enable merge asset action</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List of asset line item fields separated by comma to enable merge asset action</inlineHelpText>
+    <label>Merge Action Criteria Fields</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

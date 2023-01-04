@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IsReadOnly__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the line item fields will be displayed as read only field. User is prevented from entering values for all line item fields. However the API methods or other system methods can change field values.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether the line item fields will be displayed as read only field. User is prevented from entering values for all line item fields. However the API methods or other system methods can change field values.</inlineHelpText>
+    <label>Is Read Only</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

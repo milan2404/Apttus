@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AlwaysDisplay__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the action should be displayed even when it is not enabled</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this to display the action as disabled(grayed out)  even when it is not enabled.</inlineHelpText>
+    <label>Always Display</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

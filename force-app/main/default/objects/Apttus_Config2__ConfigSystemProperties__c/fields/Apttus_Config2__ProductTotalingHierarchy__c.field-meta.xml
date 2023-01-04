@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ProductTotalingHierarchy__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter the list of product fields that represent the product totaling hierarchy. Each product field name should be separated by a new line. For Ad-hoc totaling enter the line item fields which represent a totaling group. If empty then Bundle Family will be used by default.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the list of product fields that represent the product totaling hierarchy. Each product field name should be separated by a new line. For Ad-hoc totaling enter the line item fields which represent a totaling group. Default is Bundle Family.</inlineHelpText>
+    <label>Adhoc/Product Totaling Hierarchy</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

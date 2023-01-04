@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__Comment__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter a comment to the person you are setting as your backup/delegate.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter a comment to the person you are setting as your backup/delegate.</inlineHelpText>
+    <label>Comment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

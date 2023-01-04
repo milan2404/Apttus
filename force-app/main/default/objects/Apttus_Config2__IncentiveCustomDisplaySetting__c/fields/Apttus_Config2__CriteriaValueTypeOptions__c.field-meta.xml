@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CriteriaValueTypeOptions__c</fullName>
+    <deprecated>false</deprecated>
+    <description>List of options for the Value Type field in criteria, separated by a semicolon;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List of options for the Value Type field in criteria, separated by a semicolon.</inlineHelpText>
+    <label>Criteria Value Type Options</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

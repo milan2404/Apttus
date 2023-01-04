@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Base2__RunType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates if the Job run type is Batchable or Queueable</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Indicates if the Job run type is Batchable or Queueable</inlineHelpText>
+    <label>Run Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Batchable</fullName>
+                <default>true</default>
+                <label>Batchable</label>
+            </value>
+            <value>
+                <fullName>Queueable</fullName>
+                <default>false</default>
+                <label>Queueable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ExpressionType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Expression type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Expression type</inlineHelpText>
+    <label>Expression Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Field Update</fullName>
+                <default>false</default>
+                <label>Field Update</label>
+            </value>
+            <value>
+                <fullName>Rollup</fullName>
+                <default>false</default>
+                <label>Rollup</label>
+            </value>
+            <value>
+                <fullName>Validation</fullName>
+                <default>false</default>
+                <label>Validation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

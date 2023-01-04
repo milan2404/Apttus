@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DateValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( NOT(ISNULL(Apttus_Config2__EffectiveDate__c)) &amp;&amp; NOT(ISNULL(Apttus_Config2__ExpirationDate__c)) &amp;&amp; Apttus_Config2__EffectiveDate__c &gt; Apttus_Config2__ExpirationDate__c, true, false)</errorConditionFormula>
+    <errorMessage>Effective date cannot be greater then expiration date.</errorMessage>
+</ValidationRule>

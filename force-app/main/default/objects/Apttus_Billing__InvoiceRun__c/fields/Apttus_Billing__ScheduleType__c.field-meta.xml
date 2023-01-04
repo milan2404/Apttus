@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__ScheduleType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The type of the schedule.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The type of the schedule.</inlineHelpText>
+    <label>Schedule Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Weekly</fullName>
+                <default>false</default>
+                <label>Weekly</label>
+            </value>
+            <value>
+                <fullName>Monthly by date</fullName>
+                <default>false</default>
+                <label>Monthly by date</label>
+            </value>
+            <value>
+                <fullName>Monthly by day</fullName>
+                <default>false</default>
+                <label>Monthly by day</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

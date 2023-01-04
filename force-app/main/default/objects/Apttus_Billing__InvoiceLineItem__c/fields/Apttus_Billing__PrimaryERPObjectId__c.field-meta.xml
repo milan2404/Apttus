@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__PrimaryERPObjectId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the primary ERP object</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the primary ERP object</inlineHelpText>
+    <label>Primary ERP Object Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

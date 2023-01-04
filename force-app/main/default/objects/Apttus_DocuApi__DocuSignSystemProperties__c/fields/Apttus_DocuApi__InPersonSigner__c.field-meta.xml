@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__InPersonSigner__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Use this action if the signer is in the same physical location as a DocuSign user who will act as a Signing Host for the transaction. This recipient type can only be used if enabled for this DocuSign account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this action if the signer is in the same physical location as a DocuSign user who will act as a Signing Host for the transaction. This recipient type can only be used if enabled for this DocuSign account.</inlineHelpText>
+    <label>In-Person Signers</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

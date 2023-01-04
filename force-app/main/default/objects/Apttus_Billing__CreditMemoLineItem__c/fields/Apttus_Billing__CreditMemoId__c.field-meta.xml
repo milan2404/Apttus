@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__CreditMemoId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Parent Credit Memo ID.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Parent Credit Memo ID.</inlineHelpText>
+    <label>Credit Memo</label>
+    <referenceTo>Apttus_Billing__CreditMemo__c</referenceTo>
+    <relationshipLabel>Credit Memo Line Items</relationshipLabel>
+    <relationshipName>CreditMemoLineItems</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

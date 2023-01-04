@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__WizardInstanceNumber__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Auto number (counter) of Wizard runtime. This identifies the Wizard runtime uniquely in the chronology of creation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Auto number (counter) of Wizard runtime. This identifies the Wizard runtime uniquely in the chronology of creation.</inlineHelpText>
+    <label>Wizard Instance Number</label>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

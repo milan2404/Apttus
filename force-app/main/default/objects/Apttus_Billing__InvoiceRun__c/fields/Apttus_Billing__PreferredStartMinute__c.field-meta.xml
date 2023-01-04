@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__PreferredStartMinute__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The preferred minute (15 min interval) of the day when the scheduled job will be added to the job queue.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The preferred minute (15 min interval) of the day when the scheduled job will be added to the job queue.</inlineHelpText>
+    <label>Preferred Start Minute</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>00</fullName>
+                <default>false</default>
+                <label>00</label>
+            </value>
+            <value>
+                <fullName>15</fullName>
+                <default>false</default>
+                <label>15</label>
+            </value>
+            <value>
+                <fullName>30</fullName>
+                <default>false</default>
+                <label>30</label>
+            </value>
+            <value>
+                <fullName>45</fullName>
+                <default>false</default>
+                <label>45</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

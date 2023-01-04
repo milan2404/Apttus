@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__IDEMapProvisionRecordTypeId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>IDE Provision Record Type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please provide IDE Provision Record Type</inlineHelpText>
+    <label>IDE Provision Record Type</label>
+    <referenceTo>Apttus__IDEMapProvisionRecordType__c</referenceTo>
+    <relationshipLabel>IDEMapFieldProvisions</relationshipLabel>
+    <relationshipName>IDEMapFieldProvisions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

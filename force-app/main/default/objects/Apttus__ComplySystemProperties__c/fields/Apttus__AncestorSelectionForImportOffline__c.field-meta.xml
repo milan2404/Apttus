@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__AncestorSelectionForImportOffline__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Ancestor selection for Import Offline</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Allows a user to link an offline document to an existing major version of a document.</inlineHelpText>
+    <label>Ancestor selection for Import Offline</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

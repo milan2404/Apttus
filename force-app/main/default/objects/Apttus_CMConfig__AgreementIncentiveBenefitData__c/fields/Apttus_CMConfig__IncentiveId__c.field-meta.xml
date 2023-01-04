@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__IncentiveId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the associated incentive</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the associated incentive</inlineHelpText>
+    <label>Incentive</label>
+    <referenceTo>Apttus_Config2__Incentive__c</referenceTo>
+    <relationshipLabel>Agreement Incentive Benefit Data</relationshipLabel>
+    <relationshipName>AgreementIncentiveBenefitData</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

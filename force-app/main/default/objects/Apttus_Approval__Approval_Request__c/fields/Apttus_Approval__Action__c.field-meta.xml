@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__Action__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(AND(OR(ISPICKVAL(Apttus_Approval__Approval_Status__c,&quot;Assigned&quot;),ISPICKVAL(Apttus_Approval__Approval_Status__c,&quot;Reassigned&quot;)),OR(OwnerId=$User.Id,Apttus_Approval__PrevAssignedToId__c=$User.Id,CONTAINS(Apttus_Approval__DelegateApproverIds__c, $User.Id),$Profile.Name=&quot;System Administrator&quot;,$Profile.Name=&quot;Apttus Standard User&quot;)),IF(OR($User.UITheme == &apos;Theme4d&apos;,$User.UITheme == &apos;Theme4u&apos;),HYPERLINK(&quot;/one/one.app#/alohaRedirect/apex/Apttus_Approval__ApprovalSummaryLaunch?id=&quot;&amp;Id&amp;&quot;&amp;pageMode=reassign&quot;,&quot;Reassign&quot;&amp;BR(),&quot;_self&quot;),HYPERLINK(&quot;/apex/Apttus_Approval__ApprovalSummaryLaunch?id=&quot;&amp;Id&amp;&quot;&amp;pageMode=reassign&quot;,&quot;Reassign&quot;&amp;BR(),&quot;_self&quot;)),NULL)
+&amp;
+IF(AND(OR(ISPICKVAL(Apttus_Approval__Approval_Status__c,&quot;Assigned&quot;),ISPICKVAL(Apttus_Approval__Approval_Status__c,&quot;Reassigned&quot;)),OR(OwnerId=$User.Id,Apttus_Approval__PrevAssignedToId__c=$User.Id,CONTAINS(Apttus_Approval__DelegateApproverIds__c, $User.Id),$Profile.Name=&quot;System Administrator&quot;,$Profile.Name=&quot;Apttus Standard User&quot;)),IF(OR($User.UITheme == &apos;Theme4d&apos;,$User.UITheme == &apos;Theme4u&apos;),HYPERLINK(&quot;/one/one.app#/alohaRedirect/apex/Apttus_Approval__ApprovalSummaryLaunch?id=&quot;&amp;Id&amp;&quot;&amp;pageMode=approveReject&quot;,&quot;Approve / Reject&quot;&amp;BR(),&quot;_self&quot;),HYPERLINK(&quot;/apex/Apttus_Approval__ApprovalSummaryLaunch?id=&quot;&amp;Id&amp;&quot;&amp;pageMode=approveReject&quot;,&quot;Approve / Reject&quot;&amp;BR(),&quot;_self&quot;)),NULL)
+&amp;
+IF(OR(ISPICKVAL(Apttus_Approval__Approval_Status__c,&quot;Assigned&quot;),ISPICKVAL(Apttus_Approval__Approval_Status__c,&quot;Reassigned&quot;)),IF(OR($User.UITheme == &apos;Theme4d&apos;,$User.UITheme == &apos;Theme4u&apos;),HYPERLINK(&quot;/one/one.app#/alohaRedirect/apex/Apttus_Approval__ApprovalSummaryLaunch?id=&quot;&amp;Id&amp;&quot;&amp;pageMode=addComment&quot;,&quot;Add Comment&quot;&amp;BR(),&quot;_self&quot;),HYPERLINK(&quot;/apex/Apttus_Approval__ApprovalSummaryLaunch?id=&quot;&amp;Id&amp;&quot;&amp;pageMode=addComment&quot;,&quot;Add Comment&quot;&amp;BR(),&quot;_self&quot;)),NULL)
+&amp;
+IF(AND(Apttus_Approval__CanEscalate__c,OR(ISPICKVAL(Apttus_Approval__Approval_Status__c,&quot;Assigned&quot;),ISPICKVAL(Apttus_Approval__Approval_Status__c ,&quot;Reassigned&quot;)),OR(Apttus_Approval__Initial_Submitter__c=$User.Id,$Profile.Name=&quot;System Administrator&quot;)),IF(OR($User.UITheme == &apos;Theme4d&apos;,$User.UITheme == &apos;Theme4u&apos;),HYPERLINK(&quot;/one/one.app#/alohaRedirect/apex/Apttus_Approval__ApprovalRequestEscalate?id=&quot;&amp;Id,&quot;Escalate&quot;,&quot;_self&quot;),HYPERLINK(&quot;/apex/Apttus_Approval__ApprovalRequestEscalate?id=&quot;&amp;Id,&quot;Escalate&quot;,&quot;_self&quot;)),NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Approval Action</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

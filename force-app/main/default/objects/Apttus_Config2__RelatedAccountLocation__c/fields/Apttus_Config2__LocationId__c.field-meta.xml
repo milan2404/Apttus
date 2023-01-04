@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__LocationId__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the account location</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the account location</inlineHelpText>
+    <label>Location</label>
+    <referenceTo>Apttus_Config2__AccountLocation__c</referenceTo>
+    <relationshipLabel>Related Account Locations (To)</relationshipLabel>
+    <relationshipName>RelatedAccountLocationsTo</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

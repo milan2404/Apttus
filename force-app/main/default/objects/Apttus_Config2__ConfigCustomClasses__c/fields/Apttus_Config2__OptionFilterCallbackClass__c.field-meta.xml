@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__OptionFilterCallbackClass__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Option filter callback class name. The class should implement the CustomClass.IOptionFilterCallback interface.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Option filter callback class name. The class should implement the CustomClass.IOptionFilterCallback interface.</inlineHelpText>
+    <label>Option Filter Callback Class</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

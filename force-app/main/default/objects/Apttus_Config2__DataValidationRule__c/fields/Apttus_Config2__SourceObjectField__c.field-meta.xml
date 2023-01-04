@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__SourceObjectField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>API name of the source object field against which the target object field will be validated</description>
+    <externalId>false</externalId>
+    <inlineHelpText>API name of the source object field against which the target object field will be validated</inlineHelpText>
+    <label>Source Object Field</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__IncentiveNumberAuto__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The system assigned unique incentive number. FOR INTERNAL USE ONLY. DO NOT SHOW IN SCREENS, REPORTS, ETC.</description>
+    <displayFormat>ICT-{000000}</displayFormat>
+    <externalId>false</externalId>
+    <inlineHelpText>The system assigned unique incentive number. FOR INTERNAL USE ONLY. DO NOT SHOW IN SCREENS, REPORTS, ETC.</inlineHelpText>
+    <label>Incentive Number Auto (INTERNAL)</label>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

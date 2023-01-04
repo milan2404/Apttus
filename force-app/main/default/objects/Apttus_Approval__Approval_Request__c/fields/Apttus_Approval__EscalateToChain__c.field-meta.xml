@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Approval__EscalateToChain__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The chain of user ids that this request will get escalated to in the event that it is escalated. This chain is determined when the request is initially submitted and is only applicable to dynamic escalation types.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The chain of user ids that this request will get escalated to in the event that it is escalated. This chain is determined when the request is initially submitted and is only applicable to dynamic escalation types.</inlineHelpText>
+    <label>Escalate To Chain</label>
+    <length>4096</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

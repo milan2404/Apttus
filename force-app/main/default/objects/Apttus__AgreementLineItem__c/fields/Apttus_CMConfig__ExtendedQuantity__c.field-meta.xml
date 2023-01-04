@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_CMConfig__ExtendedQuantity__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The extended quantity is Quantity X Parent Quantity)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The extended quantity is Quantity X Parent Quantity)</inlineHelpText>
+    <label>Extended Quantity</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

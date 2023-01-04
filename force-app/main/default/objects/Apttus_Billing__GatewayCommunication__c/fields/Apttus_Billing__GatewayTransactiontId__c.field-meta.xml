@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__GatewayTransactiontId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The associated gateway transaction id.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The associated gateway transaction id.</inlineHelpText>
+    <label>Gateway Transaction Id</label>
+    <referenceTo>Apttus_Billing__GatewayTransaction__c</referenceTo>
+    <relationshipLabel>Gateway Communications</relationshipLabel>
+    <relationshipName>GatewayCommunications</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

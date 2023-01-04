@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FilterCriteria__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Criteria spec used for filtering the line items. This is a SOQL WHERE clause</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Criteria spec used for filtering the line items. This is a SOQL WHERE clause</inlineHelpText>
+    <label>Filter Criteria</label>
+    <length>2000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

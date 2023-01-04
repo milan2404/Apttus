@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__FromLineItemId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the asset line item (from)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the asset line item (from)</inlineHelpText>
+    <label>From</label>
+    <referenceTo>Apttus_Config2__AssetLineItem__c</referenceTo>
+    <relationshipLabel>Related Asset Line Items (From)</relationshipLabel>
+    <relationshipName>RelatedAssetLineItemsFrom</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

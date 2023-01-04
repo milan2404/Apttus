@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__AssignedToDimensionId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the dimension that identifies the assigned to data source</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the dimension that identifies the assigned to data source</inlineHelpText>
+    <label>Assigned To Dimension</label>
+    <referenceTo>Apttus_Config2__PriceDimension__c</referenceTo>
+    <relationshipLabel>Incentive Coupons</relationshipLabel>
+    <relationshipName>IncentiveCoupons</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__OauthData__c</fullName>
+    <deprecated>false</deprecated>
+    <description>DocuSign OAuth Data as JSON. I can be used with only Integrator Key from Apttus.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>DocuSign OAuth Data as JSON. I can be used with only Integrator Key from Apttus.</inlineHelpText>
+    <label>OAuth Data</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

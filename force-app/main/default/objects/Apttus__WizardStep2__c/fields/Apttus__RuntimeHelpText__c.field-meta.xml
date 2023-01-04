@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__RuntimeHelpText__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Describe what the runtime user can see as a help or instruction description of this Step.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Describe what the runtime user can see as a help or instruction description of this Step.</inlineHelpText>
+    <label>Runtime Help Text</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

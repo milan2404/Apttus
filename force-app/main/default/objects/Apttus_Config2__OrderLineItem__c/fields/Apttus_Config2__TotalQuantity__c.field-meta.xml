@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__TotalQuantity__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The total quantity is Quantity + Asset Quantity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The total quantity is Quantity + Asset Quantity</inlineHelpText>
+    <label>Total Quantity</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

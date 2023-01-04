@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ChangeInAssetMRR__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The change in the asset monthly recurring revenue due to the transaction</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The change in the asset monthly recurring revenue due to the transaction</inlineHelpText>
+    <label>Change In Asset MRR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

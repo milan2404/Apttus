@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_DocuApi__Default__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This DocuSign is credential is will be used as default OAuth info to handle SFDC Organization wide needs</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This DocuSign is credential is will be used as default OAuth info to handle SFDC Organization wide needs</inlineHelpText>
+    <label>Default</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

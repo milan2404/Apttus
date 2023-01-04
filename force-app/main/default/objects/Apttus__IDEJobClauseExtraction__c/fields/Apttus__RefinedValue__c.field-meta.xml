@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__RefinedValue__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The refined value of the extracted data</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The refined value of the extracted data</inlineHelpText>
+    <label>Refined Value</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

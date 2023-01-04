@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__FromInputControlId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Input control on which this rule is to be applied in an expression to determine based upon the rule type the outcome value.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Input control on which this rule is to be applied in an expression to determine based upon the rule type the outcome value.</inlineHelpText>
+    <label>Wizard Input Control</label>
+    <referenceTo>Apttus__WizardInputControl2__c</referenceTo>
+    <relationshipLabel>Rules</relationshipLabel>
+    <relationshipName>Rules</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

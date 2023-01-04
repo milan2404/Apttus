@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Billing__ValidateUsageReversal__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>For a usage asset associated with a wallet (one-to-one relationship only), this will validate the usage processing entries where the negative amount (to be added back to the wallet) exceeds the wallet&apos;s consumed amount.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Validate negative usage for an asset linked to a single wallet can not be processed if the rated amount is more then consumed amount.</inlineHelpText>
+    <label>Validate Usage Reversal</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

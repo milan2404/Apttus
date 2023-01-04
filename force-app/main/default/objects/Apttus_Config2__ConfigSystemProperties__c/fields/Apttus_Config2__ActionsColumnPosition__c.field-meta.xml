@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ActionsColumnPosition__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The position of the actions column in the cart page. Actions column are displayed on the left, but may be overridden using this setting.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The position of the actions column in the cart page. 
+
+Valid values are: 
+============= 
+Left 
+Right</inlineHelpText>
+    <label>Actions Column Position</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

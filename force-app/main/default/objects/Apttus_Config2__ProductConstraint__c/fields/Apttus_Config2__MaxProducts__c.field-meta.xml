@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__MaxProducts__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The maximum number of products that may be selected from the related products. Setting the maximum products constrains the number of related products the user can select. Setting the maximum products to 0, means the user cannot select any product from the related products. This creates an &quot;exclusion&quot; rule.</description>
+    <externalId>false</externalId>
+    <label>Max Products (Deprecated)</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

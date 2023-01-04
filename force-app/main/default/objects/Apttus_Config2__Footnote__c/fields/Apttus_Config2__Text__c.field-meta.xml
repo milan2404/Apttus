@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__Text__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The footnote text. This is deprecated. Please use the Body to store the content.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The footnote text. This is deprecated. Please use the Body to store the content.</inlineHelpText>
+    <label>Text (Deprecated)</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

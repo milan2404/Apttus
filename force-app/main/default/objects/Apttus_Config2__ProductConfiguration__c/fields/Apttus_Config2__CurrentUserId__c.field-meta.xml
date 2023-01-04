@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__CurrentUserId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Holds the User Id of the User who accessed this configuration in edit mode</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Holds the User Id of the User who accessed this configuration in edit mode</inlineHelpText>
+    <label>Current User</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Product_Configurations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

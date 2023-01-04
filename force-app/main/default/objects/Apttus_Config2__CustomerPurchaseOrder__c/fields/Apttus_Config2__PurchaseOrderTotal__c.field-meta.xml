@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__PurchaseOrderTotal__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Total amount authorized in the purchase order</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Total amount authorized in the purchase order</inlineHelpText>
+    <label>Purchase Order Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

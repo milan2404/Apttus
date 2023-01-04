@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__Protection_Level__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Protection level applied to the Word document when an agreement is generated.</description>
+    <externalId>false</externalId>
+    <label>Protection Level</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Apttus__Protection_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Full access</fullName>
+                <default>false</default>
+                <label>Full access</label>
+            </value>
+            <value>
+                <fullName>Insert comments and tracked changes only</fullName>
+                <default>false</default>
+                <label>Insert comments and tracked changes only</label>
+            </value>
+            <value>
+                <fullName>Insert comments only</fullName>
+                <default>false</default>
+                <label>Insert comments only</label>
+            </value>
+            <value>
+                <fullName>Fill in form fields only</fullName>
+                <default>false</default>
+                <label>Fill in form fields only</label>
+            </value>
+            <value>
+                <fullName>Read only</fullName>
+                <default>false</default>
+                <label>Read only</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Automatic</controllingFieldValue>
+            <valueName>Full access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automatic</controllingFieldValue>
+            <valueName>Insert comments and tracked changes only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automatic</controllingFieldValue>
+            <valueName>Insert comments only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automatic</controllingFieldValue>
+            <valueName>Fill in form fields only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automatic</controllingFieldValue>
+            <valueName>Read only</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__PriceMatrixEntryId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>ID of the adjustment matrix entry</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of the adjustment matrix entry</inlineHelpText>
+    <label>Price Matrix Entry</label>
+    <referenceTo>Apttus_Config2__PriceMatrixEntry__c</referenceTo>
+    <relationshipLabel>Adjustment Line Items</relationshipLabel>
+    <relationshipName>AdjustmentLineItems</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

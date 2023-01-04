@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__ProductOptionComponentId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The product option component associated with the system.</description>
+    <externalId>false</externalId>
+    <label>Product Option Component</label>
+    <referenceTo>Apttus_Config2__ProductOptionComponent__c</referenceTo>
+    <relationshipName>SystemComponents</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus__All</fullName>
+    <columns>NAME</columns>
+    <columns>Apttus__Profile_Name__c</columns>
+    <columns>Apttus__Action__c</columns>
+    <columns>Apttus__Protection_Type__c</columns>
+    <columns>Apttus__Protection_Level__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

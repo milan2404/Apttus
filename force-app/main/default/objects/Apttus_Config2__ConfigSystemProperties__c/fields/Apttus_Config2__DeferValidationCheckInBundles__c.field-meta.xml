@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apttus_Config2__DeferValidationCheckInBundles__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicator to defer validation check in the bundle configuration step</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicator to defer validation check in the bundle configuration step</inlineHelpText>
+    <label>Defer Validation Check In Bundles</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
