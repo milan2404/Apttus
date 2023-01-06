@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Apttus_Config2__AssetsPage__c</columns>
+    <columns>Apttus_Config2__CartPage__c</columns>
+    <columns>Apttus_Config2__CatalogPage__c</columns>
+    <columns>Apttus_Config2__OptionsPage__c</columns>
+    <columns>Apttus_Config2__ProductAttributeDetailPage__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

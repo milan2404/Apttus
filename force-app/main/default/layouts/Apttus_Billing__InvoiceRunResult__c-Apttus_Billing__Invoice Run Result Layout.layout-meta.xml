@@ -9,10 +9,6 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Apttus_Billing__TotalCreditMemosApplied__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
@@ -38,6 +34,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Apttus_Billing__TotalCreditMemosAutoApproved__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Apttus_Billing__TotalCreditMemosApplied__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

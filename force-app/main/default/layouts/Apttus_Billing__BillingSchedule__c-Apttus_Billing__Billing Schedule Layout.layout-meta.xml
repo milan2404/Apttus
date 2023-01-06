@@ -51,6 +51,10 @@
                 <behavior>Readonly</behavior>
                 <field>Apttus_Billing__Description__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Grouping__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

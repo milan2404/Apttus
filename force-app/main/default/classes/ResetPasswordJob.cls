@@ -5,21 +5,18 @@ public class ResetPasswordJob implements Database.Batchable<sObject>, Database.S
         this.setUserId = setUserId;
     }
 
-    public Database.QueryLocator start(Database.BatchableContext BC) {
-        System.debug(LoggingLevel.ERROR, 'MSA 001 : in Start ');
+    public Database.QueryLocator start(Database.BatchableContext objBatchableContext) {
         String query = 'SELECT Id FROM USER ';
         query += ' WHERE Id IN :setUserId ';
         return Database.getQueryLocator(query);
     }
 
-    public void execute(Database.BatchableContext BC, List<sObject> listUser) {
-        System.debug(LoggingLevel.ERROR, 'MSA 001 : in execute ');
-        for (sObject obUser : listUser) {
-            System.debug(LoggingLevel.ERROR, 'MSA 001 : in execute obUser : ' + obUser);
-            System.resetPassword(obUser.Id, true);
+    public void execute(Database.BatchableContext objBatchableContext, List<sObject> listUser) {
+        for (sObject objUser : listUser) {
+            System.resetPassword(objUser.Id, true);
         }
     }
 
-    public void finish(Database.BatchableContext BC) {
+    public void finish(Database.BatchableContext objBatchableContext) {
     }
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Apttus_Config2__ObjectName__c</columns>
+    <columns>Apttus_Config2__LookupFieldName__c</columns>
+    <columns>Apttus_Config2__DisplayColumns__c</columns>
+    <columns>Apttus_Config2__FilterCriteria__c</columns>
+    <columns>Apttus_Config2__FilterCriteria2__c</columns>
+    <columns>Apttus_Config2__LookupRecordLimit__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

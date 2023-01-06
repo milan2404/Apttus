@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <excludeButtons>DataDotComAccountInsights</excludeButtons>
-    <excludeButtons>DataDotComClean</excludeButtons>
-    <excludeButtons>DataDotComCompanyHierarchy</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -21,6 +18,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ParentId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>WalletManager__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -276,6 +277,17 @@
         <fields>CONTACT.EMAIL</fields>
         <fields>CONTACT.PHONE1</fields>
         <relatedList>RelatedContactList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>Apttus_Config2__City__c</fields>
+        <fields>Apttus_Config2__State__c</fields>
+        <fields>Apttus_Config2__Country__c</fields>
+        <fields>Apttus_Config2__BillingPreferenceId__c</fields>
+        <fields>Apttus_Config2__PaymentTermId__c</fields>
+        <fields>Apttus_Billing__DunningPolicyId__c</fields>
+        <fields>Apttus_Config2__IsDefault__c</fields>
+        <relatedList>Apttus_Config2__AccountLocation__c.Apttus_Config2__AccountId__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>

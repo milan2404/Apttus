@@ -83,6 +83,14 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Apttus_Billing__DunningPolicyId__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Apttus_Billing__ExcludeFromDunning__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>Apttus_Config2__BillingContactFilterCriteria__c</field>
             </layoutItems>
             <layoutItems>
@@ -106,6 +114,18 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Apttus_Config2__InvoiceEmailTemplate__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Apttus_Config2__CreditMemoEmailTemplate__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Apttus_Config2__DefaultCreditMemoTemplate__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Apttus_Billing__PaymentEmailTemplate__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -145,7 +165,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hA000000QGyaC</masterLabel>
+        <masterLabel>00h0T000000oq9m</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

@@ -4,13 +4,18 @@ global class SandboxAfterRefresh implements SandboxPostCopy {
     private static final String EmailEncodingKey = 'UTF-8';
     private static final String LanguageLocaleKey = 'en_US';
     global void runApexClass(SandboxContext context) {
-        System.debug(LoggingLevel.ERROR, 'MSA organizationId : ' + context.organizationId());
-        System.debug(LoggingLevel.ERROR, 'MSA sandboxId : ' + context.sandboxId());
-        System.debug(LoggingLevel.ERROR, 'MSA SandBoxname : ' + context.sandboxName());
-
-        updateInstaceURL();
         String sandboxName = context.sandboxName();
+        updateInstaceURL();
+        updateUser(sandboxName);
+        //createUser(sandboxName);
+    }
 
+    private static void updateUser(String sandboxName) {
+        ResetUserJob objBatch = new ResetUserJob(sandboxName);
+        ID batchprocessid = Database.executeBatch(objBatch, objBatch.BATCH_SIZE);
+    }
+
+    private static void createUser(String sandboxName) {
         Profile objProfile = [
             SELECT Id, Name
             FROM Profile
@@ -36,20 +41,20 @@ global class SandboxAfterRefresh implements SandboxPostCopy {
             objUser.LocaleSidKey = LocaleSidKey;
             objUser.EmailEncodingKey = EmailEncodingKey;
             objUser.LanguageLocaleKey = LanguageLocaleKey;
-            insert objUser;
+            listUserToInsert.add(objUser);
         }
         insert listUserToInsert;
 
         Set<Id> setUserId = new Set<Id>();
         for (User objUser : listUserToInsert) {
-            System.resetPassword(objUser.Id, true);
             setUserId.add(objUser.Id);
         }
 
         ResetPasswordJob objBatch = new ResetPasswordJob(setUserId);
-        Database.executeBatch(objBatch, objBatch.BATCH_SIZE);
+        ID batchprocessid = Database.executeBatch(objBatch, objBatch.BATCH_SIZE);
     }
 
+    @future
     private static void updateInstaceURL() {
         String instanceURl = URL.getSalesforceBaseUrl().toExternalForm();
         List<Sobject> listSobjectToUpdate = new List<Sobject>();

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WalletManager__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(
+    &quot;/apex/Apttus_Config2__AccountOrderCreate?&quot;
+    &amp; &quot;id=&quot; &amp; Id
+    &amp; &quot;&amp;method=csrFlow&quot;
+    &amp; &quot;&amp;priceListId=a4y0T000000Chxm&quot;
+    &amp; &quot;&amp;flow=WalletManager&quot;
+    &amp; &quot;&amp;launchState=assets&quot;
+    &amp; &quot;&amp;activateOrder=true&quot;
+    &amp; &quot;&amp;retId=&quot; &amp; Id,
+    IMAGE(
+        &quot;/resource/WalletManager&quot;,
+        &quot;Wallet Manager&quot;
+    ),
+    &quot;_self&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Wallet Manager</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

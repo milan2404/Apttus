@@ -104,21 +104,21 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Apttus_QPConfig__AutoActivateOrder__c</field>
+                <field>Apttus_QPConfig__PaymentTermId__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Apttus_QPConfig__AutoCreateBill__c</field>
+                <field>Apttus_QPConfig__AutoActivateOrder__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Apttus_QPConfig__PaymentTermId__c</field>
+                <field>Apttus_QPConfig__BillToAccountId__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Apttus_QPConfig__BillToAccountId__c</field>
+                <field>Apttus_QPConfig__LocationId__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
