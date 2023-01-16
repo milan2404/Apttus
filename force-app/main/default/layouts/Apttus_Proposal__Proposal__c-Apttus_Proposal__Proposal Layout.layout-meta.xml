@@ -118,6 +118,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Apttus_QPConfig__ShipToAccountId__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>Apttus_QPConfig__LocationId__c</field>
             </layoutItems>
             <layoutItems>

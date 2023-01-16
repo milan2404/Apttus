@@ -3,7 +3,7 @@
     <fullName>Grouping__c</fullName>
     <externalId>false</externalId>
     <formula>IF(
-    ISBLANK(Apttus_Billing__AssetLineItemId__c),
+    ISBLANK(Apttus_Config2__ProductId__c),
     TEXT(Apttus_Billing__AssetLineItemId__r.Apttus_Config2__OptionId__r.Family),
     TEXT(Apttus_Billing__AssetLineItemId__r.Apttus_Config2__ProductId__r.Family)
 )</formula>
